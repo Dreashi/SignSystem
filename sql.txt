@@ -1,3 +1,7 @@
 登录:
-
+//密码登录
 SELECT u.* FROM users AS u,Pwd AS p WHERE u.user_phone=? AND p.passwords=?
+//验证码登录---只查phone，验证码通过后台验证通过
+SELECT u.* FROM users AS u,Pwd AS p WHERE u.user_phone=?
+//注册---验证码同上
+INSERT INTO users VALUES(DEFAULT,?,?,?,?,?,?)
