@@ -1,1 +1,3 @@
-Òó
+µÇÂ¼:
+
+SELECT u.* FROM users AS u,Pwd AS p WHERE u.user_phone=? AND p.passwords=?
