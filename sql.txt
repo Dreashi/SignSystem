@@ -5,3 +5,5 @@ SELECT u.* FROM users AS u,Pwd AS p WHERE u.user_phone=? AND p.passwords=?
 SELECT u.* FROM users AS u,Pwd AS p WHERE u.user_phone=?
 //注册---验证码同上
 INSERT INTO users VALUES(DEFAULT,?,?,?,?,?,?)
+//查询密码
+select passwords from Pwd where user_id=?
