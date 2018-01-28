@@ -1,0 +1,35 @@
+package com.hellojava.servlet;
+
+import java.io.IOException;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebInitParam;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
+
+import org.apache.catalina.Session;
+
+import com.aliyuncs.exceptions.ClientException;
+
+@WebServlet(name="loginServlet",urlPatterns="/loginServlet")
+public class LoginServlet extends HttpServlet {
+	@Override
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		this.doPost(req, resp);
+	}
+	
+	@Override
+	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		String phone=req.getParameter("phone");
+		String codeNumber=req.getParameter("number");	
+	   String code= (String) req.getAttribute("code");
+		if(code.equals(codeNumber)) {
+			resp.sendRedirect("index.jsp");
+		}else {
+			resp.sendRedirect("error.jsp");
+		}
+	}
+}
