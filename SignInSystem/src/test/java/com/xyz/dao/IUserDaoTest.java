@@ -1,6 +1,7 @@
 package com.xyz.dao;
 
 import com.xyz.model.User;
+import com.xyz.service.ipml.AdminitorService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,13 +17,15 @@ import javax.annotation.Resource;
 public class IUserDaoTest {
 
     @Resource
-    private IUserDao dao;
-
+    private AdminitorDao adminitorDao;
+    private AdminitorService  adminitorService1;
     @Test
-    public void testSelectUser() throws Exception {
-        long id = 1;
-        User user = dao.selectUser(id);
-        System.out.println(user.getUsername());
+    public void testloadUser() throws Exception {
+       User user=  adminitorDao.loadByPhone("18709295515");
+       System.out.println(user);
+//       if(bool==true){
+//           System.out.print("周瑜");
+//       }
     }
 
 }

@@ -232,10 +232,17 @@
       <artifactId>shiro-spring</artifactId>
       <version>1.2.3</version>
     </dependency>
-
   </dependencies>
 
   <build>
+    <resources>
+      <resource>
+        <directory>${basedir}/src/main/java</directory>
+        <includes>
+          <include>**/*.xml</include>
+        </includes>
+      </resource>
+    </resources>
     <finalName>signinsystem</finalName>
     <plugins>
       <plugin>

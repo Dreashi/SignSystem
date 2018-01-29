@@ -1,78 +1,115 @@
 package com.xyz.model;
 
-import java.util.Date;
+import java.sql.Date;
 
 public class User {
-    private long id;
-    private String email;
-    private String password;
-    private String username;
-    private String role;
-    private int status;
-    private Date regTime;
-    private String regIp;
+   private  Integer userId;
+   private String userName;
+   private String userPhone;
+   private String  userQq ;
+   private String userEmail; 
+   private String userSex  ;
+   private Date userBirthday;
+   private String userImage  ;
+   private Integer  groupId  ;
 
-    public long getId() {
-        return id;
-    }
+	public Integer getUserId() {
+		return userId;
+	}
 
-    public void setId(int id) {
-        this.id = id;
-    }
+	public void setUserId(Integer userId) {
+		this.userId = userId;
+	}
 
-    public String getEmail() {
-        return email;
-    }
+	public String getUserName() {
+		return userName;
+	}
 
-    public void setEmail(String email) {
-        this.email = email;
-    }
+	public void setUserName(String userName) {
+		this.userName = userName;
+	}
 
-    public String getPassword() {
-        return password;
-    }
+	public String getUserPhone() {
+		return userPhone;
+	}
 
-    public void setPassword(String password) {
-        this.password = password;
-    }
+	public void setUserPhone(String userPhone) {
+		this.userPhone = userPhone;
+	}
 
-    public String getUsername() {
-        return username;
-    }
+	public String getUserQq() {
+		return userQq;
+	}
 
-    public void setUsername(String username) {
-        this.username = username;
-    }
+	public void setUserQq(String userQq) {
+		this.userQq = userQq;
+	}
 
-    public String getRole() {
-        return role;
-    }
+	public String getUserEmail() {
+		return userEmail;
+	}
 
-    public void setRole(String role) {
-        this.role = role;
-    }
+	public void setUserEmail(String userEmail) {
+		this.userEmail = userEmail;
+	}
 
-    public int getStatus() {
-        return status;
-    }
+	public String getUserSex() {
+		return userSex;
+	}
 
-    public void setStatus(int status) {
-        this.status = status;
-    }
+	public void setUserSex(String userSex) {
+		this.userSex = userSex;
+	}
 
-    public Date getRegTime() {
-        return regTime;
-    }
+	public Date getUserBirthday() {
+		return userBirthday;
+	}
 
-    public void setRegTime(Date regTime) {
-        this.regTime = regTime;
-    }
+	public void setUserBirthday(Date userBirthday) {
+		this.userBirthday = userBirthday;
+	}
 
-    public String getRegIp() {
-        return regIp;
-    }
+	public String getUserImage() {
+		return userImage;
+	}
 
-    public void setRegIp(String regIp) {
-        this.regIp = regIp;
-    }
+	public void setUserImage(String userImage) {
+		this.userImage = userImage;
+	}
+
+	public Integer getGroupId() {
+		return groupId;
+	}
+
+	public void setGroupId(Integer groupId) {
+		this.groupId = groupId;
+	}
+
+	public User(Integer userId, String userName, String userPhone, String userQq, String userEmail, String userSex, Date userBirthday, String userImage, Integer groupId) {
+
+		this.userId = userId;
+		this.userName = userName;
+		this.userPhone = userPhone;
+		this.userQq = userQq;
+		this.userEmail = userEmail;
+		this.userSex = userSex;
+		this.userBirthday = userBirthday;
+		this.userImage = userImage;
+		this.groupId = groupId;
+	}
+
+	@Override
+	public String toString() {
+		return "User{" +
+				"userId=" + userId +
+				", userName='" + userName + '\'' +
+				", userPhone='" + userPhone + '\'' +
+				", userQq='" + userQq + '\'' +
+				", userEmail='" + userEmail + '\'' +
+				", userSex='" + userSex + '\'' +
+				", userBirthday=" + userBirthday +
+				", userImage='" + userImage + '\'' +
+				", groupId=" + groupId +
+				'}';
+	}
 }

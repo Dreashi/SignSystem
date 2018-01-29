@@ -1,11 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-        <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-
-        <!-- 设置为IUserDao接口方法提供sql语句配置 -->
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+    
 <mapper namespace="com.xyz.dao.IUserDao">
-
-<select id="selectUser" resultType="com.xyz.model.User" parameterType="long">
-    select * from user where id = #{id}
-</select>
-
+    <delete id="delete" parameterType="int">
+         delete from users where  user_id =#{userId}
+    </delete>
+	
+	<select id="loadAll" resultType="user">
+		select * from users
+	</select>
+	
+	<select id="loadByPhone" parameterType="String" resultType="user">
+		select  * from users where =#{userPhone}
+	</select>
+	<update id="update" parameterType="user">
+		update  Groups set   groupleader_id=
+		#{userId} where group_id=#{groupId}
+	</update>
 </mapper>
