@@ -1,0 +1,5 @@
+eclipse.preferences.version=1
+encoding//src/com/xzy/business/impl/PostService.java=UTF-8
+encoding//src/com/xzy/mybatis/dao/CommentDao.java=UTF-8
+encoding//src/com/xzy/mybatis/dao/PostDao.java=UTF-8
+encoding//src/com/xzy/web/entity/Comment.java=UTF-8

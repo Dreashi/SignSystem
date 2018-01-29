@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.xzy.mybatis.dao.PostDao">
+    <resultMap id="postResult" type="post">
+        <id column="post_id" property="postId"/>
+        <result column="post_datetime" property="postDatetime"/>
+        <result column="post_supports" property="postSupports"/>
+        <result column="post_comments" property="postComments"/>
+        <result column="post_content_file" property="postContentFile"/>
+        <association property="postOwner" javaType="user">
+            <id column="user_id" property="userId"/>
+            <result column="user_name" property="userName"/>
+        </association>
+    </resultMap>
+
+
+
+   <insert id="sendPost" parameterType="post">
+       insert into posts values(default,default,#{postOwner.userId},#{postOwner.userName},
+       default,default,#{postContentFile})
+   </insert>
+
+    <select id="loadAllPost" resultMap="postResult">
+        select * from posts order By post_id DESC
+    </select>
+    
+    <select id="loadPostById" parameterType="int" resultMap="postResult">
+    	select * from posts where user_id=#{userId} order by post_id DESC 
+    </select>
+    
+    <delete id="deletePost" parameterType="list">
+    	delete from posts where post_id in (list) 
+    	<foreach collection="list" item="ids" open="(" close=")" separator=",">
+    		#{ids}
+    	</foreach>
+    </delete>
+</mapper>

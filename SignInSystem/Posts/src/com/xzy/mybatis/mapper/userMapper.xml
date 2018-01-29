@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+
+
+<mapper namespace="com.xzy.mybatis.dao.UserDao">
+	<resultMap type="user" id="userResult">
+		<id column="user_id" property="userId"/>
+		<result column="user_name" property="userName"/>
+		<result column="user_phone" property="userPhone"/>
+		<result column="user_qq" property="userQQ"/>
+		<result column="user_email" property="userEmail"/>
+		<result column="user_sex" property="userSex"/>
+		<result column="user_birthday" property="userBirthday"/>
+		<result column="user_image" property="userImage"/>
+		<result column="group_id" property="groupId"/>
+		<collection property="postList" ofType="post">
+			<id column="post_id" property="postId"/>
+			<result column="post_datetime" property="postDatetime"/>
+			<result column="post_supports" property="postSupports"/>
+			<result column="post_comments" property="postComments"/>
+			<result column="post_content_file" property="postContentFile"/>
+		</collection>
+	</resultMap>
+
+    <select id="loadUserById" parameterType="int" resultMap="userResult">
+         select * from users where user_id=#{userId}
+    </select>
+</mapper>
