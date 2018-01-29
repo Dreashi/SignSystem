@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xyz.dao.ISignInDao">
+    <!-- 查询本人的全部记录 -->
+    <select id="selectById" resultMap="selectByIdMap" parameterType="int">
+        SELECT *
+        FROM Sign_In
+        WHERE user_id = #{userId}
+    </select>
+    <!-- 查询当天所有人的记录 -->
+    <select id="selectByDate" resultMap="selectByIdMap" parameterType="String">
+        SELECT *
+        FROM Sign_In
+        WHERE sign_date = #{signInDate}
+    </select>
+    <!-- 当天组内成员的签到情况 -->
+    <select id="selectByGroupIdAndDate" resultMap="selectByIdMap" parameterType="com.xyz.model.SignIn">
+        SELECT *  FROM Sign_In
+        WHERE sign_date = #{signDate}
+        AND user_id IN ( SELECT user_id FROM Users
+        WHERE group_id = (SELECT group_id FROM Users
+        WHERE user_id = #{userId} ))
+    </select>
+    <insert id="insertInToSignIn" parameterType="com.xyz.model.SignIn">
+        INSERT INTO Sign_In
+        VALUES (#{userId},CURRENT_DATE(),#{signInTime},"已签到",(SELECT user_name FROM Users WHERE user_id = #{userId}) )
+    </insert>
+    <resultMap id="selectByIdMap" type="SignIn">
+        <id column="user_id" property="userId"></id>
+        <result column="sign_date" property="signInDate"></result>
+        <result column="sign_time" property="signInTime"></result>
+        <result column="sign_status" property="signInStatus"></result>
+        <result column="user_name" property="userName"></result>
+    </resultMap>
+</mapper>
