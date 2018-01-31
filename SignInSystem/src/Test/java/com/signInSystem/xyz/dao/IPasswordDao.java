@@ -1,6 +1,6 @@
 package com.signInSystem.xyz.dao;
 
-import com.signInSystem.xyz.SaltMethod.PasswordAddSalt;
+
 import com.signInSystem.xyz.model.UserPassword;
 import com.signInSystem.xyz.model.Users;
 import org.junit.Test;
@@ -31,17 +31,17 @@ public class IPasswordDao {
         user.setUser_email("sdfsdfs");
         user.setUser_sex("男");
         UserPassword userPassword=new UserPassword();
-        PasswordAddSalt passwordAddSalt=new PasswordAddSalt();
+
         String string = "sdfsdfsdsdfsdffds";
-        String pwd=passwordAddSalt.getSalt(string,(int)user.getUser_id());
+        String pwd="aaa";
         userPassword.setUser_pwd(pwd);
         userPassword.setUser_id((int)user.getUser_id());
         System.out.println("-------------------->"+pwd);
         dao.insertPasswords(userPassword);
     }
     @Test
-    public void selectTrueUserPassword(){
-       String str= dao.selectTrueUserPassword(2);
+    public void selectUserPassword(){
+       String str= dao.selectUserPassword(1);
         System.out.println("---------------->"+str);
 
 

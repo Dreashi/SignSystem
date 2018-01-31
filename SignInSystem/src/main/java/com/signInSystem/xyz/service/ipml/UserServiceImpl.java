@@ -14,10 +14,10 @@ public class UserServiceImpl implements IUserService {
     private UserMapper userDao;
 
     @Override
-    public Users selectUser(long userId){
+    public Users selectUser(String user_phone){
         Users user = null;
         try {
-            user=this.userDao.selectUser(userId);
+            user=this.userDao.selectUser(user_phone);
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -30,17 +30,17 @@ public class UserServiceImpl implements IUserService {
             e.printStackTrace();
         }
     }
-    public int selectPassword(String user_phone){
-        int i=0;
+
+    @Override
+    public int selectUserId(String user_phone) {
+        int id=0;
         try {
-            i=  this.userDao.selectPassword(user_phone);
+           id= this.userDao.selectUserId(user_phone);
         } catch (Exception e) {
             e.printStackTrace();
         }
-        return i;
+        return id;
     }
-
-
 
 
 }

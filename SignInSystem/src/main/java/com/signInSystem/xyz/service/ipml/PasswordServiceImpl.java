@@ -19,8 +19,13 @@ public class PasswordServiceImpl implements IPasswordService{
     }
 
     @Override
-    public String selectTrueUserPassword(int user_id) {
-       String password=this.passwordDao.selectTrueUserPassword(user_id);
-       return password;
+    public String selectUserPassword(int user_id) {
+       String password=null;
+        try {
+            password= this.passwordDao.selectUserPassword(user_id);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return password;
     }
 }

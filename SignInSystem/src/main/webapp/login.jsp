@@ -12,12 +12,12 @@
 </head>
 <body>
 <div style="border: 1px solid;height: 120px;width: 300px;margin: auto;margin-top: 150px;padding-top: 50px">
-    <form action="loginTest" method="post">
+    <form action="/shiro/login" method="post">
         <table style="height: 100%;width: 100%">
             <tr>
-                <td align="right">用户名:</td>
+                <td align="right">电话号:</td>
                 <td>
-                    <input type="text" name="userPhone">
+                    <input type="text" name="userName">
                 </td>
             </tr>
             <tr>

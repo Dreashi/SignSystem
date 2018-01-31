@@ -4,6 +4,7 @@ import javax.servlet.http.HttpServletRequest;
 
 import com.signInSystem.xyz.model.LoginMessage;
 import com.signInSystem.xyz.model.Users;
+import com.signInSystem.xyz.service.IPasswordService;
 import com.signInSystem.xyz.service.IUserService;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.stereotype.Controller;
@@ -21,25 +22,48 @@ import java.io.IOException;
         @Resource
         private IUserService userService;
 
-        @RequestMapping("/showUser.do")
-        public void selectUser(HttpServletRequest request, HttpServletResponse response) throws IOException {
-            request.setCharacterEncoding("UTF-8");
-            response.setCharacterEncoding("UTF-8");
-            long userId = Long.parseLong(request.getParameter("id"));
-            Users user = this.userService.selectUser(userId);
-            ObjectMapper mapper = new ObjectMapper();
-            response.getWriter().write(mapper.writeValueAsString(user));
-            response.getWriter().close();
-        }
+        @Resource
+        private IPasswordService passwordService;
+//        @RequestMapping("/showUser.do")
+//        public void selectUser(HttpServletRequest request, HttpServletResponse response) throws IOException {
+//            request.setCharacterEncoding("UTF-8");
+//            response.setCharacterEncoding("UTF-8");
+//            long userId = Long.parseLong(request.getParameter("id"));
+//            Users user = this.userService.selectUser(userId);
+//            ObjectMapper mapper = new ObjectMapper();
+//            response.getWriter().write(mapper.writeValueAsString(user));
+//            response.getWriter().close();
+//        }
         @RequestMapping("/loginTest")
         public String loginTest(LoginMessage loginMessage){
 
+            String result=null;
             System.out.println("---------------------->"+loginMessage);
             //PasswordAddSalt passwordAddSalt=new PasswordAddSalt();
             // String pwd=passwordAddSalt.getSalt(loginMessage.getUserPwd());
+            String userPhone=loginMessage.getUserPhone();
+            String userPwd=loginMessage.getUserPwd();
 
+            Users user=this.userService.selectUser(userPhone);
+
+
+           // System.out.println("----------------->"+user);
+
+            int userId=this.userService.selectUserId(userPhone);
+
+           // System.out.println("------------------>"+userId);
+            //通过userid找密码
+            System.out.println(this.passwordService.selectUserPassword(userId));
+            String userPassword=this.passwordService.selectUserPassword(userId);
+            System.out.println(userPassword+"---------"+userPwd);
+            if(user!=null && userPassword.equals(userPwd)){
+                //System.out.println(user);
+                result="index";
+            }else{
+                result="error";
+            }
             //public Users selectUser(loginMessage.getUserPwd());
-            return "index";
+            return result;
         }
 
     }

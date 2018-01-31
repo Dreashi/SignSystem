@@ -4,8 +4,8 @@ import com.signInSystem.xyz.model.Users;
 
 public interface UserMapper {
 
-  public Users selectUser(long id) throws Exception;
+  public Users selectUser(String user_phone) throws Exception;
   public void insertUser(Users user)throws Exception;
-  public int selectPassword(String user_phone)throws Exception;
-
+  public String selectPassword(int user_id)throws Exception;
+  public int selectUserId (String user_phone)throws Exception;
 }

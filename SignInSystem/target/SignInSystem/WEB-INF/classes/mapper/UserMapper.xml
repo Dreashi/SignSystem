@@ -4,15 +4,18 @@
         <!-- 设置为IUserDao接口方法提供sql语句配置 -->
     <mapper namespace="com.signInSystem.xyz.dao.UserMapper">
 
-    <select id="selectUser" resultType="com.signInSystem.xyz.model.Users" parameterType="long">
-        select * from Users where user_id = #{user_id}
+    <select id="selectUser" resultType="com.signInSystem.xyz.model.Users" parameterType="String">
+        select * from Users where user_phone = #{user_phone}
     </select>
     <insert id="insertUser" parameterType="com.signInSystem.xyz.model.Users">
-        insert into Users values(#{user_id},#{user_name},#{user_phone},#{user_qq},#{user_email},#{user_sex},#{user_birthday},#{user_image},#{group_id})
+        insert into users values(#{user_id},#{user_name},#{user_phone},#{user_qq},#{user_email},#{user_sex},#{user_birthday},#{user_image},#{group_id})
     </insert>
 
     <select id="selectPassword" parameterType="com.signInSystem.xyz.model.LoginMessage" resultType="int">
         select user_id from users where user_phone=#{user_phone}
     </select>
 
+    <select id="selectUserId" resultType="int" parameterType="String">
+        select user_id from users where user_phone = #{user_phone}
+    </select>
 </mapper>

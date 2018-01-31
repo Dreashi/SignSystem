@@ -22,8 +22,8 @@ public class IUserDaoTest {
 
     @Test
     public void testSelectUser() throws Exception {
-        long user_id = 1;
-        Users user = dao.selectUser(user_id);
+        String user_phone = "12345";
+        Users user = dao.selectUser(user_phone);
         System.out.println("----------------------->"+user.getUser_name());
     }
     @Test

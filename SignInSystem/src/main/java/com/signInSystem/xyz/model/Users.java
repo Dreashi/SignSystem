@@ -29,7 +29,7 @@ public class Users {
         this.user_image = user_image;
     }
 
-    public long getUser_id() {
+    public int getUser_id() {
         return user_id;
     }
 
@@ -83,5 +83,20 @@ public class Users {
 
     public void setGroup_id(int group_id) {
         this.group_id = group_id;
+    }
+
+    @Override
+    public String toString() {
+        return "Users{" +
+                "user_id=" + user_id +
+                ", user_name='" + user_name + '\'' +
+                ", user_phone='" + user_phone + '\'' +
+                ", user_qq='" + user_qq + '\'' +
+                ", user_email='" + user_email + '\'' +
+                ", user_birthday=" + user_birthday +
+                ", group_id=" + group_id +
+                ", user_image='" + user_image + '\'' +
+                ", user_sex='" + user_sex + '\'' +
+                '}';
     }
 }
