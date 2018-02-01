@@ -19,7 +19,6 @@
         <property name="realms">
             <list>
                 <ref bean="jdbcRealm"/>
-                <ref bean="secondRealm"/>
             </list>
         </property>
 
@@ -69,14 +68,7 @@
 
 
 
-    <bean id="secondRealm" class="com.signInSystem.shiro.realms.SecondRealm">
-        <property name="credentialsMatcher">
-            <bean class="org.apache.shiro.authc.credential.HashedCredentialsMatcher">
-                <property name="hashAlgorithmName" value="SHA1"></property>
-                <property name="hashIterations" value="1024"></property>
-            </bean>
-        </property>
-    </bean>
+
 
     <!-- =========================================================
          Shiro Spring-specific integration
@@ -139,13 +131,7 @@
          -->
         <property name="filterChainDefinitions">
             <value>
-                <!--/login.jsp = anon&lt;!&ndash; 可以被匿名访问 &ndash;&gt;-->
-                <!--/shiro/login =anon-->
-                <!--/shiro/logout = logout&lt;!&ndash; logout 表示登出的过滤器 &ndash;&gt;-->
-                <!--/user.jsp =roles[user]-->
-                <!--/admin.jsp =roles[admin]-->
-                <!--# everything else requires authentication:-->
-                /** = anon<!-- 必须认证，即登录后才可以访问的页面 -->
+                /** = anon<!-- 无需认证，可以访问的页面 -->
             </value>
         </property>
     </bean>
