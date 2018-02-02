@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xzy.dao.IUserDao">
+    <select id="selectUserId" resultType="int">
+        SELECT user_id FROM Users WHERE user_phone=#{userPhone}
+    </select>
+    <select id="selectGroupId" resultType="int">
+        SELECT group_id FROM Users WHERE user_id = #{groupleaderId}
+    </select>
+    <update id="updateGroupIdAddUsers" parameterType="com.xzy.dao.IUserDao">
+        UPDATE Users SET group_id = #{groupId} WHERE user_id=#{userId}
+    </update>
+    <update id="updateGroupIdDeleteUsers" parameterType="int" >
+        UPDATE  users SET group_id= 0 WHERE user_id IN
+        <foreach collection="array" item="userId" index="index"
+                 open="(" close=")" separator=",">
+            #{userId}
+        </foreach>
+    </update>
+
+    <resultMap id="user" type="com.xzy.entity.User">
+        <id column="user_id" property="userId"></id>
+        <result column="user_name" property="userName"/>
+        <result column="user_phone" property="userPhone"/>
+        <result column="user_qq" property="userQQ"/>
+        <result column="user_email" property="userEmail"/>
+        <result column="user_sex" property="userSex"/>
+        <result column="user_birthday" property="userBirthday"/>
+        <result column="user_image" property="userImg"/>
+        <result column="group_id" property="groupId"/>
+    </resultMap>
+    <select id="selectUsers" parameterType="int" resultMap="user">
+        SELECT  * FROM Users WHERE group_id=#{groupId}
+    </select>
+
+
+</mapper>
