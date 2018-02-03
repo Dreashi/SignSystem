@@ -1,7 +1,8 @@
-package com.xyz.service;
+package com.xyz.dao;
 
 import com.xyz.model.User;
 
-public interface IUserService {
+public interface UserDao {
+
     public User loadUserPhone(String userPhone);
 }

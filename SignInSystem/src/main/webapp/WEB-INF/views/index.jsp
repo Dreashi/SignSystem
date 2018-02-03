@@ -21,21 +21,12 @@
 </head>
 <body>
 	<form action="deleteHandler" method="post">
-	<c:forEach items="${sessionScope.leaderSet}" var="b">
-		<input type="checkbox" name="ids" value="${b.userId}">
-		<c:out value="${b.userId }"/>&nbsp;&nbsp;&nbsp;&nbsp;
-		<c:out value="${b.userName }"/>&nbsp;&nbsp;&nbsp;&nbsp;
-		<c:out value="${b.userPhone }"/>&nbsp;&nbsp;&nbsp;&nbsp;
-		<c:out value="${b. groupleaderId }"/><br>
-		<button type="button" name="update" title="${b.bookId}">修改</button>
-		<br/>
 		<c:forEach items="${sessionScope.loadAllMap.get(b)}" var="usr">
 			<c:out value="${usr.userId }"/>&nbsp;&nbsp;&nbsp;&nbsp;
 			<c:out value="${usr.userName }"/>&nbsp;&nbsp;&nbsp;&nbsp;
 			<c:out value="${usr.userPhone }"/>&nbsp;&nbsp;&nbsp;&nbsp;
 			<c:out value="${usr. groupleaderId }"/><br>
 		</c:forEach>
-	</c:forEach>
 	<div style="margin-left: 120px; width: 200px; height: 25px; margin-top:10px; text-align: right;">
 		<button type="submit">删除</button>
 		<button type="button" id="add">增加</button>

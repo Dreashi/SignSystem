@@ -232,6 +232,19 @@
       <artifactId>shiro-spring</artifactId>
       <version>1.2.3</version>
     </dependency>
+
+    <dependency>
+      <groupId>org.apache.geronimo.specs</groupId>
+      <artifactId>geronimo-servlet_3.0_spec</artifactId>
+      <version>1.0</version>
+      <scope>test</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>com.thetransactioncompany</groupId>
+      <artifactId>cors-filter</artifactId>
+      <version>2.6</version>
+    </dependency>
   </dependencies>
 
   <build>

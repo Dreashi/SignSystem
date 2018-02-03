@@ -10,8 +10,5 @@ import java.util.List;
 public interface AdminitorDao {
     public List<User> loadAll();
     public User loadByPhone(String userPhone);
-    public Group loadByLeaderId(String groupLeaderId);
-    public int delete(User user);
-    public int update(User user);
-    public int updateLeader(Group group);
+     public int updateUser(Group group);
 }

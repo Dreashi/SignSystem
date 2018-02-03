@@ -1,6 +1,8 @@
 package com.xyz.model;
 
-public class Adminitor {
+import java.io.Serializable;
+
+public class Adminitor implements Serializable{
 private int	adminId ;
 private String	 adminName ;
 private int	  userId ;

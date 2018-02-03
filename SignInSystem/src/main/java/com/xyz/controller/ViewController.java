@@ -19,4 +19,10 @@ public class ViewController {
 	public String errorView() {
 		return "error";
 	}
+
+	@RequestMapping("/code.view")
+	public String indexView() {
+		return "error";
+	}
+
 }
