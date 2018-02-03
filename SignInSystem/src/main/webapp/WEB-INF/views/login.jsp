@@ -15,7 +15,7 @@
             }
             xmlhttp.open("POST", "user/showUser.do", true);
             xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-            xmlhttp.send("usePhone=18209295515");
+            xmlhttp.send("userPhone=18209295515");
         }
 	</script>
 </head>
