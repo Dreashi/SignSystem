@@ -5,6 +5,7 @@ import java.util.*;
 import com.xyz.model.Group;
 import com.xyz.model.User;
 import com.xyz.service.ipml.AdminitorService;
+import net.sf.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -21,18 +22,17 @@ public class AdminitorController {
 		private AdminitorService adminitorService;
 		@RequestMapping("/loadAll")
 		@ResponseBody
-		public TreeMap<HashMap<Integer,User>,ArrayList<User>> loadAll() {
+		public TreeMap<Integer,ArrayList<User>> loadAll() {
 			List<User> userList=adminitorService.loadAll();
 			List<Group> groupList=adminitorService.loadAllGroup();
-			TreeMap<HashMap<Integer,User>,ArrayList<User>> loadAllMap = new TreeMap<HashMap<Integer,User>,ArrayList<User>>(
-					new Comparator<HashMap<Integer,User>>() {
+			TreeMap<Integer,ArrayList<User>> loadAllMap = new TreeMap<Integer, ArrayList<User>>(
+					new Comparator<Integer>() {
 						@Override
-						public int compare(HashMap s1, HashMap s2) {
-							return (int)s1.keySet().iterator().next()>(int)s2.keySet().iterator().next()?1:-1;
+						public int compare(Integer s1, Integer s2) {
+							return s1-s2;
 						}
 					}
 			);
-		//	((TreeMap)(loadAllMap.keySet())).keySet().iterator();
 			//外层循环遍历所有组长
 			for(int i = 0 ; i < groupList.size() ; i++ ) {
 				Integer leaderId;
@@ -43,7 +43,6 @@ public class AdminitorController {
 					ArrayList<User> tempList = new ArrayList<>();
 					//找到该组所有成员信息
 					for (int j = 0; j < userList.size(); ) {
-						//   tempList.clear();
 						if (userList.get(j).getGroupId() .equals(gropuId) ) {
 							tempList.add(userList.get(j));
 							userList.remove(j);
@@ -51,9 +50,9 @@ public class AdminitorController {
 							j++;
 						}
 					}
-					//区分组长和组员并放入map
+					//区分组长和组员
 					User groupLeader = null;
-					HashMap<Integer,User> leadMap=new HashMap<Integer,User>();
+					ArrayList<User> tempList1 = new ArrayList<>();
 					for (int k = 0; k < tempList.size(); ) {
 						if (tempList.get(k).getUserId() .equals(leaderId) ) {
 							groupLeader = tempList.get(k);
@@ -62,9 +61,11 @@ public class AdminitorController {
 							k++;
 						}
 					}
-					leadMap.put(gropuId,groupLeader);
-					//放入map集合
-					loadAllMap.put(leadMap, tempList);
+					tempList1.add(groupLeader);
+					for (int l = 0; l < tempList.size();l++ ) {
+						tempList1.add(tempList.get(l));
+					}
+					loadAllMap.put(gropuId, tempList1);
 				}
 			}
 			return loadAllMap;
@@ -89,7 +90,7 @@ public class AdminitorController {
         @RequestMapping("/loginHandler")
         public String loginHandler(HttpServletRequest request,String phone,String userPwd) {
 		    boolean bool=true;
-			return bool?"redirect:loadAll":"redirect:error.view";
+			return bool?"redirect:loadAll":"redirect:error";
     }
 	}
 

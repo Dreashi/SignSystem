@@ -9,20 +9,14 @@ public class ViewController {
 	public String loginView() {
 		return "login";
 	}
-	
+
 	@RequestMapping("/save.view")
 	public String saveView() {
 		return "save";
 	}
-	
+
 	@RequestMapping("/error.view")
 	public String errorView() {
 		return "error";
 	}
-
-	@RequestMapping("/code.view")
-	public String indexView() {
-		return "error";
-	}
-
 }

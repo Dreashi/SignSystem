@@ -31,12 +31,11 @@ import javax.xml.ws.Response;
             response.setCharacterEncoding("UTF-8");
             String phone=request.getParameter("userPhone");
             User userP=  userService.loadUserPhone(phone);
-            if(userP!=null){
             String  number= SmsDemo.createRandomNum(6);
-            HttpSession session = request.getSession();
-            if(session!=null) {
-                session.setAttribute("code", number);
-            }
+            if(userP!=null&&number!=null){
+            System.out.print(number+"-------------");
+            request.getSession().setAttribute("code", number);
+                String sessionId = request.getSession().getId();
             try {
                 SmsDemo.sendSms(phone,number);
                 bool=true;
@@ -46,7 +45,22 @@ import javax.xml.ws.Response;
             }}else{
               bool=false;
             }
-            return bool?"1":"0";
+            return bool?"sessionId":"0";
         }
+    @RequestMapping("/checkCode")
+    @ResponseBody
+    public String checkCode(HttpServletRequest request, String number) {
+        boolean bool=false;
+        MySessionContext myc= MySessionContext.getInstance();
+        HttpSession sess = myc.getSession("sessionId");
+        String  code=(String)sess.getAttribute("code");
+        System.out.println(code+"----------------------");
+        if(code!=null){
+            if(code.equals(number)) {
+                bool = true;
+            }
+        }
+        return bool?"1":"0";
+    }
     }
 
