@@ -12,7 +12,8 @@ public class SessionListener implements HttpSessionListener {
     private   MySessionContext myc=MySessionContext.getInstance();
 
     @Override
-    public void sessionCreated(HttpSessionEvent httpSessionEvent) {
+    public void sessionCreated(HttpSessionEvent httpSessionEvent)
+    {
         myc.AddSession(httpSessionEvent.getSession());
     }
 

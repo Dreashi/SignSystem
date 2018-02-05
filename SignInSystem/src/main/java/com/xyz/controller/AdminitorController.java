@@ -71,14 +71,15 @@ public class AdminitorController {
 			return loadAllMap;
 		}
 		@RequestMapping("/saveHandler")
-		public String saveHandler(HttpServletRequest request,HttpServletResponse response) {
-               String  Phone=request.getParameter("userPone");
-			   boolean bool=adminitorService.loadByPhone(Phone);
+		public String saveHandler(HttpServletRequest request,HttpServletResponse response,String userPhone) {
+              System.out.println(userPhone+"----------------");
+			   boolean bool=adminitorService.loadByPhone(userPhone);
 			   return bool?"redirect:loadAll":"redirect:error";
 		}
 		@RequestMapping("/deleteHandler")
 		public String deleteHandler(HttpServletRequest request,HttpServletResponse response) {
 			String[] str=request.getParameterValues("gleaderList");
+			System.out.println(str+"----------------------");
 			List<Integer> list=new ArrayList<>();
 			for(String s:str){
 				list.add(Integer.parseInt(s));

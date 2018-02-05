@@ -15,6 +15,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import javax.xml.ws.Response;
+import java.util.HashMap;
+import java.util.Map;
 
 @Controller
     @RequestMapping("/user")
@@ -24,37 +26,36 @@ import javax.xml.ws.Response;
         Logger logger = LoggerFactory.getLogger(CodeController.class);
         @RequestMapping("/showUser.do")
         @ResponseBody
-        public String selectUser(HttpServletRequest request, HttpServletResponse response) throws Exception {
-            boolean bool=false;
+        public Map selectUser(HttpServletRequest request, HttpServletResponse response) throws Exception {
+            String sessionId=null;
             logger.info("controller selectUser()");
             request.setCharacterEncoding("UTF-8");
             response.setCharacterEncoding("UTF-8");
             String phone=request.getParameter("userPhone");
             User userP=  userService.loadUserPhone(phone);
-            String  number= SmsDemo.createRandomNum(6);
-            if(userP!=null&&number!=null){
-            System.out.print(number+"-------------");
-            request.getSession().setAttribute("code", number);
-                String sessionId = request.getSession().getId();
+            Map<String ,String> pmap=new HashMap<>();
+            if(userP!=null){
+                String  number= SmsDemo.createRandomNum(6);
+                request.getSession().setAttribute("code", number);
+                sessionId = request.getSession().getId();
+                pmap.put("sessionId",sessionId);
             try {
-                SmsDemo.sendSms(phone,number);
-                bool=true;
+              SmsDemo.sendSms(phone,number);
             } catch (Exception e) {
                 // TODO Auto-generated catch block
                 e.printStackTrace();
             }}else{
-              bool=false;
+                pmap.put("error","0");
             }
-            return bool?"sessionId":"0";
+            return  pmap;
         }
     @RequestMapping("/checkCode")
     @ResponseBody
-    public String checkCode(HttpServletRequest request, String number) {
+    public String checkCode(HttpServletRequest request, String number,String sessionId) {
         boolean bool=false;
         MySessionContext myc= MySessionContext.getInstance();
-        HttpSession sess = myc.getSession("sessionId");
+        HttpSession sess = myc.getSession(sessionId);
         String  code=(String)sess.getAttribute("code");
-        System.out.println(code+"----------------------");
         if(code!=null){
             if(code.equals(number)) {
                 bool = true;
