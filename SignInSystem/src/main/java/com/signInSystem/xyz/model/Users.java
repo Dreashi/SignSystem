@@ -3,100 +3,100 @@ package com.signInSystem.xyz.model;
 import java.util.Date;
 
 public class Users {
-    private int user_id;
-    private String user_name;
-    private String user_phone;
-    private String user_qq;
-    private String user_email;
-    private Date user_birthday;
-    private int group_id;
-    private String user_image;
-    private String user_sex;
+    private int userId;
+    private String userName;
+    private String userPhone;
+    private String userQQ;
+    private String userEmail;
+    private Date userBirthday;
+    private int groupId;
+    private String userImage;
+    private String userSex;
 
-    public String getUser_sex() {
-        return user_sex;
+    public int getUserId() {
+        return userId;
     }
 
-    public void setUser_sex(String user_sex) {
-        this.user_sex = user_sex;
+    public void setUserId(int userId) {
+        this.userId = userId;
     }
 
-    public String getUser_image() {
-        return user_image;
+    public String getUserName() {
+        return userName;
     }
 
-    public void setUser_image(String user_image) {
-        this.user_image = user_image;
+    public void setUserName(String userName) {
+        this.userName = userName;
     }
 
-    public int getUser_id() {
-        return user_id;
+    public String getUserPhone() {
+        return userPhone;
     }
 
-    public void setUser_id(int user_id) {
-        this.user_id = user_id;
+    public void setUserPhone(String userPhone) {
+        this.userPhone = userPhone;
     }
 
-    public String getUser_name() {
-        return user_name;
+    public String getUserQQ() {
+        return userQQ;
     }
 
-    public void setUser_name(String user_name) {
-        this.user_name = user_name;
+    public void setUserQQ(String userQQ) {
+        this.userQQ = userQQ;
     }
 
-    public String getUser_phone() {
-        return user_phone;
+    public String getUserEmail() {
+        return userEmail;
     }
 
-    public void setUser_phone(String user_phone) {
-        this.user_phone = user_phone;
+    public void setUserEmail(String userEmail) {
+        this.userEmail = userEmail;
     }
 
-    public String getUser_qq() {
-        return user_qq;
+    public Date getUserBirthday() {
+        return userBirthday;
     }
 
-    public void setUser_qq(String user_qq) {
-        this.user_qq = user_qq;
+    public void setUserBirthday(Date userBirthday) {
+        this.userBirthday = userBirthday;
     }
 
-    public String getUser_email() {
-        return user_email;
+    public int getGroupId() {
+        return groupId;
     }
 
-    public void setUser_email(String user_email) {
-        this.user_email = user_email;
+    public void setGroupId(int groupId) {
+        this.groupId = groupId;
     }
 
-    public Date getUser_birthday() {
-        return user_birthday;
+    public String getUserImage() {
+        return userImage;
     }
 
-    public void setUser_birthday(Date user_birthday) {
-        this.user_birthday = user_birthday;
+    public void setUserImage(String userImage) {
+        this.userImage = userImage;
     }
 
-    public int getGroup_id() {
-        return group_id;
+    public String getUserSex() {
+        return userSex;
     }
 
-    public void setGroup_id(int group_id) {
-        this.group_id = group_id;
+    public void setUserSex(String userSex) {
+        this.userSex = userSex;
     }
 
     @Override
     public String toString() {
         return "Users{" +
-                "user_id=" + user_id +
-                ", user_name='" + user_name + '\'' +
-                ", user_phone='" + user_phone + '\'' +
-                ", user_qq='" + user_qq + '\'' +
-                ", user_email='" + user_email + '\'' +
-                ", user_birthday=" + user_birthday +
-                ", group_id=" + group_id +
-                ", user_image='" + user_image + '\'' +
-                ", user_sex='" + user_sex + '\'' +
+                "userId=" + userId +
+                ", userName='" + userName + '\'' +
+                ", userPhone='" + userPhone + '\'' +
+                ", userQQ='" + userQQ + '\'' +
+                ", userEmail='" + userEmail + '\'' +
+                ", userBirthday=" + userBirthday +
+                ", groupId=" + groupId +
+                ", userImage='" + userImage + '\'' +
+                ", userSex='" + userSex + '\'' +
                 '}';
     }
 }

@@ -19,10 +19,10 @@ public class PasswordServiceImpl implements IPasswordService{
     }
 
     @Override
-    public String selectUserPassword(int user_id) {
+    public String selectUserPassword(int userId) {
        String password=null;
         try {
-            password= this.passwordDao.selectUserPassword(user_id);
+            password= this.passwordDao.selectUserPassword(userId);
         } catch (Exception e) {
             e.printStackTrace();
         }

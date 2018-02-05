@@ -5,6 +5,6 @@ import com.signInSystem.xyz.model.Users;
 
 public interface PasswordMapper {
     public void insertPasswords(UserPassword userPassword);
-    public String selectUserPassword(int user_id);
+    public String selectUserPassword(int userId);
     public int updateUserPassword(UserPassword userPassword);
 }

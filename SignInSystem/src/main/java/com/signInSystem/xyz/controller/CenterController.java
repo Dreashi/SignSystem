@@ -15,19 +15,28 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import javax.annotation.Resource;
 
 @Controller
+@RequestMapping("/personCenter")
 public class CenterController {
     @Resource
     private IUserService userService;
 
     @Resource
     private IPasswordService passwordService;
-    @RequestMapping("/centerTest")
-    public Users centroller(@RequestParam("userPhone") String userPhone) {
+
+//    public Users centroller(@RequestParam("userPhone") String userPhone) {
+//        Users user=this.userService.selectUser(userPhone);
+//        return user;
+//    }
+    @RequestMapping("/getUserInf")
+    @ResponseBody
+    public Users centroller() {
+        String userPhone="18392562675";
         Users user=this.userService.selectUser(userPhone);
+        System.out.println(user);
         return user;
     }
 
-    @RequestMapping("/centerinstall")
+    @RequestMapping("/install")
     @ResponseBody
     public String install(@RequestParam("userPhone") String userPhone,@RequestParam("userPwd") String userPwd,@RequestParam("userCurPwd") String userCurPwd) {
         Users user=this.userService.selectUser(userPhone);
@@ -35,7 +44,7 @@ public class CenterController {
         if(user==null){
             return "0";
         }
-        int id=user.getUser_id();
+        int id=user.getUserId();
         //得到数据库中的password
         //用alter改变password表中的数据
         //加盐
@@ -71,6 +80,9 @@ public class CenterController {
 
         int i=passwordService.updateUserPassword(nowuserPassword);
 
+        if(i==0){
+            return "0";
+        }
         System.out.println("--------------------"+i);
 
         return "1";

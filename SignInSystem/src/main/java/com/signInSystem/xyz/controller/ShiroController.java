@@ -106,9 +106,9 @@ import java.io.UnsupportedEncodingException;
             String result = ShiroRealm.MD5Encryption(string).toString();
             UserPassword userPassword = new UserPassword();
             System.out.println(phone+"-------"+userId);
-            userPassword.setUser_id(userId);
-            userPassword.setUser_pwd(result);
-            System.out.println( "-----------------------------"+userPassword.getUser_id()+userPassword.getUser_pwd());
+            userPassword.setUserId(userId);
+            userPassword.setUserPwd(result);
+            System.out.println( "-----------------------------"+userPassword.getUserId()+userPassword.getUserPwd());
             passwordService.insertPasswords(userPassword);
 
             if(flag){

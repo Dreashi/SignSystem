@@ -1,40 +1,49 @@
 package com.signInSystem.xyz.model;
 
 public class UserPassword {
-    int pwd_id;
-    String user_pwd;
-    int user_id;
+    int pwdId;
+    String userPwd;
+    int userId;
 
-    public int getPwd_id() {
-        return pwd_id;
+    public int getPwdId() {
+        return pwdId;
     }
 
-    public void setPwd_id(int pwd_id) {
-        this.pwd_id = pwd_id;
+    public void setPwdId(int pwdId) {
+        this.pwdId = pwdId;
     }
 
-    public String getUser_pwd() {
-        return user_pwd;
+    public String getUserPwd() {
+        return userPwd;
     }
 
-    public void setUser_pwd(String user_pwd) {
-        this.user_pwd = user_pwd;
+    public void setUserPwd(String userPwd) {
+        this.userPwd = userPwd;
     }
 
-    public int getUser_id() {
-        return user_id;
+    public int getUserId() {
+        return userId;
     }
 
-    public void setUser_id(int user_id) {
-        this.user_id = user_id;
-    }
-
-    public UserPassword(int pwd_id, String user_pwd, int user_id) {
-        this.pwd_id = pwd_id;
-        this.user_pwd = user_pwd;
-        this.user_id = user_id;
+    public void setUserId(int userId) {
+        this.userId = userId;
     }
 
     public UserPassword() {
+    }
+
+    public UserPassword(int pwdId, String userPwd, int userId) {
+        this.pwdId = pwdId;
+        this.userPwd = userPwd;
+        this.userId = userId;
+    }
+
+    @Override
+    public String toString() {
+        return "UserPassword{" +
+                "pwdId=" + pwdId +
+                ", userPwd='" + userPwd + '\'' +
+                ", userId=" + userId +
+                '}';
     }
 }
