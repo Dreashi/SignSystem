@@ -14,17 +14,23 @@
         WHERE sign_date = #{signInDate}
     </select>
     <!-- 当天组内成员的签到情况 -->
-    <select id="selectByGroupIdAndDate" resultMap="selectByIdMap" parameterType="com.xyz.model.SignIn">
+    <select id="selectByGroupIdAndDate" resultMap="selectByIdMap" parameterType="int">
         SELECT *  FROM Sign_In
-        WHERE sign_date = #{signDate}
+        WHERE sign_date = CURDATE()
         AND user_id IN ( SELECT user_id FROM Users
         WHERE group_id = (SELECT group_id FROM Users
         WHERE user_id = #{userId} ))
     </select>
-    <insert id="insertInToSignIn" parameterType="com.xyz.model.SignIn">
-        INSERT INTO Sign_In
-        VALUES (#{userId},CURRENT_DATE(),#{signInTime},"已签到",(SELECT user_name FROM Users WHERE user_id = #{userId}) )
-    </insert>
+    <!-- 插入新的签到记录 -->
+    <update id="updateSignInStatusByUsers" parameterType="com.xyz.model.SignIn">
+        UPDATE  Sign_In
+        SET sign_time = #{signInTime},sign_status = "已签到" WHERE user_id = #{userId}
+    </update>
+    <!-- 管理员修改签到状态 -->
+    <update id="updateSignInStatusByAdmin" parameterType="int">
+        UPDATE Sign_In SET sign_status = "迟签到" WHERE userId=#{userId}
+    </update>
+
     <resultMap id="selectByIdMap" type="SignIn">
         <id column="user_id" property="userId"></id>
         <result column="sign_date" property="signInDate"></result>

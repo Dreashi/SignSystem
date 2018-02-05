@@ -1,18 +1,15 @@
 package com.xyz.controller;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
 import com.xyz.model.SignIn;
 import com.xyz.service.ISignInService;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import javax.servlet.http.HttpSession;
-import javax.servlet.http.HttpSessionAttributeListener;
 import java.io.IOException;
-import java.text.ParseException;
 import java.util.List;
 
     @Controller
@@ -22,48 +19,65 @@ import java.util.List;
         private ISignInService signInService;
 
         @RequestMapping("/selectSignInById.do")
-        public void selectSignById(HttpServletRequest request, HttpServletResponse response) throws IOException{
+        @ResponseBody
+        public List<SignIn> selectSignById(HttpServletRequest request, HttpServletResponse response) throws IOException{
             request.setCharacterEncoding("UTF-8");
             response.setCharacterEncoding("UTF-8");
-            int userId = Integer.parseInt(request.getParameter("userId"));
+//            int userId = Integer.parseInt(request.getParameter("userId"));
+            int userId = 1;
             List<SignIn>list = signInService.select(userId);
-            ObjectMapper mapper = new ObjectMapper();
-            response.getWriter().write(mapper.writeValueAsString(list.toString()));
-            response.getWriter().close();
+            return list;
+
         }
 
         @RequestMapping("/selectSignInByDate.do")
-        public void selectSignInByDate(HttpServletRequest request, HttpServletResponse response) throws IOException,ParseException{
+        @ResponseBody
+        public List<SignIn> selectSignInByDate(HttpServletRequest request, HttpServletResponse response) throws IOException{
             request.setCharacterEncoding("UTF-8");
             response.setCharacterEncoding("UTF-8");
-          String signInDate = request.getParameter("signInDate");
-          List<SignIn>list = signInService.select(signInDate);
-          ObjectMapper mapper = new ObjectMapper();
-          response.getWriter().write(mapper.writeValueAsString(list.toString()));
-          response.getWriter().close();
-        }
-
-        @RequestMapping("/selectSignInByIdAndDate.do")
-        public void selectSignInByIdAndDate(HttpServletRequest request, HttpServletResponse response) throws IOException{
-            request.setCharacterEncoding("UTF-8");
-            response.setCharacterEncoding("UTF-8");
-            int userId = Integer.parseInt(request.getParameter("userId"));
             String signInDate = request.getParameter("signInDate");
-            List<SignIn>list = signInService.select(signInDate,userId);
-            ObjectMapper mapper = new ObjectMapper();
-            response.getWriter().write(mapper.writeValueAsString(list.toString()));
-            response.getWriter().close();
+            List<SignIn>list = signInService.select(signInDate);
+            return list;
         }
 
-        @RequestMapping("/insertInToSignIn.do")
-        public void insertInToSignIn(HttpServletRequest request, HttpServletResponse response) throws IOException{
+        @RequestMapping("/selectSignInByGroupIdAndDate.do")
+        @ResponseBody
+        public List<SignIn> selectSignInByIdAndDate(HttpServletRequest request, HttpServletResponse response) throws IOException{
             request.setCharacterEncoding("UTF-8");
             response.setCharacterEncoding("UTF-8");
-            int userId = (int)request.getSession().getAttribute("userId");
+//            int userId = (int)request.getSession().getAttribute("userId");
+            int userId = 1;
+            List<SignIn>list = signInService.selectByGroupId(userId);
+            return list;
+        }
+
+        //签到插入新的元组
+        @RequestMapping("/updateSignInStatusByUser.do")
+        @ResponseBody
+        public String updateSignInStatusByAdmin(HttpServletRequest request, HttpServletResponse response) throws IOException{
+            request.setCharacterEncoding("UTF-8");
+            response.setCharacterEncoding("UTF-8"); 
+            //获取前端传递的参数
+//            int userId = (int)request.getSession().getAttribute("userId");
+            int userId = 5;
             String signInTime = request.getParameter("signInTime");
-            boolean bool = signInService.insert(userId,signInTime);
-            ObjectMapper mapper = new ObjectMapper();
-            response.getWriter().write(mapper.writeValueAsString(bool));
-            response.getWriter().close();
+            boolean bool = false;
+            bool = signInService.update(signInTime,userId);
+            return bool?"签到成功":"签到失败";
+        }
+
+
+        //管理员改变签到状态
+        @RequestMapping("/updateSignInStatusByAdmin.do")
+        @ResponseBody
+        public String updateSignInStatus(HttpServletRequest request , HttpServletResponse response) throws IOException{
+            request.setCharacterEncoding("UTF-8");
+            response.setCharacterEncoding("UTF-8");
+
+            int userId = (int)request.getSession().getAttribute("userId");
+
+            boolean bool = false;
+            bool = signInService.update(userId);
+            return bool?"更改成功":"更改失败";
         }
     }
