@@ -18,4 +18,14 @@
     <select id="selectUserId" resultType="int" parameterType="String">
         select user_id from users where user_phone = #{user_phone}
     </select>
+
+    <insert id="insertRegister" parameterType="com.signInSystem.xyz.model.Register">
+        insert into Users values(DEFAULT ,#{userName},#{userPhone},#{userQQ},#{userEmail},#{userSex},#{userBirthday},DEFAULT ,DEFAULT )
+    </insert>
+
+    <select id="selectRegisterId" resultType="int" parameterType="com.signInSystem.xyz.model.Register">
+        select user_id from users where user_phone = #{'user_phone'}
+    </select>
+
+
 </mapper>

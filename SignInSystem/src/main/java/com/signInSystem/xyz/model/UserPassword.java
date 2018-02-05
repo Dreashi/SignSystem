@@ -28,4 +28,13 @@ public class UserPassword {
     public void setUser_id(int user_id) {
         this.user_id = user_id;
     }
+
+    public UserPassword(int pwd_id, String user_pwd, int user_id) {
+        this.pwd_id = pwd_id;
+        this.user_pwd = user_pwd;
+        this.user_id = user_id;
+    }
+
+    public UserPassword() {
+    }
 }

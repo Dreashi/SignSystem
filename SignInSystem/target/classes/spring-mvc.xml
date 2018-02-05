@@ -12,7 +12,6 @@
 
     <!-- 扫描web相关的bean -->
     <context:component-scan base-package="com.signInSystem.xyz.controller"/>
-    <context:component-scan base-package="com.signInSystem.shiro"/>
     <!-- 开启SpringMVC注解模式 -->
     <mvc:annotation-driven/>
 

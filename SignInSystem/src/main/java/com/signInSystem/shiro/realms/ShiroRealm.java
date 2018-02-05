@@ -38,19 +38,14 @@ public class ShiroRealm extends AuthenticatingRealm {
         UsernamePasswordToken upt= (UsernamePasswordToken) token;
         String curUserPhone=upt.getUsername();
         char [] curUserPassword1=upt.getPassword();
-
         //拿到原始密码
         String curUserPassword=String.valueOf(upt.getPassword());
-
         //加密，和原密码表中的数据进行比对
-
         String algorithmName="MD5";
         Object source=curUserPassword;
         Object salt=ByteSource.Util.bytes("user");
         int hashIterations=1024;
-
         Object afterEncryptionPwd=new SimpleHash(algorithmName, source, salt, hashIterations);
-
         int userId=this.userService.selectUserId(curUserPhone);
         // System.out.println("------------------>"+userId);
         //通过userid找密码
@@ -68,5 +63,13 @@ public class ShiroRealm extends AuthenticatingRealm {
             //     info=new SimpleAuthenticationInfo(principal, credentials,credentialsSalt,realmName);
         }
         return info;
+    }
+    public static Object MD5Encryption(String string){
+        String hashAlgorithmName="MD5";
+        Object credentials=string;
+        Object salt  = ByteSource.Util.bytes("user");
+        int hashIterations=1024;
+        Object result = new SimpleHash(hashAlgorithmName,credentials,salt,hashIterations);
+        return result;
     }
 }

@@ -1,22 +1,22 @@
 package com.signInSystem.xyz.controller;
 
+import com.signInSystem.shiro.realms.ShiroRealm;
+import com.signInSystem.xyz.model.Register;
+import com.signInSystem.xyz.model.UserPassword;
 import com.signInSystem.xyz.model.Users;
 import com.signInSystem.xyz.service.IPasswordService;
 import com.signInSystem.xyz.service.IUserService;
-import org.apache.shiro.SecurityUtils;
-import org.apache.shiro.authc.AuthenticationException;
-import org.apache.shiro.authc.SimpleAuthenticationInfo;
-import org.apache.shiro.authc.UsernamePasswordToken;
 import org.apache.shiro.crypto.hash.SimpleHash;
-import org.apache.shiro.subject.Subject;
 import org.apache.shiro.util.ByteSource;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.annotation.Resource;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import java.io.UnsupportedEncodingException;
 
 
 /**
@@ -37,36 +37,37 @@ import javax.annotation.Resource;
 
     @RequestMapping("/login")
     @ResponseBody
-        public String login(@RequestParam("userName") String userName,@RequestParam("userPwd") String userPwd) {
+        public String login(@RequestParam("userName") String userName, @RequestParam("userPwd") String userPwd) {
 
         //UsernamePasswordToken token = new UsernamePasswordToken(userName, userPwd);
         //token.setRememberMe(true);
-        String result=null;
-        //拿到原始密码-----userPwd
-        //加密，和原密码表中的数据进行比对
-        String algorithmName="MD5";
-        Object source=userPwd;
-        Object salt= ByteSource.Util.bytes("user");
-        int hashIterations=1024;
+        synchronized (this) {
+            String result = null;
+            //拿到原始密码-----userPwd
+            //加密，和原密码表中的数据进行比对
+            String algorithmName = "MD5";
+            Object source = userPwd;
+            Object salt = ByteSource.Util.bytes("user");
+            int hashIterations = 1024;
 
-        Object afterEncryptionPwd=new SimpleHash(algorithmName, source, salt, hashIterations);
-        //通过phone找id
-        int userId=this.userService.selectUserId(userName);
-        //通过phone找对象
-        Users user=this.userService.selectUser(userName);
-        // System.out.println("------------------>"+userId);
-        //通过userid找密码
-        //System.out.println(this.passwordService.selectUserPassword(userId));
-        //此时passwords表中的密码
-        String userPassword=this.passwordService.selectUserPassword(userId);
-        System.out.println(afterEncryptionPwd+"---------"+userName);
-        //SimpleAuthenticationInfo info=null;
-        if(user!=null && afterEncryptionPwd.equals(userPassword)){
-            //System.out.println(user);
-            result="index";
-        }else{
-            result="error";
-        }
+            Object afterEncryptionPwd = new SimpleHash(algorithmName, source, salt, hashIterations);
+            //通过phone找id
+            int userId = this.userService.selectUserId(userName);
+            //通过phone找对象
+            Users user = this.userService.selectUser(userName);
+            // System.out.println("------------------>"+userId);
+            //通过userid找密码
+            //System.out.println(this.passwordService.selectUserPassword(userId));
+            //此时passwords表中的密码
+            String userPassword = this.passwordService.selectUserPassword(userId);
+            System.out.println(afterEncryptionPwd + "---------" + userName);
+            //SimpleAuthenticationInfo info=null;
+            if (user != null && afterEncryptionPwd.equals(userPassword)) {
+                //System.out.println(user);
+                result = "index";
+            } else {
+                result = "error";
+            }
 //            try {
 //                //执行登录
 //                System.out.println("1."+token.hashCode());
@@ -77,4 +78,52 @@ import javax.annotation.Resource;
 //            }
             return "0";
         }
+        }
+    @RequestMapping("/register")
+    public String doRegister(HttpServletResponse response, HttpServletRequest request, Register register){
+        try {
+            request.setCharacterEncoding("UTF-8");
+            response.setCharacterEncoding("UTF-8");
+            System.out.println("------------------------------->"+register);
+            //String string = register.getUserPassword();
+
+            String string1  = register.getUserPhone();
+            int user_id = userService.selectUserId(string1);
+            System.out.println("--------------->>>>>>>>>>"+user_id);
+            Boolean flag=false;
+            if(user_id==0){
+                flag = userService.doRegister(register);
+            }else{
+                System.out.println("--------------------------》用户名已经存在");
+                return "error";
+            }
+
+
+            String phone = register.getUserPhone();
+
+            int userId = userService.selectUserId(phone);
+            String string = register.getUserPassword();
+            String result = ShiroRealm.MD5Encryption(string).toString();
+            UserPassword userPassword = new UserPassword();
+            System.out.println(phone+"-------"+userId);
+            userPassword.setUser_id(userId);
+            userPassword.setUser_pwd(result);
+            System.out.println( "-----------------------------"+userPassword.getUser_id()+userPassword.getUser_pwd());
+            passwordService.insertPasswords(userPassword);
+
+            if(flag){
+                System.out.println("注册成功");
+                return "redirect:success";
+            }
+
+        } catch (UnsupportedEncodingException e) {
+            e.printStackTrace();
+        }
+
+
+        return"index.xml";
+    }
+
+
+
 }

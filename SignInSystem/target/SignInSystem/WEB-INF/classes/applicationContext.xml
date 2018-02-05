@@ -16,11 +16,7 @@
         <!-- 可以把下方的realms放到此处，因为AuthenticatingSecurityManager方法里面有强制转换 -->
         <!-- 多realms时需要放在这里 -->
         <!-- 猜测可能是要先设置多realm管理器modularRealmAuthenticator，然后在设置realm，才能把realm设置进modularRealmAuthenticator。如果设置的晚了，可能就无法加载realm了。 -->
-        <property name="realms">
-            <list>
-                <ref bean="jdbcRealm"/>
-            </list>
-        </property>
+
 
     </bean>
 
@@ -54,8 +50,6 @@
          Many other realm implementations can be used too (PropertiesRealm,
          LdapRealm, etc. -->
     <!-- 3.配置realm 直接配置实现了Realm接口的bean-->
-
-
 
     <bean id="jdbcRealm" class="com.signInSystem.shiro.realms.ShiroRealm">
         <property name="credentialsMatcher">

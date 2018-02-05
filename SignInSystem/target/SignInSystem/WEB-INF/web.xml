@@ -9,7 +9,7 @@
   <display-name>Archetype Created Web Application</display-name>
   <description>SignInSystem_Alpha_0.0.1</description>
 
-  <!-- 编码过滤器 -->
+
   <context-param>
     <param-name>contextConfigLocation</param-name>
     <param-value>classpath:applicationContext.xml</param-value>
@@ -35,6 +35,7 @@
     <!-- 匹配所有请求，此处也可以配置成 *.do 形式 -->
     <url-pattern>/</url-pattern>
   </servlet-mapping>
+    <!-- 编码过滤器 -->
   <filter>
     <filter-name>encodingFilter</filter-name>
     <filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>

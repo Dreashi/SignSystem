@@ -28,4 +28,17 @@ public class PasswordServiceImpl implements IPasswordService{
         }
         return password;
     }
+
+    @Override
+    public int updateUserPassword(UserPassword userPassword) {
+        int i=0;
+        try {
+            i=this.passwordDao.updateUserPassword(userPassword);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return i;
+    }
+
+
 }
