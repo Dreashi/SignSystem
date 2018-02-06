@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xzy.dao.ISignInDao">
+    <!-- 查询本人的全部记录 -->
+    <select id="selectById" resultMap="selectByIdMap" parameterType="int">
+        SELECT *
+        FROM Sign_In
+        WHERE user_id = #{userId}
+    </select>
+    <!-- 查询当天所有人的记录 -->
+    <select id="selectByDate" resultMap="selectByIdMap" parameterType="String">
+        SELECT *
+        FROM Sign_In
+        WHERE sign_date = #{signInDate}
+    </select>
+    <!-- 当天组内成员的签到情况 -->
+    <select id="selectByGroupIdAndDate" resultMap="selectByIdMap" parameterType="int">
+        SELECT *  FROM Sign_In
+        WHERE sign_date = CURDATE()
+        AND user_id IN ( SELECT user_id FROM Users
+        WHERE group_id = (SELECT group_id FROM Users
+        WHERE user_id = #{userId} ))
+    </select>
+    <!-- 插入新的签到记录 -->
+    <update id="updateSignInStatusByUsers" parameterType="com.xzy.model.SignIn">
+        UPDATE  Sign_In
+        SET sign_time = #{signInTime},sign_status = "已签到" WHERE user_id = #{userId}
+    </update>
+    <!-- 管理员修改签到状态 -->
+    <update id="updateSignInStatusByAdmin" parameterType="int">
+        UPDATE Sign_In SET sign_status = "迟签到"
+        WHERE userId=#{userId} AND sign_date = CURDATE()
+    </update>
+
+    <resultMap id="selectByIdMap" type="SignIn">
+        <id column="user_id" property="userId"></id>
+        <result column="sign_date" property="signInDate"></result>
+        <result column="sign_time" property="signInTime"></result>
+        <result column="sign_status" property="signInStatus"></result>
+        <result column="user_name" property="userName"></result>
+    </resultMap>
+</mapper>
