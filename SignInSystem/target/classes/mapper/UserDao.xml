@@ -1,26 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+        <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<!-- 设置为IUserDao接口方法提供sql语句配置 -->
-<mapper namespace="com.xyz.dao.IUserDao">
+        <!-- 设置为IUserDao接口方法提供sql语句配置 -->
+        <mapper namespace="com.xzy.dao.IUserDao">
 
-<select id="selectById" resultMap="returnUser" parameterType="int">
-    SELECT * FROM Users WHERE user_id = #{userId}
-</select>
-    
-<resultMap id="returnUser" type="com.xyz.model.User">
-    <id column="user_id" property="userId"/>
-    <result column="user_name" property="userName"/>
-    <result column="user_phone" property="userPhone"/>
-    <result column="user_qq" property="userQQ"/>
-    <result column="user_email" property="userEmail"/>
-    <result column="user_sex" property="userSex"/>
-    <result column="user_birthday" property="userBirthday"/>
-    <result column="user_image" property="userImage"/>
-    <result column="group_id" property="groupId"/>
-</resultMap>
+        <select id="selectUser" resultMap="resultusermap" parameterType="String">
+            select * from Users where user_phone = #{userPhone}
+        </select>
+        <resultMap id="resultusermap" type="com.xzy.model.Users">
+            <id column="user_id" property="userId"></id>
+            <result column="user_name" property="userName"></result>
+            <result column="user_phone" property="userPhone"></result>
+            <result column="user_qq" property="userQQ"></result>
+            <result column="user_email" property="userEmail"></result>
+            <result column="user_sex" property="userSex"></result>
+            <result column="user_brithday" property="userBirthday"></result>
+            <result column="user_image" property="userImage"></result>
+            <result column="group_id" property="groupId"></result>
+        </resultMap>
 
-<select id="selectNameById" resultType="String" >
-    SELECT user_name FROM users WHERE user_id = 1
-</select>
+
+        <insert id="insertUser" parameterType="com.xzy.model.Users">
+            insert into users values(#{userId},#{userName},#{userPhone},#{userQQ},#{userEmail},#{userSex},#{userBirthday},#{userImage},#{groupId})
+        </insert>
+
+        <parameterMap id="password" type="com.xzy.model.LoginMessage">
+            <parameter property="userPhone"></parameter>
+        </parameterMap>
+
+
+        <select id="selectPassword" parameterType="com.xzy.model.LoginMessage" resultType="int">
+            select user_id from users where user_phone=#{userPhone}
+        </select>
+
+        <select id="selectUserId" resultType="int" parameterType="String">
+            select user_id from users where user_phone = #{userPhone}
+        </select>
+
+        <insert id="insertRegister" parameterType="com.xzy.model.Register">
+            insert into Users values(DEFAULT ,#{userName},#{userPhone},#{userQQ},#{userEmail},#{userSex},#{userBirthday},DEFAULT ,DEFAULT )
+        </insert>
+
+        <select id="selectRegisterId" resultType="int" parameterType="com.xzy.model.Register">
+            select user_id from users where user_phone = #{'user_phone'}
+        </select>
+
+        <select id="selectRegisterEmail" resultType="int" parameterType="com.xzy.model.Register">
+            select user_email from users where user_phone = #{'user_phone'}
+        </select>
+
 </mapper>

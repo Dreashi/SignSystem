@@ -7,7 +7,7 @@
         FROM Questions)) * RAND() + (SELECT MIN(questions_id) FROM Questions) LIMIT 1
     </select>
 
-    <resultMap id="QuestionsMap" type="com.xyz.model.Questions">
+    <resultMap id="QuestionsMap" type="com.xzy.model.Questions">
         <id column="questions_id" property="questionId"></id>
         <result column="questions_content" property="questionContent"></result>
         <result column="questions_option" property="questionOption"></result>

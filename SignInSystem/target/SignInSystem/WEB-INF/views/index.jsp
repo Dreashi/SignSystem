@@ -11,9 +11,9 @@
                     document.getElementById("test").innerHTML = xmlhttp.responseText;
                 }
             }
-            xmlhttp.open("POST", "../user/showUser.do", true);
+            xmlhttp.open("POST", "../personCenter/getUserInf", true);
             xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-            xmlhttp.send("userId=1");
+            xmlhttp.send("userPhone=18392562675");
         }
 
         function selectSignById() {

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.xyz.dao.ISignInDao">
+<mapper namespace="com.xzy.dao.ISignInDao">
     <!-- 查询本人的全部记录 -->
     <select id="selectById" resultMap="selectByIdMap" parameterType="int">
         SELECT *
@@ -22,7 +22,7 @@
         WHERE user_id = #{userId} ))
     </select>
     <!-- 插入新的签到记录 -->
-    <update id="updateSignInStatusByUsers" parameterType="com.xyz.model.SignIn">
+    <update id="updateSignInStatusByUsers" parameterType="com.xzy.model.SignIn">
         UPDATE  Sign_In
         SET sign_time = #{signInTime},sign_status = "已签到" WHERE user_id = #{userId}
     </update>
