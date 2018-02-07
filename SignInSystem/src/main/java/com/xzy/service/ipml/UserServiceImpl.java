@@ -66,15 +66,21 @@ public class UserServiceImpl implements IUserService {
     }
 
     @Override
-    public int selectRegisterId(Register register) {
-        return 0;
+    public int selectRegisterPhone(String userPhone) {
+        int i = 0 ;
+        try {
+            i= this.userDao.selectRegisterPhone(userPhone);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return i;
     }
 
     @Override
-    public int selectRegisterEmail(Register register) {
+    public int selectRegisterEmail(String useremail) {
         int i=0;
         try {
-            i= this.userDao.selectRegisterEmail(register);
+            i= this.userDao.selectRegisterEmail(useremail);
         } catch (Exception e) {
             e.printStackTrace();
         }

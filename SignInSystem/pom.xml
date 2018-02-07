@@ -53,15 +53,12 @@
       <scope>test</scope>
     </dependency>
 
-<<<<<<< HEAD
     <dependency>
       <groupId>com.thetransactioncompany</groupId>
       <artifactId>cors-filter</artifactId>
       <version>2.6</version>
     </dependency>
 
-=======
->>>>>>> wzp
     <!-- java ee -->
     <dependency>
       <groupId>javax</groupId>
@@ -105,11 +102,7 @@
     <dependency>
       <groupId>mysql</groupId>
       <artifactId>mysql-connector-java</artifactId>
-<<<<<<< HEAD
       <version>5.1.32</version>
-=======
-      <version>5.1.41</version>
->>>>>>> wzp
       <scope>runtime</scope>
     </dependency>
 
@@ -246,14 +239,11 @@
       <version>1.2.3</version>
     </dependency>
 
-<<<<<<< HEAD
     <dependency>
       <groupId>org.hibernate</groupId>
       <artifactId>hibernate-validator</artifactId>
       <version>5.2.4.Final</version>
     </dependency>
-=======
->>>>>>> wzp
   </dependencies>
 
   <build>

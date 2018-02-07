@@ -10,6 +10,6 @@ public interface IUserDao {
   public String selectPassword(int userId)throws Exception;
   public int selectUserId(String userPhone)throws Exception;
   public void insertRegister(Register register);
-  public int selectRegisterId(Register register);
-  public int selectRegisterEmail(Register register);
+  public int selectRegisterPhone(String userPhone);
+  public int selectRegisterEmail(String useremail);
 }

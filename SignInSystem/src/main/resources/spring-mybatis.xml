@@ -11,11 +11,7 @@
        http://www.springframework.org/schema/tx/spring-tx.xsd">
 
     <!-- 扫描service包下所有使用注解的类型 -->
-<<<<<<< HEAD
     <context:component-scan base-package="com.xzy.service"/>
-=======
-    <context:component-scan base-package="com.signInSystem.xyz.service"/>
->>>>>>> wzp
 
     <!-- 配置数据库相关参数properties的属性：${url} -->
     <context:property-placeholder location="classpath:jdbc.properties"/>
@@ -23,15 +19,9 @@
     <!-- 数据库连接池 -->
     <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
         <property name="driverClass" value="${jdbc.driver}"/>
-<<<<<<< HEAD
         <property name="jdbcUrl" value="${jdbc.url}"/>
         <property name="user" value="${jdbc.username}"/>
         <property name="password" value="${jdbc.password}"/>
-=======
-        <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/test?useSSL=true"/>
-        <property name="user" value="root"/>
-        <property name="password" value="1234"/>
->>>>>>> wzp
         <property name="maxPoolSize" value="${c3p0.maxPoolSize}"/>
         <property name="minPoolSize" value="${c3p0.minPoolSize}"/>
         <property name="autoCommitOnClose" value="${c3p0.autoCommitOnClose}"/>
@@ -44,11 +34,7 @@
         <!-- 注入数据库连接池 -->
         <property name="dataSource" ref="dataSource"/>
         <!-- 扫描model包 使用别名 -->
-<<<<<<< HEAD
         <property name="typeAliasesPackage" value="com.xzy.model"/>
-=======
-        <property name="typeAliasesPackage" value="com.signInSystem.xyz.model"/>
->>>>>>> wzp
         <!-- 扫描sql配置文件:mapper需要的xml文件 -->
         <property name="mapperLocations" value="classpath:mapper/*.xml"/>
     </bean>
@@ -58,11 +44,7 @@
         <!-- 注入sqlSessionFactory -->
         <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
         <!-- 给出需要扫描Dao接口包 -->
-<<<<<<< HEAD
         <property name="basePackage" value="com.xzy.dao"/>
-=======
-        <property name="basePackage" value="com.signInSystem.xyz.dao"/>
->>>>>>> wzp
     </bean>
 
     <!-- 配置事务管理器 -->

@@ -7,17 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="SignInSystem" />
-<<<<<<< HEAD
         <module name="signinsystem" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="signinsystem" target="1.8" />
-=======
-      </profile>
-    </annotationProcessing>
-    <bytecodeTargetLevel>
->>>>>>> wzp
       <module name="SignInSystem" target="1.8" />
     </bytecodeTargetLevel>
   </component>
