@@ -18,12 +18,13 @@ import javax.servlet.http.HttpSession;
 import java.io.UnsupportedEncodingException;
 
 @Controller
+@RequestMapping("/register")
 public class RegisterController {
     @Resource
     private IUserService userService = new UserServiceImpl();
     @Resource
     private IPasswordService passwordService = new PasswordServiceImpl();
-    @RequestMapping("/registerTest")
+    @RequestMapping("/doRegister")
     @ResponseBody
     public int doRegister(HttpServletResponse response, HttpServletRequest request, Register register, String sessionId){
         try {

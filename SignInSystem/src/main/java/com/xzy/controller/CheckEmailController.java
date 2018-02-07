@@ -14,12 +14,13 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.UnsupportedEncodingException;
 
 @Controller
+@RequestMapping("/checkEmail")
 public class CheckEmailController {
     @Resource
     private IUserService userService = new UserServiceImpl();
-    @RequestMapping("/checkEmail")
+    @RequestMapping("/Email")
     @ResponseBody
-    public int checkEmailAndPhone(HttpServletRequest request, HttpServletResponse response) {
+    public int checkEmail(HttpServletRequest request, HttpServletResponse response) {
         try {
             request.setCharacterEncoding("UTF-8");
         } catch (UnsupportedEncodingException e) {

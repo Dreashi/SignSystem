@@ -9,7 +9,7 @@ public interface IUserService {
     public int selectUserId(String user_phone);
     public boolean doRegister(Register register);
     public void insertRegister(Register register);
-    public int selectRegisterId(Register register);
-    public int selectRegisterEmail(String useremail);
+    public int selectRegisterPhone(String userPhone);
+    public int selectRegisterEmail(String userEmail);
 
 }

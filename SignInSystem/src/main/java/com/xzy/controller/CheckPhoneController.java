@@ -12,27 +12,28 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.UnsupportedEncodingException;
 
 @Controller
+@RequestMapping("/checkPhone")
 public class CheckPhoneController {
     @Resource
     private IUserService userService = new UserServiceImpl();
-    @RequestMapping("/checkPhone")
+    @RequestMapping("/Phone")
     @ResponseBody
-    public int checkEmailAndPhone(HttpServletRequest request, HttpServletResponse response) {
+    public int checkPhone(HttpServletRequest request, HttpServletResponse response) {
         try {
             request.setCharacterEncoding("UTF-8");
         } catch (UnsupportedEncodingException e) {
             e.printStackTrace();
         }
         response.setCharacterEncoding("UTF-8");
-        String string1 = request.getParameter("userPhone");
-        System.out.println("---------------------------------->" + string1 + "___" + string1);
-        int user_id1 = userService.selectRegisterEmail(string1);
-        System.out.println("--------------->>>>>>>>>>" + user_id1);
+        String userPhone = request.getParameter("userPhone");
+
+        int user_id1 = userService.selectRegisterPhone(userPhone);
+
         Boolean flag = false;
         if (user_id1 == 0) {
             return 0;
         } else if (user_id1 != 0) {
-            System.out.println("--------------------------》手机号已经存在");
+
             //如果userPhone 和userEmail重复返回1
             return 1;
         }

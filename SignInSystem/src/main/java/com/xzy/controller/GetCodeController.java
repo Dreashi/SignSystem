@@ -13,9 +13,10 @@ import java.util.HashMap;
 import java.util.Map;
 
 @Controller
+@RequestMapping("/getCode")
 public class GetCodeController {
 
-    @RequestMapping("/getCode")
+    @RequestMapping("/Code")
     @ResponseBody
     public Map getCode(HttpServletRequest request, HttpServletResponse response){
 

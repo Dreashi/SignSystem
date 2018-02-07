@@ -41,11 +41,11 @@
             insert into Users values(DEFAULT ,#{userName},#{userPhone},#{userQQ},#{userEmail},#{userSex},#{userBirthday},DEFAULT ,DEFAULT )
         </insert>
 
-        <select id="selectRegisterId" resultType="int" parameterType="com.xzy.model.Register">
+        <select id="selectRegisterPhone" resultType="int" parameterType="String">
             select user_id from Users where user_phone = #{userPhone}
         </select>
 
-        <select id="selectRegisterEmail" resultType="int" parameterType="com.xzy.model.Register">
+        <select id="selectRegisterEmail" resultType="int" parameterType="String">
             select user_email from Users where user_phone = #{userPhone}
         </select>
 
