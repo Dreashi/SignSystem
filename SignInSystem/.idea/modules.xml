@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/signinsystem.iml" filepath="$PROJECT_DIR$/signinsystem.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/SignInSystem.iml" filepath="$PROJECT_DIR$/SignInSystem.iml" />
+>>>>>>> wzp
     </modules>
   </component>
 </project>

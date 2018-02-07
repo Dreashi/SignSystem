@@ -1,6 +1,7 @@
 <component name="libraryTable">
   <library name="Maven: com.mchange:c3p0:0.9.5.2">
     <CLASSES>
+<<<<<<< HEAD
       <root url="jar://E:/Maven/repository/com/mchange/c3p0/0.9.5.2/c3p0-0.9.5.2.jar!/" />
     </CLASSES>
     <JAVADOC>
@@ -8,6 +9,15 @@
     </JAVADOC>
     <SOURCES>
       <root url="jar://E:/Maven/repository/com/mchange/c3p0/0.9.5.2/c3p0-0.9.5.2-sources.jar!/" />
+=======
+      <root url="jar://$USER_HOME$/.m2/repository/com/mchange/c3p0/0.9.5.2/c3p0-0.9.5.2.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.m2/repository/com/mchange/c3p0/0.9.5.2/c3p0-0.9.5.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.m2/repository/com/mchange/c3p0/0.9.5.2/c3p0-0.9.5.2-sources.jar!/" />
+>>>>>>> wzp
     </SOURCES>
   </library>
 </component>

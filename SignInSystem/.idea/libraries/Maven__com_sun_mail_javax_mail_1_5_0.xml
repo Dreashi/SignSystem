@@ -1,6 +1,7 @@
 <component name="libraryTable">
   <library name="Maven: com.sun.mail:javax.mail:1.5.0">
     <CLASSES>
+<<<<<<< HEAD
       <root url="jar://E:/Maven/repository/com/sun/mail/javax.mail/1.5.0/javax.mail-1.5.0.jar!/" />
     </CLASSES>
     <JAVADOC>
@@ -8,6 +9,15 @@
     </JAVADOC>
     <SOURCES>
       <root url="jar://E:/Maven/repository/com/sun/mail/javax.mail/1.5.0/javax.mail-1.5.0-sources.jar!/" />
+=======
+      <root url="jar://$USER_HOME$/.m2/repository/com/sun/mail/javax.mail/1.5.0/javax.mail-1.5.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.m2/repository/com/sun/mail/javax.mail/1.5.0/javax.mail-1.5.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.m2/repository/com/sun/mail/javax.mail/1.5.0/javax.mail-1.5.0-sources.jar!/" />
+>>>>>>> wzp
     </SOURCES>
   </library>
 </component>
