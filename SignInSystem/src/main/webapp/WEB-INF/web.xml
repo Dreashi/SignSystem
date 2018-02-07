@@ -74,6 +74,6 @@
   </filter-mapping>
 
   <listener>
-    <listener-class>com.xyz.controller.SessionListener</listener-class>
+    <listener-class>com.xzy.controller.SessionListener</listener-class>
   </listener>
 </web-app>

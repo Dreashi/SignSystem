@@ -3,8 +3,8 @@
     PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
     "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
     
-<mapper namespace="com.xyz.dao.GroupDao">
-	<resultMap type="com.xyz.model.Group" id="group">
+<mapper namespace="com.xzy.dao.IGroupDao">
+	<resultMap type="com.xzy.model.Group" id="group">
 		<id column="group_id" property="groupId"/>
 		<result column="group_name" property="groupName"/>
 		<result column="group_direct" property="groupDirect"/>

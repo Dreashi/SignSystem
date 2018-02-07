@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="cors-filter-2.6">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cors-filter-2.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
