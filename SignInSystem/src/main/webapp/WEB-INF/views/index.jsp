@@ -23,7 +23,7 @@
                     document.getElementById("testSignSelectById").innerHTML = xmlhttp.responseText;
                 }
             }
-            xmlhttp.open("POST","../signIn/selectSignInById.do",true);
+            xmlhttp.open("POST","../signIn/selectSignInByGroupIdAndDate.do",true);
             xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
             xmlhttp.send("userId=1");
         }

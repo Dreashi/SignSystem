@@ -21,7 +21,7 @@
 
 
         <insert id="insertUser" parameterType="com.xzy.model.Users">
-            insert into users values(#{userId},#{userName},#{userPhone},#{userQQ},#{userEmail},#{userSex},#{userBirthday},#{userImage},#{groupId})
+            insert into Users values(#{userId},#{userName},#{userPhone},#{userQQ},#{userEmail},#{userSex},#{userBirthday},#{userImage},#{groupId})
         </insert>
 
         <parameterMap id="password" type="com.xzy.model.LoginMessage">
@@ -30,11 +30,11 @@
 
 
         <select id="selectPassword" parameterType="com.xzy.model.LoginMessage" resultType="int">
-            select user_id from users where user_phone=#{userPhone}
+            select user_id from Users where user_phone=#{userPhone}
         </select>
 
         <select id="selectUserId" resultType="int" parameterType="String">
-            select user_id from users where user_phone = #{userPhone}
+            select user_id from Users where user_phone = #{userPhone}
         </select>
 
         <insert id="insertRegister" parameterType="com.xzy.model.Register">
@@ -42,11 +42,11 @@
         </insert>
 
         <select id="selectRegisterId" resultType="int" parameterType="com.xzy.model.Register">
-            select user_id from users where user_phone = #{'user_phone'}
+            select user_id from Users where user_phone = #{userPhone}
         </select>
 
         <select id="selectRegisterEmail" resultType="int" parameterType="com.xzy.model.Register">
-            select user_email from users where user_phone = #{'user_phone'}
+            select user_email from Users where user_phone = #{userPhone}
         </select>
 
 </mapper>

@@ -1,0 +1,218 @@
+* { margin: 0; padding: 0; }
+body { font-family: "Microsoft Yahei"; font-size: 0.12rem; color: #888; background-color: #e3e3e3; }
+a, a:hover { color: #888; text-decoration: none; }
+ul, li { list-style: none; }
+header{
+	width: 100%;
+	height: 0.95rem;
+	line-height: 0.95rem;
+	display: flex;
+	justify-content:space-between;
+	background:#6332c9;
+}
+#btn-zuji{
+	background-color: transparent;
+	border:none;
+	color: #FFFFFF;
+	font-size: 0.3rem;
+	width: 1rem;
+	height: 0.95rem;
+	line-height: 0.95rem;
+	outline: none;
+}
+#section{
+	width: 6.78rem;
+	height: 4.61rem;
+	background:url(../img/bg-two.png) no-repeat center;
+	background-size:100%;
+	margin: auto;
+	box-shadow: 0.05rem 0.05rem 0.05rem #888888;
+	margin-bottom: 1.13rem;
+}
+.calendar {
+  display: none;
+  width: 5rem;
+  padding: 0.1rem;
+  margin: 0.3rem auto 0;
+  background-color: #fafafa;
+  border-radius: 0.06rem;
+  background-color: transparent;
+
+}
+.calendar-title {
+  position: relative;
+  height: 0.3rem;
+  line-height: 0.3rem;
+  padding:0.1rem 0;
+}
+.calendar-title a.title {
+  display: inline-block;
+  font-size: 0.26rem;
+  text-indent: 0.1rem;
+}
+#backToday {
+  position: absolute;
+  left: 70%;
+  top: 0.08rem;
+  width: 0.5rem;
+  height:0.5rem;
+  line-height: 0.5rem;
+  text-align: center;
+  border-radius: 50%;
+  color: #fff;
+  background-color: rgb(255, 128, 142);
+  font-size: 0.18rem;
+}
+.calendar-title .arrow {
+  position: absolute;
+  top: 0.1rem;
+  right: 0;
+  width: 0.5rem;
+}
+.calendar-title .arrow span {
+  color: #888;
+  font-size: 0.26rem;
+  cursor: pointer;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+.calendar-title .arrow span:hover {
+  color: #000;
+}
+.calendar-title .arrow-prev {
+  float: left;
+}
+.calendar-title .arrow-next {
+  float: right;
+}
+.calendar-week,
+.calendar-date {
+  overflow: hidden;
+}
+.calendar-week .item,
+.calendar-date .item {
+  float: left;
+  width: 0.5rem;
+  height: 0.5rem;
+  line-height: 0.5rem;
+  text-align: center;
+  margin-right: 0.1rem;
+  margin-left: 0.1rem;
+}
+.calendar-week {
+  padding-bottom: 0.06rem;
+  border-bottom: 0.02rem solid rgb(99, 50, 201);
+  font-weight: bold;
+  font-size: 0.16rem;
+}
+.calendar-date {}
+.calendar-date .item {
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 0.14rem;
+}
+.calendar-date .item:hover,
+.calendar-date .item-curMonth:hover {
+  background-color: #f0f0f0;
+}
+.calendar-date .item-curMonth {
+  color: #333;
+}
+.calendar-date .item-curDay,
+.calendar-date .item-curDay:hover {
+  color: #fff;
+  background-color: rgb(255, 128, 142);
+}
+.calendar-today {
+  display: none;
+  opacity: 0;
+  position: absolute;
+  right: 0.2rem;
+  top: 0.2rem;
+  width: 0.9rem;
+  height: 0.48rem;
+  padding: 0.06rem 0.1rem;
+  background-color: rgb(255, 128, 142);
+  border-radius: 0.05rem;
+}
+.calendar-today .triangle {
+  position: absolute;
+  top: 50%;
+  left: -0.16rem;
+  margin-top: -0.08rem;
+  border-width: 0.08rem;
+  border-style: solid;
+  border-color: transparent rgb(255, 128, 142) transparent transparent;
+}
+.calendar-today p {
+  color: #fff;
+  font-size: 0.14rem;
+  line-height: 0.24rem;
+}
+#cricle{
+	width: 2.88rem;
+	height: 2.88rem;
+	background-color: #7f59cf;
+	border-radius: 1.44rem;
+	margin: auto;
+   box-shadow: 0.08rem 0.08rem 0.05rem #888888;
+	margin-bottom: 2rem;
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+}
+#state{
+	width: 100%;
+	height: 0.6rem;
+	text-align: center;
+	line-height: 0.6rem;
+	color: #FFFFFF;
+	font-size: 0.4rem;
+}
+#time{
+	width: 100%;
+	height: 0.4rem;
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 0.4rem;
+}
+footer{ 
+	width: 100%;
+	height: 0.95rem;
+	background-color: #ffffff;
+	border-top: #bfbfbf 0.03rem solid;
+	position:fixed;
+	bottom: 0;
+	left: 0;
+      }
+footer ul{
+	width: 100%;
+	height: 0.95rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+footer ul li{ 
+	width: 0.75rem;
+	height: 0.9rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+footer ul li img {
+	width: 0.5rem;
+	height: 0.5rem;
+}
+#src{ 
+	width: 0.85rem;
+	height: 0.85rem;
+}
+footer ul li span{
+	display: inline-block;
+	font-size: 0.25rem;
+}

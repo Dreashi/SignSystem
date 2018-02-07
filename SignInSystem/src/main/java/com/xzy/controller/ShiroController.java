@@ -37,7 +37,7 @@ import java.io.UnsupportedEncodingException;
 
     @RequestMapping("/login")
     @ResponseBody
-        public String login(@RequestParam("userName") String userName, @RequestParam("userPwd") String userPwd) {
+        public Users login(@RequestParam("userPhone") String userName, @RequestParam("userPassword") String userPwd) {
 
         //UsernamePasswordToken token = new UsernamePasswordToken(userName, userPwd);
         //token.setRememberMe(true);
@@ -62,12 +62,12 @@ import java.io.UnsupportedEncodingException;
             String userPassword = this.passwordService.selectUserPassword(userId);
             System.out.println(afterEncryptionPwd + "---------" + userName);
             //SimpleAuthenticationInfo info=null;
-            if (user != null && afterEncryptionPwd.equals(userPassword)) {
-                //System.out.println(user);
-                result = "index";
-            } else {
-                result = "error";
-            }
+//            if (user != null && afterEncryptionPwd.equals(userPassword)) {
+//                //System.out.println(user);
+//                result = "index";
+//            } else {
+//                result = "error";
+//            }
 //            try {
 //                //执行登录
 //                System.out.println("1."+token.hashCode());
@@ -76,7 +76,7 @@ import java.io.UnsupportedEncodingException;
 //                //unexpected condition?  error?
 //                System.out.println("登录失败"+ae.getMessage());
 //            }
-            return "0";
+            return user;
         }
         }
     @RequestMapping("/register")
