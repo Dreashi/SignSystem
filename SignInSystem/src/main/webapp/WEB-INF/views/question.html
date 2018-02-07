@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+		<meta name="format-detection" content="telephone=no" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <link rel="stylesheet" href="css/common.css" />
+        <link rel="stylesheet" href="css/question.css" />
+        <script src="js/vue.js"></script>
+		<title></title>
+	</head>
+	<body>
+		<header>
+			<input type="button" value="<" id="fanhui"/>
+			<span>签到</span>
+		</header>
+		<section id="vue-que">
+			<div class="time">
+				<div ><img src="img/time.png"/style=" width: 0.5rem; height: 0.5rem;"></div>
+				<p style="margin-left: 0.5rem;">签到时间:</p>
+				<p id="time"></p>
+			</div>
+			    <h1>技术题</h1>
+			<div class="box">
+				<h3></h3>
+			</div>
+		</section>
+		<footer>
+			<input type="button"  value="提交" id="sub"/>
+		</footer>
+		<div class="success">
+			<div class="pic1">
+				<img src="img/success.png" style="width: 5.82rem;height: 6.03rem;"/>
+				<p class="daan">正确答案：<span id="answer">BC</span></p>
+			</div>
+		</div>	
+		<div class="error">
+			<div class="pic2">
+				<img src="img/shibai.png" style="width: 5.01rem;height: 4.52rem;"/>
+				<p class="daan">正确答案：<span id="answer">BC</span></p>
+				<p class="tishi">很遗憾！您已过了签到时间，请联系管理员！</p>
+			</div>	
+		</div>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/question.js"></script>
+	</body>
+</html>
