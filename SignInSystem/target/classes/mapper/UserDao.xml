@@ -4,10 +4,10 @@
         <!-- 设置为IUserDao接口方法提供sql语句配置 -->
         <mapper namespace="com.xzy.dao.IUserDao">
 
-        <select id="selectUser" resultMap="resultusermap" parameterType="String">
-            select * from Users where user_phone = #{userPhone}
-        </select>
 
+    <select id="selectUser" resultMap="resultusermap" parameterType="String">
+        select * from Users where user_phone = #{userPhone}
+    </select>
     <select id="selectUserByUserId" resultMap="resultusermap" parameterType="int">
         select * from Users
         where user_id = #{userId}
@@ -23,7 +23,6 @@
             <result column="user_image" property="userImage"></result>
             <result column="group_id" property="groupId"></result>
         </resultMap>
-
 
         <insert id="insertUser" parameterType="com.xzy.model.Users">
             insert into Users values(#{userId},#{userName},#{userPhone},#{userQQ},#{userEmail},#{userSex},#{userBirthday},#{userImage},#{groupId})
@@ -42,6 +41,7 @@
             select user_id from Users where user_phone = #{userPhone}
         </select>
 
+
         <insert id="insertRegister" parameterType="com.xzy.model.Register">
             insert into Users values(DEFAULT ,#{userName},#{userPhone},#{userQQ},#{userEmail},#{userSex},#{userBirthday},DEFAULT ,DEFAULT )
         </insert>
@@ -54,7 +54,25 @@
             select user_email from Users where user_phone = #{userPhone}
         </select>
 
+<<<<<<< HEAD
     <select id="loadUserPhone" parameterType="String" resultMap="resultusermap">
         select * from Users   where user_phone=#{userPhone}
+=======
+    <select id="selectGroupId" resultType="Integer">
+        SELECT group_id FROM Users WHERE user_id = #{groupLeaderId}
+    </select>
+    <update id="updateGroupIdAddUsers" >
+        UPDATE Users SET group_id = #{groupId} WHERE user_id=#{userId} and user_name=#{userName}
+    </update>
+    <update id="updateGroupIdDeleteUsers" parameterType="int" >
+        UPDATE  users SET group_id= 0 WHERE user_id IN
+        <foreach collection="array" item="userId" index="index"
+                 open="(" close=")" separator=",">
+            #{userId}
+        </foreach>
+    </update>
+    <select id="selectUsers" parameterType="int" resultMap="resultusermap">
+        SELECT  * FROM Users WHERE group_id=#{groupId}
+>>>>>>> shihao
     </select>
 </mapper>

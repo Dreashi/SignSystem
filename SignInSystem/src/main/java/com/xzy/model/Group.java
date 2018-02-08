@@ -50,6 +50,7 @@ public class Group implements Serializable {
                 ", groupLeaderId=" + groupLeaderId +
                 '}';
     }
+<<<<<<< HEAD
 =======
 	private int groupId;
 	private String groupName;
@@ -114,4 +115,8 @@ public class Group implements Serializable {
 		this.groupLeaderId = groupLeaderId;
 	}
 >>>>>>> GHH
+=======
+
+
+>>>>>>> shihao
 }

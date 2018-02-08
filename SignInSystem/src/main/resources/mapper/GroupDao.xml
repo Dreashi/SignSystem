@@ -12,12 +12,19 @@
             where groupleader_id=#{groupLeaderId}
     </select>
 
+    <select id="selectGroupLeaderId" parameterType="int" resultMap="group">
+        SELECT * FROM groups WHERE group_id=#{groupId}
+    </select>
+    <update id="updateGroupDirect" parameterType="com.xzy.model.Group" >
+        UPDATE  groups set group_direct=#{groupDirect} , group_name=#{groupName} WHERE group_id=#{groupId}
+    </update>
     <resultMap id="group" type="com.xzy.model.Group">
         <id column="group_id" property="groupId"></id>
         <result column="group_name" property="groupName"></result>
         <result column="group_direct" property="groupDirect"></result>
         <result column="groupleader_id" property="groupLeaderId"></result>
     </resultMap>
+<<<<<<< HEAD
 =======
 <!DOCTYPE mapper
     PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
@@ -59,4 +66,8 @@
 		select * from groups where groupleader_id=#{groupLeaderId}
 	</select>
 >>>>>>> GHH
+=======
+
+
+>>>>>>> shihao
 </mapper>

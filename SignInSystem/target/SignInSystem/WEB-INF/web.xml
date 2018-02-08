@@ -13,6 +13,11 @@
   </context-param>
   <description>SignInSystem_Alpha_0.0.1</description>
 
+  <servlet-mapping>
+    <servlet-name>default</servlet-name>
+    <url-pattern>*.html</url-pattern>
+  </servlet-mapping>
+
   <!-- 编码过滤器 -->
   <filter>
     <filter-name>encodingFilter</filter-name>
