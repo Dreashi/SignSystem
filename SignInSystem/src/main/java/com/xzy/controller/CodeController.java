@@ -72,7 +72,5 @@ import java.util.Map;
         }
      JsonpController.jsonP(request,response,pmap);
     }
-
-
     }
 
