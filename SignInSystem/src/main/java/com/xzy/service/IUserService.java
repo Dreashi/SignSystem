@@ -11,6 +11,10 @@ public interface IUserService {
     public void insertRegister(Register register);
     public int selectRegisterPhone(String userPhone);
     public int selectRegisterEmail(String userEmail);
+<<<<<<< HEAD
     public Users selectUserByUserId(int userId);
 
+=======
+    public Users loadUserPhone(String userPhone);
+>>>>>>> GHH
 }

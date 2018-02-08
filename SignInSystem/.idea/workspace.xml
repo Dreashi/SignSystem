@@ -31,74 +31,126 @@
     <option name="SHOW_TABLE_DETAILS" value="true" />
     <option name="SHOW_EMPTY_GROUPS" value="false" />
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="aliyun" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
       <file leaf-file-name="MessageService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/service/ipml/MessageService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2100">
               <caret line="83" column="20" lean-forward="false" selection-start-line="83" selection-start-column="20" selection-end-line="83" selection-end-column="20" />
+=======
+      <file leaf-file-name="AdminitorController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/controller/AdminitorController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="870">
+              <caret line="65" column="17" lean-forward="false" selection-start-line="65" selection-start-column="17" selection-end-line="65" selection-end-column="17" />
+>>>>>>> GHH
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="NewsService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/service/ipml/NewsService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
               <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+=======
+      <file leaf-file-name="IAdminitorDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/dao/IAdminitorDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+>>>>>>> GHH
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="NewsSupportService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/service/ipml/NewsSupportService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
               <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+=======
+      <file leaf-file-name="IGroupDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/dao/IGroupDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="14" column="52" lean-forward="false" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="52" />
+>>>>>>> GHH
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="PasswordServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/service/ipml/PasswordServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
               <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+=======
+      <file leaf-file-name="CodeController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/controller/CodeController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="274">
+              <caret line="73" column="5" lean-forward="false" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
+>>>>>>> GHH
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="QuestionsService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/service/ipml/QuestionsService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
               <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+=======
+      <file leaf-file-name="Group.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/model/Group.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="29" />
+>>>>>>> GHH
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/service/ipml/UserServiceImpl.java">
+      <file leaf-file-name="JsonpController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/controller/JsonpController.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="608">
               <caret line="93" column="0" lean-forward="true" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
               <folding>
                 <element signature="e#2353#2354#0" expanded="true" />
                 <element signature="e#2416#2417#0" expanded="true" />
               </folding>
+=======
+            <state relative-caret-position="420">
+              <caret line="19" column="62" lean-forward="false" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="62" />
+              <folding />
+>>>>>>> GHH
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="AdminitorDao.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/AdminitorDao.xml">
           <provider selected="true" editor-type-id="text-editor">
@@ -117,17 +169,53 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
               <caret line="17" column="54" lean-forward="false" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
+=======
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> GHH
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="ReptileService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/service/ipml/ReptileService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
               <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
               <folding />
+=======
+      <file leaf-file-name="AdminitorDao.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/AdminitorDao.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="28" column="74" lean-forward="false" selection-start-line="28" selection-start-column="61" selection-end-line="28" selection-end-column="74" />
+              <folding>
+                <marker date="1518095793135" expanded="true" signature="874:927" ph="select * fro... Users" />
+                <marker date="1518095793135" expanded="true" signature="995:1014" ph="select * fro... Users" />
+                <marker date="1518095793135" expanded="true" signature="1089:1156" ph="update Users... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GroupDao.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/GroupDao.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="6" column="34" lean-forward="false" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="34" />
+              <folding>
+                <marker date="1517904998436" expanded="true" signature="531:609" ph="update Groups " />
+                <marker date="1517904998436" expanded="true" signature="1124:1204" ph="insert into Groups... " />
+                <marker date="1517904998436" expanded="true" signature="1264:1284" ph="select * fro... Groups" />
+                <marker date="1517904998436" expanded="true" signature="1346:1379" ph="select group... Groups" />
+                <marker date="1517904998436" expanded="true" signature="1464:1522" ph="select * fro... groups" />
+              </folding>
+>>>>>>> GHH
             </state>
           </provider>
         </entry>
@@ -136,7 +224,11 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/service/ipml/SignInServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
+<<<<<<< HEAD
               <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+=======
+              <caret line="6" column="18" lean-forward="false" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+>>>>>>> GHH
               <folding />
             </state>
           </provider>
@@ -174,6 +266,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/main/java/com/xzy/model/MessageOperate.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xzy/model/NewsSupport.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xzy/model/Group.java" />
@@ -225,6 +318,59 @@
         <option value="$PROJECT_DIR$/src/main/java/com/xzy/model/Adminitor.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xzy/service/ipml/MessageService.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/xzy/service/impl/AdministratorServiceTest.java" />
+=======
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/Questions.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xyz/service/ipml/IQuestionsService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xyz/service/ipml/QuestionsService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xyz/service/IQuestionsService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xyz/controller/SignInController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xyz/model/Questions.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xyz/controller/QuestionsController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/QuestionsDao.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring-mybatis.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xzy/controller/QuestionsController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/xyz/dao/IUserDaoTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xzy/realms/ShiroRealm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xzy/service/ipml/IPasswordService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xzy/service/IPasswordService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xzy/service/ipml/PasswordServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shiro/realms/ShiroRealm.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/SignInDao.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/login.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xzy/controller/CenterController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xzy/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xzy/controller/ShiroController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/gerenxinxi.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xzy/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xzy/service/code/SmsDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xzy/controller/MySessionController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xzy/controller/CheckEmailController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xzy/controller/GetCodeController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xzy/controller/RegisterController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xzy/controller/SessionListener.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/PasswordDao.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xzy/controller/CheckPhoneController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xzy/dao/IAdminitorDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xzy/dao/IUserDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xzy/service/ipml/IAdminitorService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xzy/service/IAdminitorService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xzy/service/IUserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xzy/service/ipml/AdminitorService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xzy/service/ipml/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/UserDao.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xzy/model/Users.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xzy/controller/JsonpController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xzy/controller/AdminitorController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xzy/controller/CodeController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xzy/model/Group.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xzy/dao/IGroupDao.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/AdminitorDao.xml" />
+>>>>>>> GHH
       </list>
     </option>
   </component>
@@ -261,10 +407,17 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+<<<<<<< HEAD
     <option name="x" value="-9" />
     <option name="y" value="-9" />
     <option name="width" value="1200" />
     <option name="height" value="772" />
+=======
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1716" />
+    <option name="height" value="998" />
+>>>>>>> GHH
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -300,9 +453,14 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="Scratches" />
+=======
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+>>>>>>> GHH
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -358,7 +516,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="ipml" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xzy" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+>>>>>>> GHH
             </path>
             <path>
               <item name="SignInSystem" type="b2602c69:ProjectViewProjectNode" />
@@ -366,7 +530,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="util" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xzy" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+>>>>>>> GHH
             </path>
             <path>
               <item name="SignInSystem" type="b2602c69:ProjectViewProjectNode" />
@@ -398,6 +568,7 @@
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
+<<<<<<< HEAD
             <path>
               <item name="SignInSystem" type="b2602c69:ProjectViewProjectNode" />
               <item name="SignInSystem" type="462c0819:PsiDirectoryNode" />
@@ -445,10 +616,16 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
+=======
+>>>>>>> GHH
           </expand>
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
+=======
+      <pane id="Scratches" />
+>>>>>>> GHH
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -457,7 +634,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.7491369" />
     <property name="Downloaded.Files.Path.Enabled" value="true" />
@@ -486,15 +663,26 @@
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.xzy.controller" />
+      <recent name="com.xzy.service.ipml" />
+      <recent name="com.xzy.model" />
       <recent name="com.shiro.realms" />
       <recent name="com.xzy.realms" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+<<<<<<< HEAD
       <recent name="F:\SignInSystem\src\main\webapp\WEB-INF\js" />
       <recent name="F:\SignInSystem\src" />
       <recent name="F:\SignInSystem\src\main\webapp\WEB-INF\views" />
       <recent name="F:\SignInSystem\src\main\java\com\xzy\service\util" />
       <recent name="F:\SignInSystem\src\main\java\com\xzy\service\ipml" />
+=======
+      <recent name="E:\meger\123\SignSystem\SignInSystem\src\main\webapp\WEB-INF\lib" />
+      <recent name="E:\meger\123\SignSystem\SignInSystem\src\main\java\com\xzy\controller" />
+      <recent name="E:\meger\123\SignSystem\SignInSystem\src\main\java\com\xzy\dao" />
+      <recent name="E:\meger\123\SignSystem\SignInSystem\src\main\java\com\xzy\model" />
+      <recent name="E:\meger\123\SignSystem\SignInSystem\src\main\resources\mapper" />
+>>>>>>> GHH
     </key>
   </component>
   <component name="RunDashboard">
@@ -509,7 +697,11 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="JUnit.AdministratorServiceTest.loadByUserId">
+=======
+  <component name="RunManager" selected="Tomcat Server.index.jsp (1)">
+>>>>>>> GHH
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -697,6 +889,7 @@
       <properties />
       <listeners />
     </configuration>
+<<<<<<< HEAD
     <configuration name="index.html" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 8.5.24" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/WEB-INF/views/index.html" />
       <deployment>
@@ -708,6 +901,88 @@
       </deployment>
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="index_html_SignInSystem_15" />
+=======
+    <configuration name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.24" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="C:\Program Files\Java\jdk1.8.0_101\jre">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_SignInSystem_4" />
+>>>>>>> GHH
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+<<<<<<< HEAD
+=======
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="52863" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+>>>>>>> GHH
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="signinsystem:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="index.jsp (1)" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 8.5.24" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/WEB-INF/views/index.jsp" />
+      <deployment>
+        <artifact name="signinsystem:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="index_jsp_(1)_SignInSystem_2" />
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
@@ -736,12 +1011,52 @@
         </option>
       </method>
     </configuration>
+    <configuration name="index.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 8.5.24" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/WEB-INF/views/index.jsp" />
+      <deployment>
+        <artifact name="signinsystem:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="index_jsp_SignInSystem" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="signinsystem:war" />
+        </option>
+      </method>
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
+<<<<<<< HEAD
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.IUserDaoTest.testSelectUser" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.IGroupDaoTest.loadByGroupIdTest" />
@@ -756,6 +1071,19 @@
         <item index="2" class="java.lang.String" itemvalue="JUnit.NewsServiceTest.loadAllNewsTest" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.IGroupDaoTest.loadByGroupIdTest" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.IUserDaoTest.testSelectUser" />
+=======
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Unnamed" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.All in signinsystem" />
+      <item index="2" class="java.lang.String" itemvalue="Tomcat Server.index.jsp" />
+      <item index="3" class="java.lang.String" itemvalue="Tomcat Server.index.jsp (1)" />
+    </list>
+    <recent_temporary>
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Tomcat Server.index.jsp (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Tomcat Server.index.jsp" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.All in signinsystem" />
+>>>>>>> GHH
       </list>
     </recent_temporary>
   </component>
@@ -814,7 +1142,16 @@
       <workItem from="1518020322474" duration="9000" />
       <workItem from="1518020379943" duration="2482000" />
       <workItem from="1518026498060" duration="1233000" />
+<<<<<<< HEAD
       <workItem from="1518055464388" duration="7521000" />
+=======
+      <workItem from="1518056173386" duration="522000" />
+      <workItem from="1518058734031" duration="2494000" />
+      <workItem from="1518067422965" duration="1075000" />
+      <workItem from="1518084107248" duration="7916000" />
+      <workItem from="1518094669484" duration="650000" />
+      <workItem from="1518095450000" duration="343000" />
+>>>>>>> GHH
     </task>
     <servers />
   </component>
@@ -851,7 +1188,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="274592000" />
+=======
+    <option name="totallyTimeSpent" value="280071000" />
+>>>>>>> GHH
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -863,6 +1204,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -870,20 +1212,39 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.05010661" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+=======
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.04992436" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+>>>>>>> GHH
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33742005" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Tail" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33736762" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.021459227" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14782609" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41638225" sideWeight="0.49356222" order="2" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.04614221" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14782609" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+>>>>>>> GHH
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28896472" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -892,16 +1253,34 @@
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8569079" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30181542" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Compute Code Lines" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+>>>>>>> GHH
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="combo" />
+<<<<<<< HEAD
       <window_info id="Tail" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11010558" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+>>>>>>> GHH
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -921,24 +1300,95 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2407">
+          <caret line="83" column="13" lean-forward="false" selection-start-line="83" selection-start-column="13" selection-end-line="83" selection-end-column="13" />
+>>>>>>> GHH
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/test/java/com/xzy/service/impl/MessageServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="366">
           <caret line="21" column="26" lean-forward="false" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="35" />
           <folding />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/model/Questions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/model/UserPassword.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/controller/ShiroController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1980">
+          <caret line="82" column="49" lean-forward="false" selection-start-line="82" selection-start-column="49" selection-end-line="82" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/QuestionsDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/controller/RegisterController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-106">
+          <caret line="38" column="66" lean-forward="true" selection-start-line="38" selection-start-column="66" selection-end-line="38" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-256">
+          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/controller/SignInController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-356">
+          <caret line="59" column="21" lean-forward="false" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/controller/GetCodeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-596">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/controller/QuestionsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="21" column="11" lean-forward="false" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+>>>>>>> GHH
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/xzy/dao/IMessageDaoTest.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="331">
           <caret line="17" column="11" lean-forward="false" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
           <folding>
@@ -987,11 +1437,67 @@
             <marker date="1518059418383" expanded="true" signature="275:342" ph="insert into Message_Operate... " />
             <marker date="1518059418383" expanded="true" signature="444:499" ph="select * fro... Message_Operate" />
           </folding>
+=======
+        <state relative-caret-position="120">
+          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/model/Register.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/model/SignIn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/model/LoginMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="26" column="50" lean-forward="false" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="50" />
+          <folding />
+>>>>>>> GHH
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/NewsDao.xml">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="116">
           <caret line="54" column="44" lean-forward="false" selection-start-line="54" selection-start-column="44" selection-end-line="54" selection-end-column="44" />
           <folding>
@@ -1043,11 +1549,33 @@
             <marker date="1518054634954" expanded="true" signature="365:412" ph="SELECT MIN(q... Questions" />
             <marker date="1518054634954" expanded="true" signature="427:466" ph="SELECT MIN(q... Questions" />
           </folding>
+=======
+        <state relative-caret-position="-174">
+          <caret line="32" column="4" lean-forward="false" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/SignInDao.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1494">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ehcache.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2130">
+          <caret line="16" column="32" lean-forward="false" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+          <folding />
+>>>>>>> GHH
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/model/Adminitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="-346">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
@@ -1069,12 +1597,24 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+=======
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/service/IAdminitorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+>>>>>>> GHH
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/service/IUserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
+<<<<<<< HEAD
           <caret line="13" column="35" lean-forward="false" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
           <folding />
         </state>
@@ -1100,18 +1640,43 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+=======
+          <caret line="13" column="49" lean-forward="false" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/service/ipml/AdminitorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1290">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="293" column="21" lean-forward="false" selection-start-line="293" selection-start-column="18" selection-end-line="293" selection-end-column="22" />
+>>>>>>> GHH
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/controller/NewsController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="118" column="21" lean-forward="false" selection-start-line="118" selection-start-column="21" selection-end-line="118" selection-end-column="21" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/controller/MySessionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+>>>>>>> GHH
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/controller/QuestionsController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -1190,44 +1755,401 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/controller/MySessionContext.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/controller/SessionListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="13" column="32" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/js/jquery-3.2.1.min.js">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/controller/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="124">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/controller/CheckPhoneController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-360">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/controller/CheckEmailController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SignInSystem.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-900">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.html">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/dao/IUserDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1080">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="150">
+          <caret line="6" column="45" lean-forward="false" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/model/Group.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/service/ipml/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="334">
+          <caret line="92" column="30" lean-forward="false" selection-start-line="92" selection-start-column="23" selection-end-line="92" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/model/Administrators.java">
+    <entry file="jar://E:/Maven/repository/mysql/mysql-connector-java/5.1.32/mysql-connector-java-5.1.32.jar!/com/mysql/jdbc/SQLError.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
-          <folding />
+        <state relative-caret-position="20">
+          <caret line="361" column="0" lean-forward="false" selection-start-line="361" selection-start-column="0" selection-end-line="361" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Maven/repository/com/mchange/c3p0/0.9.5.2/c3p0-0.9.5.2.jar!/com/mchange/v2/resourcepool/BasicResourcePool.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding>
+            <marker date="1517999344691" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1517999344691" expanded="false" signature="151:853" ph="..." />
+            <marker date="1517999344691" expanded="false" signature="3165:3176" ph=" { " />
+            <marker date="1517999344691" expanded="false" signature="3204:3210" ph=" }" />
+            <marker date="1517999344691" expanded="false" signature="3239:3250" ph=" { " />
+            <marker date="1517999344691" expanded="false" signature="3307:3313" ph=" }" />
+            <marker date="1517999344691" expanded="false" signature="3366:3377" ph=" { " />
+            <marker date="1517999344691" expanded="false" signature="3405:3411" ph=" }" />
+            <marker date="1517999344691" expanded="false" signature="3465:3476" ph=" { " />
+            <marker date="1517999344691" expanded="false" signature="3505:3511" ph=" }" />
+            <marker date="1517999344691" expanded="false" signature="3565:3576" ph=" { " />
+            <marker date="1517999344691" expanded="false" signature="3606:3612" ph=" }" />
+            <marker date="1517999344691" expanded="false" signature="3671:3682" ph=" { " />
+            <marker date="1517999344691" expanded="false" signature="3713:3719" ph=" }" />
+            <marker date="1517999344691" expanded="true" signature="3773:3899" ph="{...}" />
+            <marker date="1517999344691" expanded="false" signature="3959:3970" ph=" { " />
+            <marker date="1517999344691" expanded="false" signature="4002:4008" ph=" }" />
+            <marker date="1517999344691" expanded="true" signature="4063:4190" ph="{...}" />
+            <marker date="1517999344691" expanded="false" signature="4251:4262" ph=" { " />
+            <marker date="1517999344691" expanded="false" signature="4294:4300" ph=" }" />
+            <marker date="1517999344691" expanded="true" signature="4356:4483" ph="{...}" />
+            <marker date="1517999344691" expanded="false" signature="4547:4558" ph=" { " />
+            <marker date="1517999344691" expanded="false" signature="4594:4600" ph=" }" />
+            <marker date="1517999344691" expanded="false" signature="4663:4674" ph=" { " />
+            <marker date="1517999344691" expanded="false" signature="4710:4716" ph=" }" />
+            <marker date="1517999344691" expanded="false" signature="4786:4797" ph=" { " />
+            <marker date="1517999344691" expanded="false" signature="4830:4836" ph=" }" />
+            <marker date="1517999344691" expanded="false" signature="4889:4900" ph=" { " />
+            <marker date="1517999344691" expanded="false" signature="4934:4940" ph=" }" />
+            <marker date="1517999344691" expanded="false" signature="4997:5008" ph=" { " />
+            <marker date="1517999344691" expanded="false" signature="5037:5043" ph=" }" />
+            <marker date="1517999344691" expanded="false" signature="5099:5110" ph=" { " />
+            <marker date="1517999344691" expanded="false" signature="5138:5144" ph=" }" />
+            <marker date="1517999344691" expanded="false" signature="5208:5219" ph=" { " />
+            <marker date="1517999344691" expanded="false" signature="5253:5259" ph=" }" />
+            <marker date="1517999344691" expanded="true" signature="5330:5630" ph="{...}" />
+            <marker date="1517999344691" expanded="false" signature="5704:5715" ph=" { " />
+            <marker date="1517999344691" expanded="false" signature="5747:5753" ph=" }" />
+            <marker date="1517999344691" expanded="true" signature="5834:6130" ph="{...}" />
+            <marker date="1517999344691" expanded="false" signature="6182:6193" ph=" { " />
+            <marker date="1517999344691" expanded="false" signature="6238:6244" ph=" }" />
+            <marker date="1517999344691" expanded="false" signature="6295:6306" ph=" { " />
+            <marker date="1517999344691" expanded="false" signature="6358:6364" ph=" }" />
+            <marker date="1517999344691" expanded="true" signature="6937:11178" ph="{...}" />
+            <marker date="1517999344691" expanded="false" signature="11223:11234" ph=" { " />
+            <marker date="1517999344691" expanded="false" signature="11278:11284" ph=" }" />
+            <marker date="1517999344691" expanded="true" signature="11330:11483" ph="{...}" />
+            <marker date="1517999344691" expanded="true" signature="11522:12052" ph="{...}" />
+            <marker date="1517999344691" expanded="true" signature="12109:12274" ph="{...}" />
+            <marker date="1517999344691" expanded="false" signature="12332:12343" ph=" { " />
+            <marker date="1517999344691" expanded="false" signature="12384:12390" ph=" }" />
+            <marker date="1517999344691" expanded="false" signature="12435:12446" ph=" { " />
+            <marker date="1517999344691" expanded="false" signature="12465:12471" ph=" }" />
+            <marker date="1517999344691" expanded="false" signature="12509:12520" ph=" { " />
+            <marker date="1517999344691" expanded="false" signature="12556:12562" ph=" }" />
+            <marker date="1517999344691" expanded="true" signature="12652:13040" ph="{...}" />
+            <marker date="1517999344691" expanded="true" signature="13080:13613" ph="{...}" />
+            <marker date="1517999344691" expanded="true" signature="13672:13856" ph="{...}" />
+            <marker date="1517999344691" expanded="true" signature="13914:14095" ph="{...}" />
+            <marker date="1517999344691" expanded="false" signature="14153:14164" ph=" { " />
+            <marker date="1517999344691" expanded="false" signature="14197:14203" ph=" }" />
+            <marker date="1517999344691" expanded="true" signature="14250:14434" ph="{...}" />
+            <marker date="1517999344691" expanded="true" signature="14492:14673" ph="{...}" />
+            <marker date="1517999344691" expanded="false" signature="14724:14735" ph=" { " />
+            <marker date="1517999344691" expanded="false" signature="14761:14767" ph=" }" />
+            <marker date="1517999344691" expanded="true" signature="14808:15225" ph="{...}" />
+            <marker date="1517999344691" expanded="true" signature="15266:15443" ph="{...}" />
+            <marker date="1517999344691" expanded="true" signature="15563:17612" ph="{...}" />
+            <marker date="1517999344691" expanded="true" signature="17752:21707" ph="{...}" />
+            <marker date="1517999344691" expanded="true" signature="21783:23181" ph="{...}" />
+            <marker date="1517999344691" expanded="true" signature="23241:24260" ph="{...}" />
+            <marker date="1517999344691" expanded="true" signature="24345:24836" ph="{...}" />
+            <marker date="1517999344691" expanded="true" signature="24891:25394" ph="{...}" />
+            <marker date="1517999344691" expanded="false" signature="25427:25438" ph=" { " />
+            <marker date="1517999344691" expanded="false" signature="25454:25460" ph=" }" />
+            <marker date="1517999344691" expanded="false" signature="25493:25504" ph=" { " />
+            <marker date="1517999344691" expanded="false" signature="25520:25526" ph=" }" />
+            <marker date="1517999344691" expanded="true" signature="25599:25642" ph="{...}" />
+            <marker date="1517999344691" expanded="false" signature="25691:25702" ph=" { " />
+            <marker date="1517999344691" expanded="false" signature="25728:25734" ph=" }" />
+            <marker date="1517999344691" expanded="false" signature="25782:25793" ph=" { " />
+            <marker date="1517999344691" expanded="false" signature="25821:25827" ph=" }" />
+            <marker date="1517999344691" expanded="true" signature="25883:25970" ph="{...}" />
+            <marker date="1517999344691" expanded="false" signature="26036:26047" ph=" { " />
+            <marker date="1517999344691" expanded="false" signature="26095:26101" ph=" }" />
+            <marker date="1517999344691" expanded="true" signature="26144:26623" ph="{...}" />
+            <marker date="1517999344691" expanded="true" signature="26691:26724" ph="{...}" />
+            <marker date="1517999344691" expanded="true" signature="26770:26842" ph="{...}" />
+            <marker date="1517999344691" expanded="true" signature="26910:27220" ph="{...}" />
+            <marker date="1517999344691" expanded="true" signature="27291:27604" ph="{...}" />
+            <marker date="1517999344691" expanded="false" signature="27667:27678" ph=" { " />
+            <marker date="1517999344691" expanded="false" signature="27710:27716" ph=" }" />
+            <marker date="1517999344691" expanded="true" signature="27796:28465" ph="{...}" />
+            <marker date="1517999344691" expanded="true" signature="28515:28744" ph="{...}" />
+            <marker date="1517999344691" expanded="false" signature="28781:28792" ph=" { " />
+            <marker date="1517999344691" expanded="false" signature="28848:28854" ph=" }" />
+            <marker date="1517999344691" expanded="true" signature="29004:29351" ph="{...}" />
+            <marker date="1517999344691" expanded="false" signature="29067:29119" ph="run() → {" />
+            <marker date="1517999344691" expanded="false" signature="29264:29283" ph="}" />
+            <marker date="1517999344691" expanded="true" signature="29502:29850" ph="{...}" />
+            <marker date="1517999344691" expanded="false" signature="29565:29617" ph="run() → {" />
+            <marker date="1517999344691" expanded="false" signature="29763:29782" ph="}" />
+            <marker date="1517999344691" expanded="true" signature="30002:30351" ph="{...}" />
+            <marker date="1517999344691" expanded="false" signature="30065:30117" ph="run() → {" />
+            <marker date="1517999344691" expanded="false" signature="30264:30283" ph="}" />
+            <marker date="1517999344691" expanded="true" signature="30536:30904" ph="{...}" />
+            <marker date="1517999344691" expanded="false" signature="30599:30651" ph="run() → {" />
+            <marker date="1517999344691" expanded="false" signature="30817:30836" ph="}" />
+            <marker date="1517999344691" expanded="false" signature="30951:30962" ph=" { " />
+            <marker date="1517999344691" expanded="false" signature="30996:31002" ph=" }" />
+            <marker date="1517999344691" expanded="false" signature="31070:31081" ph=" { " />
+            <marker date="1517999344691" expanded="false" signature="31128:31134" ph=" }" />
+            <marker date="1517999344691" expanded="true" signature="31236:33291" ph="{...}" />
+            <marker date="1517999344691" expanded="true" signature="31292:32204" ph="{...}" />
+            <marker date="1517999344691" expanded="true" signature="31328:31343" ph="{}" />
+            <marker date="1517999344691" expanded="true" signature="31375:32194" ph="{...}" />
+            <marker date="1517999344691" expanded="true" signature="33339:33373" ph="{...}" />
+            <marker date="1517999344691" expanded="true" signature="33467:33501" ph="{...}" />
+            <marker date="1517999344691" expanded="true" signature="33592:33626" ph="{...}" />
+            <marker date="1517999344691" expanded="true" signature="33694:34933" ph="{...}" />
+            <marker date="1517999344691" expanded="true" signature="35013:35480" ph="{...}" />
+            <marker date="1517999344691" expanded="true" signature="35537:35950" ph="{...}" />
+            <marker date="1517999344691" expanded="true" signature="36013:36346" ph="{...}" />
+            <marker date="1517999344691" expanded="true" signature="36390:36586" ph="{...}" />
+            <marker date="1517999344691" expanded="true" signature="36660:38785" ph="{...}" />
+            <marker date="1517999344691" expanded="true" signature="37479:38195" ph="{...}" />
+            <marker date="1517999344691" expanded="true" signature="37515:38181" ph="{...}" />
+            <marker date="1517999344691" expanded="true" signature="38869:41244" ph="{...}" />
+            <marker date="1517999344691" expanded="true" signature="39328:40996" ph="{...}" />
+            <marker date="1517999344691" expanded="true" signature="39377:39396" ph="{}" />
+            <marker date="1517999344691" expanded="true" signature="39432:40982" ph="{...}" />
+            <marker date="1517999344691" expanded="true" signature="41294:41413" ph="{...}" />
+            <marker date="1517999344691" expanded="true" signature="41530:43238" ph="{...}" />
+            <marker date="1517999344691" expanded="true" signature="43306:43707" ph="{...}" />
+            <marker date="1517999344691" expanded="true" signature="43763:44594" ph="{...}" />
+            <marker date="1517999344691" expanded="false" signature="44640:44651" ph=" { " />
+            <marker date="1517999344691" expanded="false" signature="44684:44690" ph=" }" />
+            <marker date="1517999344691" expanded="true" signature="44758:45924" ph="{...}" />
+            <marker date="1517999344691" expanded="true" signature="45972:46570" ph="{...}" />
+            <marker date="1517999344691" expanded="true" signature="46615:46940" ph="{...}" />
+            <marker date="1517999344691" expanded="true" signature="46973:48013" ph="{...}" />
+            <marker date="1517999344691" expanded="true" signature="48053:48444" ph="{...}" />
+            <marker date="1517999344691" expanded="true" signature="48492:50756" ph="{...}" />
+            <marker date="1517999344691" expanded="false" signature="50797:50808" ph=" { " />
+            <marker date="1517999344691" expanded="false" signature="50833:50839" ph=" }" />
+            <marker date="1517999344691" expanded="false" signature="50878:50889" ph=" { " />
+            <marker date="1517999344691" expanded="false" signature="50914:50920" ph=" }" />
+            <marker date="1517999344691" expanded="true" signature="50990:51556" ph="{...}" />
+            <marker date="1517999344691" expanded="true" signature="51625:52186" ph="{...}" />
+            <marker date="1517999344691" expanded="true" signature="52252:52434" ph="{...}" />
+            <marker date="1517999344691" expanded="false" signature="52477:52488" ph=" { " />
+            <marker date="1517999344691" expanded="false" signature="52501:52507" ph=" }" />
+            <marker date="1517999344691" expanded="true" signature="52534:52936" ph="{...}" />
+            <marker date="1517999344691" expanded="true" signature="52981:53074" ph="{...}" />
+            <marker date="1517999344691" expanded="true" signature="53121:53216" ph="{...}" />
+            <marker date="1517999344691" expanded="true" signature="53262:53356" ph="{...}" />
+            <marker date="1517999344691" expanded="true" signature="53369:53945" ph="{...}" />
+            <marker date="1517999344691" expanded="true" signature="53980:54338" ph="{...}" />
+            <marker date="1517999344691" expanded="true" signature="54170:54332" ph="{...}" />
+            <marker date="1517999344691" expanded="true" signature="54396:56389" ph="{...}" />
+            <marker date="1517999344691" expanded="false" signature="54522:54537" ph=" { " />
+            <marker date="1517999344691" expanded="false" signature="54554:54564" ph=" }" />
+            <marker date="1517999344691" expanded="true" signature="54592:56383" ph="{...}" />
+            <marker date="1517999344691" expanded="true" signature="56442:57319" ph="{...}" />
+            <marker date="1517999344691" expanded="true" signature="56477:56488" ph="{}" />
+            <marker date="1517999344691" expanded="true" signature="56516:57313" ph="{...}" />
+            <marker date="1517999344691" expanded="true" signature="57358:58217" ph="{...}" />
+            <marker date="1517999344691" expanded="true" signature="57379:57390" ph="{}" />
+            <marker date="1517999344691" expanded="true" signature="57418:58211" ph="{...}" />
+            <marker date="1517999344691" expanded="true" signature="58260:58668" ph="{...}" />
+            <marker date="1517999344691" expanded="false" signature="58289:58304" ph=" { " />
+            <marker date="1517999344691" expanded="false" signature="58353:58363" ph=" }" />
+            <marker date="1517999344691" expanded="true" signature="58391:58662" ph="{...}" />
+            <marker date="1517999344691" expanded="true" signature="58712:63004" ph="{...}" />
+            <marker date="1517999344691" expanded="false" signature="58776:58791" ph=" { " />
+            <marker date="1517999344691" expanded="false" signature="58841:58851" ph=" }" />
+            <marker date="1517999344691" expanded="true" signature="58879:62611" ph="{...}" />
+            <marker date="1517999344691" expanded="true" signature="62664:62804" ph="{...}" />
+            <marker date="1517999344691" expanded="true" signature="62865:62998" ph="{...}" />
+            <marker date="1517999344691" expanded="true" signature="63057:68639" ph="{...}" />
+            <marker date="1517999344691" expanded="true" signature="63123:63251" ph="{...}" />
+            <marker date="1517999344691" expanded="true" signature="63337:64102" ph="{...}" />
+            <marker date="1517999344691" expanded="true" signature="64130:68633" ph="{...}" />
+            <marker date="1517999344691" expanded="false" signature="68012:68073" ph="run() → {" />
+            <marker date="1517999344691" expanded="false" signature="68282:68309" ph="}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserDao.xml">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="13" column="53" lean-forward="false" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="53" />
+          <folding>
+            <marker date="1518090653174" expanded="true" signature="343:394" ph="select * fro... Users" />
+            <marker date="1518090653174" expanded="true" signature="1198:1332" ph="insert into Users... " />
+            <marker date="1518090653174" expanded="true" signature="1615:1670" ph="select user_... Users" />
+            <marker date="1518090653174" expanded="true" signature="1777:1834" ph="select user_... Users" />
+            <marker date="1518090653174" expanded="true" signature="1942:2069" ph="insert into Users... " />
+            <marker date="1518090653174" expanded="true" signature="2183:2240" ph="select user_... Users" />
+            <marker date="1518090653174" expanded="true" signature="2354:2414" ph="select user_... Users" />
+            <marker date="1518090653174" expanded="true" signature="2523:2574" ph="select * fro... Users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/PasswordDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <marker date="1518054503878" expanded="true" signature="1002:1066" ph="insert into User_Password... " />
+            <marker date="1518054503878" expanded="true" signature="1168:1226" ph="select user_... User_Password" />
+            <marker date="1518054503878" expanded="true" signature="1331:1399" ph="UPDATE User_Password... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/model/Users.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3000">
+          <caret line="101" column="18" lean-forward="false" selection-start-line="101" selection-start-column="18" selection-end-line="101" selection-end-column="18" />
+          <folding>
+            <element signature="e#891#892#0" expanded="true" />
+            <element signature="e#920#921#0" expanded="true" />
+            <element signature="e#961#962#0" expanded="true" />
+            <element signature="e#997#998#0" expanded="true" />
+            <element signature="e#1032#1033#0" expanded="true" />
+            <element signature="e#1063#1064#0" expanded="true" />
+            <element signature="e#1111#1112#0" expanded="true" />
+            <element signature="e#1151#1152#0" expanded="true" />
+            <element signature="e#1187#1188#0" expanded="true" />
+            <element signature="e#1219#1220#0" expanded="true" />
+            <element signature="e#1269#1270#0" expanded="true" />
+            <element signature="e#1311#1312#0" expanded="true" />
+            <element signature="e#1344#1345#0" expanded="true" />
+            <element signature="e#1373#1374#0" expanded="true" />
+            <element signature="e#1417#1418#0" expanded="true" />
+            <element signature="e#1453#1454#0" expanded="true" />
+            <element signature="e#1489#1490#0" expanded="true" />
+            <element signature="e#1521#1522#0" expanded="true" />
+            <element signature="e#1571#1572#0" expanded="true" />
+            <element signature="e#1613#1614#0" expanded="true" />
+            <element signature="e#1650#1651#0" expanded="true" />
+            <element signature="e#1685#1686#0" expanded="true" />
+            <element signature="e#1739#1740#0" expanded="true" />
+            <element signature="e#1787#1788#0" expanded="true" />
+            <element signature="e#1818#1819#0" expanded="true" />
+            <element signature="e#1848#1849#0" expanded="true" />
+            <element signature="e#1891#1892#0" expanded="true" />
+            <element signature="e#1929#1930#0" expanded="true" />
+            <element signature="e#1965#1966#0" expanded="true" />
+            <element signature="e#1997#1998#0" expanded="true" />
+            <element signature="e#2047#2048#0" expanded="true" />
+            <element signature="e#2089#2090#0" expanded="true" />
+            <element signature="e#2123#2124#0" expanded="true" />
+            <element signature="e#2153#2154#0" expanded="true" />
+            <element signature="e#2199#2200#0" expanded="true" />
+            <element signature="e#2237#2238#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/controller/CenterController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1110">
+          <caret line="48" column="5" lean-forward="false" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+>>>>>>> GHH
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/js/jquery-3.2.1.min.js">
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/controller/JsonpController.java">
+>>>>>>> GHH
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="19" column="62" lean-forward="false" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1080">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="6" column="18" lean-forward="false" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+>>>>>>> GHH
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/model/Group.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> GHH
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/model/Administrators.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/controller/CodeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="73" column="5" lean-forward="false" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
+>>>>>>> GHH
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/AdminitorDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="-150">
           <caret line="10" column="34" lean-forward="false" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
           <folding>
@@ -1239,10 +2161,19 @@
             <marker date="1518059711641" expanded="true" signature="2102:2229" ph="insert into Users... " />
             <marker date="1518059711641" expanded="true" signature="2343:2400" ph="select user_... Users" />
             <marker date="1518059711641" expanded="true" signature="2514:2574" ph="select user_... Users" />
+=======
+        <state relative-caret-position="480">
+          <caret line="28" column="74" lean-forward="false" selection-start-line="28" selection-start-column="61" selection-end-line="28" selection-end-column="74" />
+          <folding>
+            <marker date="1518095793135" expanded="true" signature="874:927" ph="select * fro... Users" />
+            <marker date="1518095793135" expanded="true" signature="995:1014" ph="select * fro... Users" />
+            <marker date="1518095793135" expanded="true" signature="1089:1156" ph="update Users... " />
+>>>>>>> GHH
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/dao/IAdministratorDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1265,10 +2196,31 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/GroupDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="6" column="34" lean-forward="false" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="34" />
+          <folding>
+            <marker date="1517904998436" expanded="true" signature="531:609" ph="update Groups " />
+            <marker date="1517904998436" expanded="true" signature="1124:1204" ph="insert into Groups... " />
+            <marker date="1517904998436" expanded="true" signature="1264:1284" ph="select * fro... Groups" />
+            <marker date="1517904998436" expanded="true" signature="1346:1379" ph="select group... Groups" />
+            <marker date="1517904998436" expanded="true" signature="1464:1522" ph="select * fro... groups" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/dao/IAdminitorDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+>>>>>>> GHH
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/service/ipml/AdministratorService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -1412,10 +2364,75 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="17" column="54" lean-forward="false" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/model/Group.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="29" />
+>>>>>>> GHH
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/dao/IGroupDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="14" column="52" lean-forward="false" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/controller/AdminitorController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="65" column="17" lean-forward="false" selection-start-line="65" selection-start-column="17" selection-end-line="65" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="ideajad">
+    <property name="annotate" value="false" />
+    <property name="annotateFully" value="false" />
+    <property name="braces" value="false" />
+    <property name="clear" value="false" />
+    <property name="confirmNavigationTriggeredDecompile" value="true" />
+    <property name="dead" value="true" />
+    <property name="defaultInitializers" value="false" />
+    <property name="dissassemblerOnly" value="false" />
+    <property name="fieldsFirst" value="true" />
+    <property name="fileExtension" value="java" />
+    <property name="fullyQualifiedNames" value="false" />
+    <property name="indentation" value="4" />
+    <property name="intRadix" value="10" />
+    <property name="lineNumbersAsComments" value="true" />
+    <property name="longRadix" value="10" />
+    <property name="maxStringLength" value="64" />
+    <property name="nocast" value="false" />
+    <property name="noclass" value="false" />
+    <property name="nocode" value="false" />
+    <property name="noconv" value="false" />
+    <property name="noctor" value="false" />
+    <property name="nodos" value="false" />
+    <property name="nofd" value="false" />
+    <property name="noinner" value="false" />
+    <property name="nolvt" value="false" />
+    <property name="nonlb" value="false" />
+    <property name="outputDirectory" value="" />
+    <property name="packFields" value="3" />
+    <property name="packImports" value="7" />
+    <property name="prefixNumericalClasses" value="_cls" />
+    <property name="prefixNumericalFields" value="_fld" />
+    <property name="prefixNumericalLocals" value="_lcl" />
+    <property name="prefixNumericalMethods" value="_mth" />
+    <property name="prefixNumericalParameters" value="_prm" />
+    <property name="prefixUnusedExceptions" value="_ex" />
+    <property name="readonly" value="false" />
+    <property name="safe" value="false" />
+    <property name="sort" value="false" />
+    <property name="spaceAfterKeyword" value="false" />
+    <property name="splitStringsAtNewline" value="false" />
+    <property name="useTabs" value="false" />
   </component>
   <component name="masterDetails">
     <states>
@@ -1470,7 +2487,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>signinsystem</last-edited>
+          <last-edited>Web|signinsystem</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

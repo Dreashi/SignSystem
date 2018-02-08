@@ -54,4 +54,7 @@
             select user_email from Users where user_phone = #{userPhone}
         </select>
 
+    <select id="loadUserPhone" parameterType="String" resultMap="resultusermap">
+        select * from Users   where user_phone=#{userPhone}
+    </select>
 </mapper>
