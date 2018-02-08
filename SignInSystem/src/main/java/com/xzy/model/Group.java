@@ -49,4 +49,6 @@ public class Group implements Serializable {
                 ", groupLeaderId=" + groupLeaderId +
                 '}';
     }
+
+
 }
