@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xyz.dao.IQuestionsDao">
+    <select id="selectRandomQuestion" resultMap="QuestionsMap">
+        SELECT * FROM Questions WHERE questions_id >= (
+        (SELECT MAX(questions_id) FROM Questions)-(SELECT MIN(questions_id)
+        FROM Questions)) * RAND() + (SELECT MIN(questions_id) FROM Questions) LIMIT 1
+    </select>
+
+    <resultMap id="QuestionsMap" type="com.xzy.model.Questions">
+        <id column="questions_id" property="questionId"></id>
+        <result column="questions_content" property="questionContent"></result>
+        <result column="questions_option" property="questionOption"></result>
+        <result column="questions_answer" property="questionAnswer"></result>
+    </resultMap>
+</mapper>
