@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xzy.dao.IMessageOperateDao">
+    <insert id="saveMessageOperate" parameterType="messageOperate">
+        insert into Message_Operate values(DEFAULT ,#{userId},#{messageId});
+    </insert>
+    <select id="loadByUserId" parameterType="int" resultMap="messageOperate">
+        select * from Message_Operate where user_id = #{userId}
+    </select>
+    <resultMap id="messageOperate" type="com.xzy.model.MessageOperate">
+        <id column="operate_id" property="operateId"></id>
+        <result column="user_id" property="userId"></result>
+        <result column="message_id" property="messageId"></result>
+    </resultMap>
+</mapper>

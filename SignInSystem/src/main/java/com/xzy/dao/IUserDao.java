@@ -12,4 +12,5 @@ public interface IUserDao {
   public void insertRegister(Register register);
   public int selectRegisterPhone(String userPhone);
   public int selectRegisterEmail(String useremail);
+  public Users selectUserByUserId(int userId);
 }

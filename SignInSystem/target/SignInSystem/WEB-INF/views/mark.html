@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script>
+        $(function () {
+                $.post("/loadAllNewsByMark.do",function (data) {
+                    var json=eval(data);
+                    var tab=$("<table>");
+                    for(var i=0;i<json.length;i++){
+                        var tr=$("<tr>");
+                        for(var j=0;j<5;j++){
+                            var td=$("<td>");
+                            switch(j){
+                                case 0:
+                                    var hid = $("<input type='hidden'>");
+                                    hid.attr("value",json[i].newsId);
+                                    td.append(hid);
+                                    break;
+                                case 1:
+                                    var img =$("<img >");
+                                    img.attr("src",json[i].newsKeyImg);
+                                    td.append(img);
+                                    break;
+                                case 2:
+                                    var a=$("<a>");
+                                    a.text(json[i].newsKeyWord);
+                                    a.attr("href",json[i].newsHref);
+                                    td.append(a);
+                                    break;
+
+                                case 3:
+                                    var sup=$("<button name='support'>");
+                                    sup.text("赞");
+                                    sup.attr("value",json[i].newsId);
+                                    sup.click(function(){
+                                        var tr = this.parentElement;
+                                        var newsId = tr.firstChild.value;
+
+                                        $.post("/updateSupport.do",{flag:1,newsId:newsId,userId:2},function(data){
+                                            if(data){
+                                                tr.firstChild.innerHTML=data;
+                                            }
+                                        });
+                                    });
+                                    td.append(sup);
+                                    break;
+                                case 4:
+                                    var dissup=$("<button name='support'>");
+                                    dissup.text("踩");
+                                    dissup.attr("value",json[i].newsId);
+                                    dissup.click(function(){
+                                        var tr = this.parentElement;
+                                        var newsId = tr.firstChild.value;
+                                        $.post("/updateSupport.do",{flag:0,newsId:newsId,userId:2},function(data){
+                                            if(data){
+                                                tr.firstChild.innerHTML=data;
+                                            }
+                                        });
+                                    });
+                                    td.append(dissup);
+                                    break;
+                            }
+                            tr.append(td);
+                        }
+                        tab.append(tr);
+                    }
+                    $("#markShow").append(tab);
+
+                });
+        });
+
+    </script>
+</head>
+<body>
+        <div align="center">
+            <h1 id="M">特色页面</h1>
+        </div>
+        <div id="markShow" style="margin: auto;width: 600px">
+
+        </div>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>发消息</title>
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script >
+        $(function () {
+            $("#submit").click(function () {
+                var userImage = $("#userImage").val();
+                var messageTitle= $("#messageTitle").val();
+                var messageContent=$("#messageContent").val();
+                var userId = $("#userId").val();
+                $.post("/saveMessage.do",{"userImage":userImage,"messageTitle":messageTitle,"messageContent":messageContent,"userId":userId},function (data) {
+                        var b = eval(data);
+                        alert(b);
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+        <div align="center">
+                发送人头像:<input type="text" id="userImage"/><br/>
+                消息标题:<input type="text" id="messageTitle"/><br/>
+                消息内容:<input type="text" id="messageContent"/><br/>
+                消息发送人:<input type="text" id="userId" /><br/>
+                <input id="submit" type="button" value="保存">
+                <input type="reset" value="取消">
+
+        </div>
+</body>
+</html>

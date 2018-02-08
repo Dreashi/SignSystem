@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xzy.dao.INewsSupportDao">
+    <select id="loadByUserIdAndNewsId" parameterType="newsSupport" resultMap="newsSupport">
+        select * from News_Support where user_id=#{userId} and news_id=#{newsId};
+    </select>
+
+    <select id="loadByUserId" parameterType="int" resultMap="newsSupport">
+        select * from News_Support where user_id=#{userId}
+    </select>
+    <insert id="saveNewsSupport" parameterType="newsSupport">
+        insert into News_Support VALUES(#{userId},#{newsId},#{newsOperate});
+    </insert>
+
+    <insert id="saveNewsDissupport" parameterType="newsSupport">
+        insert into News_Support VALUES (#{userId},#{newsId},#{newsOperate})
+    </insert>
+
+    <resultMap id="newsSupport" type="com.xzy.model.NewsSupport">
+        <result column="user_id" property="userId"></result>
+        <result column="news_id" property="newsId"></result>
+        <result column="news_operate" property="newsOperate"></result>
+    </resultMap>
+</mapper>

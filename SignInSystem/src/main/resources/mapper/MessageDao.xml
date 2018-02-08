@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xzy.dao.IMessageDao">
+    <select id="loadByMessageId" parameterType="int" resultMap="message">
+        select * from Messages
+            where message_id = #{messageId}
+    </select>
+
+
+    <select id="loadByUserId" parameterType="int" resultMap="message">
+        select * from Messages
+            where user_id=#{userId}
+                order by message_id ASC;
+    </select>
+
+    <insert id="saveMessage" parameterType="message">
+        insert into Messages
+              values(DEFAULT ,DEFAULT ,#{messageTitle},#{messageContent},#{userId},#{userImage},#{userPosition})
+    </insert>
+
+    <delete id="deleteMessage" parameterType="message">
+        delete from Messages
+              where message_id=#{messageId} and user_id=#{userId}
+    </delete>
+
+
+    <resultMap type="com.xzy.model.Message" id="message">
+        <id column="message_id" property="messageId"></id>
+        <result column="message_datetime" property="messageDateTime"></result>
+        <result column="message_title" property="messageTitle"></result>
+        <result column="message_content" property="messageContent"></result>
+        <result column="user_id" property="userId"></result>
+        <result column="user_Image" property="userImage"></result>
+        <result column="user_position" property="userPosition"></result>
+    </resultMap>
+</mapper>

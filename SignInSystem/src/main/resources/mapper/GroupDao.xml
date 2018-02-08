@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xzy.dao.IGroupDao">
+    <select id="loadByGroupId"  parameterType="int" resultMap="group">
+        select * from Groups
+            where group_id=#{groupId}
+    </select>
+
+    <select id="loadByGroupLeaderId" parameterType="int" resultMap="group">
+        select * from Groups
+            where groupleader_id=#{groupLeaderId}
+    </select>
+
+    <resultMap id="group" type="com.xzy.model.Group">
+        <id column="group_id" property="groupId"></id>
+        <result column="group_name" property="groupName"></result>
+        <result column="group_direct" property="groupDirect"></result>
+        <result column="groupleader_id" property="groupLeaderId"></result>
+    </resultMap>
+</mapper>

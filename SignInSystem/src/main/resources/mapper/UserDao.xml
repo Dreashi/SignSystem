@@ -7,6 +7,11 @@
         <select id="selectUser" resultMap="resultusermap" parameterType="String">
             select * from Users where user_phone = #{userPhone}
         </select>
+
+    <select id="selectUserByUserId" resultMap="resultusermap" parameterType="int">
+        select * from Users
+        where user_id = #{userId}
+    </select>
         <resultMap id="resultusermap" type="com.xzy.model.Users">
             <id column="user_id" property="userId"></id>
             <result column="user_name" property="userName"></result>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xzy.dao.INewsDao">
+
+    <insert id="saveNews" parameterType="list" >
+          insert into News values
+          <foreach collection="list" item="news" separator="," >
+              (DEFAULT ,DEFAULT ,DEFAULT ,#{news.newsMark},#{news.newsKeyWord},#{news.newsKeyImg},#{news.newsHref},#{news.newsFileName},DEFAULT ,DEFAULT )
+          </foreach>
+    </insert>
+
+    <select id="loadNews" parameterType="int" resultMap="News">
+      select * from News
+          where news_id=#{newsId};
+    </select>
+
+    <select id="loadNewsNumber" resultType="int">
+        select count(*) from News;
+    </select>
+
+    <select id="loadNewsNumberByMark" parameterType="String" resultType="int">
+        select count(*) from News where news_mark=#{newsMark};
+    </select>
+    <select id="loadAllNewsOrderTime" parameterType="int" resultMap="News">
+        SELECT * FROM News
+                order by news_datetime DESC
+                    limit #{currentPage},10;
+    </select>
+
+    <select id="loadAllNewsOrderHeat" parameterType="int" resultMap="News">
+        SELECT * FROM News
+		        ORDER BY (news_watchnums*0.6+news_supports*0.3+news_dissuport*0.1)*1000/(NOW()-news_datetime+2)^1.2 DESC
+		            limit #{currentPage},10;
+    </select>
+
+    <select id="loadAllNewsByMark"  resultMap="News">
+        select * from News
+            where news_mark = #{newsMark}
+                limit #{currentPage},10;
+    </select>
+    <update id="updateNewsSupport"  parameterType="int">
+        update News set news_supports=news_supports+1
+            where news_id=#{newsId};
+    </update>
+
+    <update id="updateNewsDissupport"  parameterType="int">
+        update News set news_dissuport=news_dissuport+1
+            where news_id=#{newsId};
+    </update>
+
+    <delete id="deleteAllOldNews">
+        DELETE from News;
+    </delete>
+
+    <resultMap id="News" type="com.xzy.model.News">
+        <id column="news_id" property="newsId"/>
+        <result column="news_filename" property="newsFileName"/>
+        <result column="news_datetime" property="newsDateTime"/>
+        <result column="news_mark" property="newsMark"/>
+        <result column="news_href" property="newsHref"></result>
+        <result column="news_keyimg" property="newsKeyImg"></result>
+        <result column="news_keyword" property="newsKeyWord"></result>
+        <result column="news_watchnums" property="newsWatchNums"/>
+        <result column="news_supports" property="newsSupports"/>
+        <result column="news_dissuport" property="newsDissupports"/>
+    </resultMap>
+
+</mapper>

@@ -87,4 +87,9 @@ public class UserServiceImpl implements IUserService {
         return i;
     }
 
+    @Override
+    public Users selectUserByUserId(int userId) {
+        return  this.userDao.selectUserByUserId(userId);
+    }
+
 }

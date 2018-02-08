@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>消息</title>
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script>
+        $(function(){
+            $("#sub").click(function () {
+                var userId = $("#uid").val();
+                $.post("/messageShow.do",{"userId":userId},function (data) {
+                    var json=eval(data);
+                    for(var i=0;i<json.length;i++){
+                        var tr=$("<tr>");
+                        for(var j=0;j<8;j++){
+                            var td=$("<td >");
+                            switch(j){
+                                case 0:
+                                    td.text(json[i].userImage);
+                                    break;
+                                case 1:
+                                    td.text(json[i].messageId);
+                                    break;
+                                case 2:
+                                    td.text(json[i].messageDateTime);
+                                    break;
+                                case 3:
+                                    td.text(json[i].messageTitle);
+                                    break;
+                                case 4:
+                                    td.text(json[i].messageContent);
+                                    break;
+                                case 5:
+                                    td.text(json[i].userId);
+                                    break;
+                                case 6:
+                                    td.text(json[i].userPosition);
+                                    break;
+                                case 7:
+                                    td.text(json[i].messageStatus);
+                            }
+                            tr.append(td);
+                        }
+                        $("#messageShow").append(tr);
+                    }
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+    <div align="center">
+    用户Id:<input id="uid" type="text" name="userId"><br/>
+        <input id="sub" type="button" value="提交">
+        <input type="reset" value="取消">
+    </div>
+    <div  style="align:center;margin: auto;width: 1000px" >
+        <table id="messageShow" >
+            <th>
+                <td >发送人头像</td>
+                <td >消息Id</td>
+                <td >消息时间</td>
+                <td >消息标题</td>
+                <td >消息内容</td>
+                <td >消息发送人Id</td>
+                <td>发送人职位</td>
+                <td>消息状态</td>
+            </th>
+        </table>
+    </div>
+</body>
+</html>
