@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.xzy.dao.IPostDao">
+    <resultMap id="postResult" type="post">
+        <id column="post_id" property="postId"/>
+        <result column="post_datetime" property="postDatetime"/>
+        <result column="post_supports" property="postSupports"/>
+        <result column="post_comments" property="postComments"/>
+        <result column="post_content_file" property="postContentFile"/>
+        <association property="postOwner" javaType="users">
+            <id column="user_id" property="userId"/>
+            <result column="user_name" property="userName"/>
+            <result column="user_image" property="userImage"/>
+        </association>
+    </resultMap>
+	
+	
+	<!-- 发送帖子 -->
+   <insert id="sendPost" parameterType="post">
+       insert into Posts values(default,#{postOwner.userId},#{postOwner.userName},#{postOwner.userImage},
+       default,default,default,#{postContentFile})
+   </insert>
+	
+	<!-- 按时间顺序加载帖子 -->
+    <select id="loadAllPostByTime" resultMap="postResult">
+        select * from Posts order By post_id DESC
+    </select>
+    
+    <!-- 按热度顺序加载帖子 -->
+    <select id="loadAllPostByHeat" resultMap="postResult">
+        select * from Posts order by  (post_supports*0.7+post_comments*0.3)*1000/(now()-post_datetime+2)^1.2 DESC
+    </select>
+    
+    <!-- 加载当前用户的所有帖子 -->
+    <select id="loadPostById" parameterType="int" resultMap="postResult">
+    	select * from Posts where user_id=#{userId} order by post_id DESC 
+    </select>
+    
+    <!-- 删除帖子 -->
+    <delete id="deletePost" parameterType="int">
+    	delete from xzy.Posts where post_id=#{postId}
+    </delete>
+    
+    <!-- 增加评论数 -->
+    <update id="addCommentCount" parameterType="int">
+    	update Posts set post_comments=post_comments+1 where post_id=#{postId}
+    </update>
+    
+    <!-- 加载点赞数 -->
+    <select id="loadSupportCount" parameterType="int" resultType="int">
+    	select post_supports from Posts where post_id=#{postId}
+    </select>
+    
+    <!-- 点赞 -->
+    <update id="addSupportCount" parameterType="int">
+    	update Posts set post_supports=post_supports+1 where post_id=#{postId}
+    </update>
+    
+    <!-- 取消赞 -->
+    <update id="subSupportCount" parameterType="int">
+    	update Posts set post_supports=post_supports-1 where post_id=#{postId}
+    </update>
+
+    <!-- 按页加载帖子 -->
+    <select id="loadPostPage" resultMap="postResult">
+        select * from Posts order By post_id DESC limit #{page},10
+    </select>
+
+    <select id="loadByPostId" resultMap="postResult">
+        select * from Posts where post_id = #{postId}
+    </select>
+</mapper>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+        
+<mapper namespace="com.xzy.dao.ICommentDao">
+	<resultMap type="comment" id="commentResult">
+		<id column="Comment_id" property="commentId"/>
+		<result column="post_id" property="postId"/>
+		<result column="parent_comment_Id" property="parentCommentId"/>
+		<result column="comment_supports" property="commentSupports"/>
+		<result column="comment_counts" property="commentCounts"/>
+		<result column="comment_datetime" property="commentDatetime"/>
+		<result column="comment_content_file" property="commentContentFile"/>		
+		<association property="commentOwner" javaType="users">
+			<id column="user_id" property="userId"/>
+			<result column="user_name" property="userName"/>
+		</association>
+	</resultMap>
+	
+	<!-- 发送评论 -->
+	<insert id="sendCommentToPost" parameterType="comment">
+		insert into Comments values(default,#{commentOwner.userId},#{commentOwner.userName},
+		  #{postId},0,default,default,default,#{commentContentFile})
+	</insert>
+
+	<!-- 发送回复 -->
+	<insert id="sendCommentToComment" parameterType="comment">
+		insert into Comments values(default,#{commentOwner.userId},#{commentOwner.userName},
+		0,#{parentCommentId},default,default,default,#{commentContentFile})
+	</insert>
+
+	<!-- 点赞 -->
+	<update id="addSupportCount" parameterType="int">
+		update Comments set comment_supports=comment_supports+1 where comment_id=#{commentId}
+	</update>
+
+	<!-- 取消赞 -->
+	<update id="subSupportCount" parameterType="int">
+		update Comments set comment_supports=comment_supports-1 where comment_id=#{commentId}
+	</update>
+
+	
+	<!-- 增加回复的数量 -->
+	<update id="addCommentCount" parameterType="int">
+		update Comments set comment_counts=comment_counts+1 where comment_id=#{commentId}
+	</update>
+
+	<!-- 通过评论id删除帖子的所有评论 -->
+	<delete id="deleteCommentsById" parameterType="list">
+		delete from Comments where comment_id in 
+		<foreach collection="list" item="commentIdList" open="(" close=")" separator=",">
+			#{commentIdList}
+		</foreach>
+	</delete>
+
+	<!-- 通过父评论id删除评论的所有回复 -->
+	<delete id="deleteCommentByParentCommentId" parameterType="list">
+		delete from Comments where parent_comment_id in
+		<foreach collection="list" item="parentList" open="(" close=")" separator=",">
+			#{parentList}
+		</foreach>
+	</delete>
+
+<!-- 加载帖子的所有评论 -->
+	<select id="loadCommentsByPostId" parameterType="int" resultMap="commentResult">
+		select * from Comments where post_id=#{postId} order by (comment_supports*0.7+comment_counts*0.3)*1000/(now()-comment_datetime+2)^1.2 desc
+	</select>
+
+	<!-- 加载评论的所有回复 -->
+	<select id="loadCommentsByParentCommentId" parameterType="int" resultMap="commentResult">
+		select * from Comments where parent_comment_id=#{parentCommentId}
+	</select>
+
+	<!-- 通过id加载评论 -->
+	<select id="loadCommentByCommentId" parameterType="int" resultMap="commentResult">
+		select * from Comments where comment_id=#{commentId}
+	</select>
+
+	<!-- 加载点赞数 -->
+	<select id="loadSupportCount" parameterType="int" resultType="int">
+		select comment_supports from Comments where comment_id=#{commentId}
+	</select>
+
+	<!-- 通过帖子id加载评论id  加载该帖子所有评论的评论id -->
+	<select id="loadCommentsIdByPostId" resultType="int">
+		select comment_id from Comments where post_id=#{postId}
+	</select>
+
+	<!-- 评论分页加载 -->
+	<select id="loadCommentPage" resultMap="commentResult">
+		select * from Comments where post_id=#{postId} order by (comment_supports*0.7+comment_counts*0.3)*1000/(now()-comment_datetime+2)^1.2 desc limit #{page},10
+	</select>
+
+</mapper>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+        
+<mapper namespace="com.xzy.dao.IPostStatusDao">
+	<select id="loadPostStatus" parameterType="int" resultType="int">
+		select post_id from Poststatus where user_id=#{userId}
+	</select>
+
+	<!-- 插入一条点赞记录（点赞） -->
+	<insert id="insertPostStatus" parameterType="postStatus">
+		insert into Poststatus values(#{userId},#{postId})
+	</insert>
+
+	<!-- 删除一条点赞记录（取消赞） -->
+	<delete id="deletePostStatus" parameterType="postStatus">
+		delete from Poststatus where user_id=#{userId} and post_id=#{postId}
+	</delete>
+</mapper>
