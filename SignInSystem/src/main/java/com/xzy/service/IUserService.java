@@ -11,5 +11,5 @@ public interface IUserService {
     public void insertRegister(Register register);
     public int selectRegisterPhone(String userPhone);
     public int selectRegisterEmail(String userEmail);
-
+    public Users loadUserPhone(String userPhone);
 }

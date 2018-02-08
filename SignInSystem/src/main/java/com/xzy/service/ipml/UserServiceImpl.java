@@ -26,6 +26,7 @@ public class UserServiceImpl implements IUserService {
         }
         return user;
     }
+    @Override
     public void insertUser(Users user){
         try {
             this.userDao.insertUser(user);
@@ -44,6 +45,7 @@ public class UserServiceImpl implements IUserService {
         }
         return id;
     }
+    @Override
     public boolean doRegister(Register register){
         boolean bool=false;
         try {
@@ -86,5 +88,9 @@ public class UserServiceImpl implements IUserService {
         }
         return i;
     }
-
+    @Override
+    public Users loadUserPhone(String userPhone) {
+        Users usersP = userDao.loadUserPhone(userPhone);
+        return usersP;
+    }
 }

@@ -1,8 +1,9 @@
 package com.xzy.model;
 
-import java.util.Date;
+import java.io.Serializable;
+import java.sql.Date;
 
-public class Users {
+public class Users implements Serializable {
     private int userId;
     private String userName;
     private String userPhone;
@@ -12,6 +13,18 @@ public class Users {
     private int groupId;
     private String userImage;
     private String userSex;
+
+    public Users(Integer userId, String userName, String userPhone, String userQq, String userEmail, String userSex, Date userBirthday, String userImage, Integer groupId) {
+        this.userId = userId;
+        this.userName = userName;
+        this.userPhone = userPhone;
+        this.userQQ = userQQ;
+        this.userEmail = userEmail;
+        this.userSex = userSex;
+        this.userBirthday = userBirthday;
+        this.userImage = userImage;
+        this.groupId = groupId;
+    }
 
     public int getUserId() {
         return userId;
