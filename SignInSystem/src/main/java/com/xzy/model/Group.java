@@ -3,12 +3,12 @@ package com.xzy.model;
 import java.io.Serializable;
 
 public class Group implements Serializable {
-	private Integer groupId;
+	private int groupId;
 	private String groupName;
 	private String groupDirect;
-	private Integer groupLeaderId;
+	private int groupLeaderId;
 
-	public Group(Integer groupId, Integer groupLeaderId) {
+	public Group(int groupId, int groupLeaderId) {
 		this.groupId = groupId;
 		this.groupLeaderId = groupLeaderId;
 	}
@@ -27,18 +27,18 @@ public class Group implements Serializable {
 				'}';
 	}
 
-	public Group(Integer groupId, String groupName, String groupDirect, Integer groupLeaderId) {
+	public Group(int groupId, String groupName, String groupDirect, int groupLeaderId) {
 		this.groupId = groupId;
 		this.groupName = groupName;
 		this.groupDirect = groupDirect;
 		this.groupLeaderId = groupLeaderId;
 	}
 
-	public Integer getGroupId() {
+	public int getGroupId() {
 		return groupId;
 	}
 
-	public void setGroupId(Integer groupId) {
+	public void setGroupId(int groupId) {
 		this.groupId = groupId;
 	}
 
@@ -58,11 +58,11 @@ public class Group implements Serializable {
 		this.groupDirect = groupDirect;
 	}
 
-	public Integer getGroupLeaderId() {
+	public int getGroupLeaderId() {
 		return groupLeaderId;
 	}
 
-	public void setGroupLeaderId(Integer groupLeaderId) {
+	public void setGroupLeaderId(int groupLeaderId) {
 		this.groupLeaderId = groupLeaderId;
 	}
 }

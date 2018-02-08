@@ -24,7 +24,7 @@ public class IUserDaoTest {
     private IGroupDao groupDao;
     @Test
     public void testloadUser() throws Exception {
-      User user=  adminitorDao.loadByPhone("18709295515");
+      User user =  adminitorDao.loadByPhone("18709295515");
        System.out.println(user);
 //      List<User> list= adminitorDao.loadAll();
 //        for (User u : list) {

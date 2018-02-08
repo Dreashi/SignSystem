@@ -12,7 +12,7 @@ public class UserService implements IUserService{
         private IUserDao userDao;
         @Override
         public User loadUserPhone(String userPhone){
-           User userP  =  userDao.loadUserPhone(userPhone);
+           User userP =  userDao.loadUserPhone(userPhone);
           return userP;
 }
 }

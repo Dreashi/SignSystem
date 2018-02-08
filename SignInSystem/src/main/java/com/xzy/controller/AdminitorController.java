@@ -9,20 +9,18 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
-import org.springframework.web.bind.annotation.SessionAttributes;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 @Controller
-@SessionAttributes(names= {"loadAllMap"})
 public class AdminitorController {
 		@Autowired
 		private AdminitorService adminitorService;
 		@RequestMapping("/loadAll")
 		@ResponseBody
 		public TreeMap<Integer,ArrayList<User>> loadAll() {
-			List<User> userList=adminitorService.loadAll();
+			List<User> userList =adminitorService.loadAll();
 			List<Group> groupList=adminitorService.loadAllGroup();
 			TreeMap<Integer,ArrayList<User>> loadAllMap = new TreeMap<Integer, ArrayList<User>>(
 					new Comparator<Integer>() {
@@ -30,8 +28,7 @@ public class AdminitorController {
 						public int compare(Integer s1, Integer s2) {
 							return s1-s2;
 						}
-					}
-			);
+					});
 			//外层循环遍历所有组长
 			for(int i = 0 ; i < groupList.size() ; i++ ) {
 				Integer leaderId;
@@ -42,7 +39,7 @@ public class AdminitorController {
 					ArrayList<User> tempList = new ArrayList<>();
 					//找到该组所有成员信息
 					for (int j = 0; j < userList.size(); ) {
-						if (userList.get(j).getGroupId() .equals(gropuId) ) {
+						if (userList.get(j).getGroupId()==gropuId)  {
 							tempList.add(userList.get(j));
 							userList.remove(j);
 						} else {
@@ -53,7 +50,7 @@ public class AdminitorController {
 					User groupLeader = null;
 					ArrayList<User> tempList1 = new ArrayList<>();
 					for (int k = 0; k < tempList.size(); ) {
-						if (tempList.get(k).getUserId() .equals(leaderId) ) {
+						if (tempList.get(k).getUserId()==leaderId) {
 							groupLeader = tempList.get(k);
 							tempList.remove(k);
 						} else {
@@ -70,21 +67,34 @@ public class AdminitorController {
 			return loadAllMap;
 		}
 		@RequestMapping("/saveHandler")
-		public String saveHandler(HttpServletRequest request,HttpServletResponse response,String userPhone) {
-			   boolean bool=adminitorService.loadByPhone(userPhone);
-			   return bool?"redirect:loadAll":"0";
+		@ResponseBody
+		public Map<String, Integer> saveHandler(HttpServletRequest request,HttpServletResponse response,String userPhone) {
+			Map<String,Integer> pmap=new HashMap<>();
+			  if(userPhone!=null) {
+				 boolean bool = adminitorService.loadByPhone(userPhone);
+                pmap.put("suc",1);
+			 }else{
+				  pmap.put("err",2);
+			  }
+			  return pmap;
 		}
 		@RequestMapping("/deleteHandler")
-		public String deleteHandler(HttpServletRequest request,HttpServletResponse response,String gleaderList) {
-			System.out.println(gleaderList+"---------------------");
-			String[] str=gleaderList.split(",");
-			List<Integer> list=new ArrayList<>();
-			for(String s:str){
-				list.add(Integer.parseInt(s));
+		@ResponseBody
+		public Map<String, Integer> deleteHandler(HttpServletRequest request,HttpServletResponse response,String gleaderList) {
+			System.out.println(gleaderList + "---------------------");
+			Map<String, Integer> pmap = new HashMap<>();
+			if (gleaderList != null) {
+				String[] str = gleaderList.split(",");
+				List<Integer> list = new ArrayList<>();
+				for (String s : str) {
+					list.add(Integer.parseInt(s));
+				}
+				boolean bool = adminitorService.updateLeader(list);
+				pmap.put("suc", 1);
+			} else {
+				pmap.put("err", 0);
 			}
-		    boolean bool=adminitorService.updateLeader(list);
-			return bool?"redirect:loadAll":"0";
+			   return pmap;
 		}
-
 	}
 

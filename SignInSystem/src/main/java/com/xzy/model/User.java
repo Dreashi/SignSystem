@@ -4,7 +4,7 @@ import java.io.Serializable;
 import java.sql.Date;
 
 public class User implements Serializable {
-    private Integer userId;
+    private int userId;
     private String userName;
     private String userPhone;
     private String userQq;
@@ -12,25 +12,13 @@ public class User implements Serializable {
     private String userSex;
     private Date userBirthday;
     private String userImage;
-    private Integer groupId;
+    private int groupId;
 
-    public User(Integer userId, String userName, String userPhone, String userQq, String userEmail, String userSex, Date userBirthday, String userImage, Integer groupId) {
-        this.userId = userId;
-        this.userName = userName;
-        this.userPhone = userPhone;
-        this.userQq = userQq;
-        this.userEmail = userEmail;
-        this.userSex = userSex;
-        this.userBirthday = userBirthday;
-        this.userImage = userImage;
-        this.groupId = groupId;
-    }
-
-    public Integer getUserId() {
+    public int getUserId() {
         return userId;
     }
 
-    public void setUserId(Integer userId) {
+    public void setUserId(int userId) {
         this.userId = userId;
     }
 
@@ -90,11 +78,11 @@ public class User implements Serializable {
         this.userImage = userImage;
     }
 
-    public Integer getGroupId() {
+    public int getGroupId() {
         return groupId;
     }
 
-    public void setGroupId(Integer groupId) {
+    public void setGroupId(int groupId) {
         this.groupId = groupId;
     }
 
@@ -113,5 +101,15 @@ public class User implements Serializable {
                 '}';
     }
 
-
+    public User(int userId, String userName, String userPhone, String userQq, String userEmail, String userSex, Date userBirthday, String userImage, int groupId) {
+        this.userId = userId;
+        this.userName = userName;
+        this.userPhone = userPhone;
+        this.userQq = userQq;
+        this.userEmail = userEmail;
+        this.userSex = userSex;
+        this.userBirthday = userBirthday;
+        this.userImage = userImage;
+        this.groupId = groupId;
+    }
 }

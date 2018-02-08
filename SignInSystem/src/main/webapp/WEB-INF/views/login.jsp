@@ -13,7 +13,7 @@
                     document.getElementById("test").innerHTML = xmlhttp.responseText;
                 }
             }
-            xmlhttp.open("POST", "user/showUser.do", true);
+            xmlhttp.open("POST", "userCode/showUser.do", true);
             xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
             xmlhttp.send("userPhone=182092955");
         }
