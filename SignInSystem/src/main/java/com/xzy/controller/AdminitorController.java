@@ -78,7 +78,7 @@ public class AdminitorController {
 				 boolean bool = adminitorService.loadByPhone(userPhone);
                 pmap.put("suc",1);
 			 }else{
-				  pmap.put("err",2);
+				  pmap.put("err",0);
 			  }
             JsonpController.jsonP(request,response,pmap);
 		}
