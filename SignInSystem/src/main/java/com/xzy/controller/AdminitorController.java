@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.io.UnsupportedEncodingException;
 import java.util.*;
 
 @Controller
@@ -18,7 +19,9 @@ public class AdminitorController {
 		private AdminitorService adminitorService;
 		@RequestMapping("/loadAll")
 		@ResponseBody
-		public void loadAll(HttpServletRequest request, HttpServletResponse response) {
+		public void loadAll(HttpServletRequest request, HttpServletResponse response) throws UnsupportedEncodingException {
+			request.setCharacterEncoding("UTF-8");
+			response.setCharacterEncoding("UTF-8");
 			List<Users> usersList =adminitorService.loadAll();
 			List<Group> groupList=adminitorService.loadAllGroup();
 			TreeMap<Integer,ArrayList<Users>> loadAllMap = new TreeMap<Integer, ArrayList<Users>>(
@@ -67,7 +70,9 @@ public class AdminitorController {
 		}
 		@RequestMapping("/saveHandler")
 		@ResponseBody
-		public void saveHandler(HttpServletRequest request, HttpServletResponse response, String userPhone) {
+		public void saveHandler(HttpServletRequest request, HttpServletResponse response, String userPhone) throws UnsupportedEncodingException {
+			request.setCharacterEncoding("UTF-8");
+			response.setCharacterEncoding("UTF-8");
 			Map<String,Integer> pmap=new HashMap<>();
 			  if(userPhone!=null) {
 				 boolean bool = adminitorService.loadByPhone(userPhone);
@@ -79,8 +84,9 @@ public class AdminitorController {
 		}
 		@RequestMapping("/deleteHandler")
 		@ResponseBody
-		public void deleteHandler(HttpServletRequest request, HttpServletResponse response, String gleaderList) {
-			System.out.println(gleaderList + "---------------------");
+		public void deleteHandler(HttpServletRequest request, HttpServletResponse response, String gleaderList) throws UnsupportedEncodingException {
+			request.setCharacterEncoding("UTF-8");
+			response.setCharacterEncoding("UTF-8");
 			Map<String, Integer> pmap = new HashMap<>();
 			if (gleaderList != null) {
 				String[] str = gleaderList.split(",");

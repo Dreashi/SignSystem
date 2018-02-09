@@ -91,22 +91,20 @@ public class UserServiceImpl implements IUserService {
         }
         return i;
     }
-<<<<<<< HEAD
+
 
     @Override
     public Users selectUserByUserId(int userId) {
         return  this.userDao.selectUserByUserId(userId);
     }
 
-<<<<<<< HEAD
-=======
+
     @Override
     public Users loadUserPhone(String userPhone) {
         Users usersP = userDao.loadUserPhone(userPhone);
         return usersP;
     }
->>>>>>> GHH
-=======
+
     @Override
     public boolean updateUsersGroupId(String userPhone, int groupLeaderId, String userName) throws Exception {
         Integer userId = userDao.selectUserId(userPhone);
@@ -146,5 +144,5 @@ public class UserServiceImpl implements IUserService {
         return res > 0? true : false;
     }
 
->>>>>>> shihao
+
 }

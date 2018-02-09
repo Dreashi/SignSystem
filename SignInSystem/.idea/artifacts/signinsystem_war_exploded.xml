@@ -1,10 +1,10 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="signinsystem:war exploded">
+  <artifact type="exploded-war" name="SignInSystem:war exploded">
     <output-path>$PROJECT_DIR$/target/SignInSystem</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="signinsystem" />
+          <element id="module-output" name="SignInSystem" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: log4j:log4j:1.2.17" />
@@ -57,12 +57,10 @@
           <element id="library" level="project" name="Maven: javax.validation:validation-api:1.1.0.Final" />
           <element id="library" level="project" name="Maven: org.jboss.logging:jboss-logging:3.2.1.Final" />
           <element id="library" level="project" name="Maven: com.fasterxml:classmate:1.1.0" />
-<<<<<<< HEAD
           <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpclient:4.5.5" />
           <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpcore:4.4.9" />
           <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.10" />
           <element id="library" level="project" name="Maven: org.jsoup:jsoup:1.8.3" />
-=======
           <element id="library" level="project" name="Maven: org.mortbay.jetty:jetty-util:6.1.25" />
           <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
           <element id="library" level="project" name="Maven: commons-lang:commons-lang:2.4" />
@@ -70,13 +68,12 @@
           <element id="library" level="project" name="Maven: commons-collections:commons-collections:3.2.2" />
           <element id="library" level="project" name="Maven: net.sf.ezmorph:ezmorph:1.0.6" />
           <element id="library" level="project" name="Maven: net.sf.json-lib:json-lib:2.4" />
->>>>>>> GHH
         </element>
       </element>
       <element id="directory" name="META-INF">
         <element id="file-copy" path="$PROJECT_DIR$/target/SignInSystem/META-INF/MANIFEST.MF" />
       </element>
-      <element id="javaee-facet-resources" facet="signinsystem/web/Web" />
+      <element id="javaee-facet-resources" facet="SignInSystem/web/Web" />
     </root>
   </artifact>
 </component>

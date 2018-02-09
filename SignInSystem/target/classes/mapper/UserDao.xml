@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
         <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-
         <!-- 设置为IUserDao接口方法提供sql语句配置 -->
-        <mapper namespace="com.xzy.dao.IUserDao">
+<mapper namespace="com.xzy.dao.IUserDao">
 
-<<<<<<< HEAD
-=======
     <resultMap id="resultusermap" type="com.xzy.model.Users">
         <id column="user_id" property="userId"></id>
         <result column="user_name" property="userName"></result>
@@ -21,11 +18,8 @@
         <select id="selectUser" resultMap="resultusermap" parameterType="String">
             select * from Users where user_phone = #{userPhone}
         </select>
->>>>>>> GGT
 
-    <select id="selectUser" resultMap="resultusermap" parameterType="String">
-        select * from Users where user_phone = #{userPhone}
-    </select>
+
     <select id="selectUserByUserId" resultMap="resultusermap" parameterType="int">
         select * from Users
         where user_id = #{userId}
@@ -62,10 +56,11 @@
             select user_email from Users where user_phone = #{userPhone}
         </select>
 
-<<<<<<< HEAD
+
     <select id="loadUserPhone" parameterType="String" resultMap="resultusermap">
         select * from Users   where user_phone=#{userPhone}
-=======
+    </select>
+
     <select id="selectGroupId" resultType="Integer">
         SELECT group_id FROM Users WHERE user_id = #{groupLeaderId}
     </select>
@@ -81,6 +76,5 @@
     </update>
     <select id="selectUsers" parameterType="int" resultMap="resultusermap">
         SELECT  * FROM Users WHERE group_id=#{groupId}
->>>>>>> shihao
     </select>
 </mapper>

@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
+import java.io.UnsupportedEncodingException;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -56,7 +57,9 @@ import java.util.Map;
         }
     @RequestMapping("/checkCode")
     @ResponseBody
-    public void checkCode(HttpServletRequest request, HttpServletResponse response, String number, String sessionId) {
+    public void checkCode(HttpServletRequest request, HttpServletResponse response, String number, String sessionId) throws UnsupportedEncodingException {
+        request.setCharacterEncoding("UTF-8");
+        response.setCharacterEncoding("UTF-8");
         Map<String ,Integer> pmap=new HashMap<>();
         MySessionController myc= MySessionController.getInstance();
         HttpSession sess = myc.getSession(sessionId);

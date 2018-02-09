@@ -13,17 +13,14 @@ public interface IUserService {
     public void insertRegister(Register register);
     public int selectRegisterPhone(String userPhone);
     public int selectRegisterEmail(String userEmail);
-<<<<<<< HEAD
+
     public Users selectUserByUserId(int userId);
 
-<<<<<<< HEAD
-=======
     public Users loadUserPhone(String userPhone);
->>>>>>> GHH
-=======
+
+
     public boolean updateUsersGroupId(String userPhone,int groupLeaderId,String userName) throws Exception;
     public List<Users> selectUsers(int groupId);
     public boolean updateUsersGroupId(int userId[]);
 
->>>>>>> shihao
 }

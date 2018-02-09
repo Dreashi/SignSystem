@@ -245,7 +245,6 @@
       <version>5.2.4.Final</version>
     </dependency>
 
-<<<<<<< HEAD
     <dependency>
       <groupId>org.apache.httpcomponents</groupId>
       <artifactId>httpclient</artifactId>
@@ -262,7 +261,7 @@
       <groupId>com.thetransactioncompany</groupId>
       <artifactId>cors-filter</artifactId>
       <version>2.6</version>
-=======
+    </dependency>
 
     <dependency>
       <groupId>org.mortbay.jetty</groupId>
@@ -311,7 +310,6 @@
       <groupId>net.sf.json-lib</groupId>
       <artifactId>json-lib</artifactId>
       <version>2.4</version>
->>>>>>> GHH
     </dependency>
   </dependencies>
 

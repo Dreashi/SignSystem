@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Tencent News</title>
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script>
+        // function selectUser() {
+        //     var xmlhttp = new XMLHttpRequest();
+        //     xmlhttp.onreadystatechange = function () {
+        //         if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+        //             document.getElementById("test").innerHTML = xmlhttp.responseText;
+        //         }
+        //     }
+        //     xmlhttp.open("POST", "user/showUser.do", true);
+        //     xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+        //     xmlhttp.send("userId=1");
+        // }
+        //
+        // function createNews(){
+        //     window.location.href="/pushNews.view";
+        // }
+
+        // function support(){
+        //     var xmlhttp = new XMLHttpRequest();
+        //     xmlhttp.onreadystatechange = function () {
+        //         if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+        //             document.getElementById("s").innerHTML = xmlhttp.responseText;
+        //         }
+        //     }
+        //     xmlhttp.open("POST", "/updateSupport.do", true);
+        //     xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+        //     xmlhttp.send("flag=1&newsId=5");
+        // }
+        //
+        // function dissuport(){
+        //     var xmlhttp = new XMLHttpRequest();
+        //     xmlhttp.onreadystatechange = function () {
+        //         if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+        //             document.getElementById("ds").innerHTML = xmlhttp.responseText;
+        //         }
+        //     }
+        //     xmlhttp.open("POST", "/updateSupport.do", true);
+        //     xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+        //     xmlhttp.send("flag=0&newsId=5");
+        // }
+
+        // $(function () {
+        //     $("#s").click(function () {
+        //         alert("444");
+        //     });
+        // });
+       $(function () {
+
+                $.post("/loadAllNewsOrderTime.do",{"currentPage":0,userId:3},function (data) {
+                    var json=eval(data);
+                    var tab=$("<table>");
+                    for(var i=0;i<json.length;i++){
+                        var tr=$("<tr>");
+                        for(var j=0;j<5;j++){
+                            var td=$("<td>");
+                            switch(j){
+                                case 0:
+                                    var hid = $("<input type='hidden'>");
+                                    hid.attr("value",json[i].newsId);
+                                    td.append(hid);
+                                    break;
+                                case 1:
+                                    var img =$("<img >");
+                                    img.attr("src",json[i].newsKeyImg);
+                                    td.append(img);
+                                    break;
+                                case 2:
+                                    var a=$("<a>");
+                                    a.text(json[i].newsKeyWord);
+                                    a.attr("href",json[i].newsHref);
+                                    td.append(a);
+                                    break;
+
+                                case 3:
+                                    var sup=$("<button name='support'>");
+                                    sup.text("赞");
+                                    sup.attr("value",json[i].newsId);
+                                    sup.click(function(){
+                                        var tr = this.parentElement;
+                                        var newsId = tr.firstChild.value;
+
+                                        $.post("/updateSupport.do",{flag:1,newsId:newsId,userId:2},function(data){
+                                                if(data){
+                                                   tr.firstChild.innerHTML=data;
+                                                }
+                                        });
+                                    });
+                                    td.append(sup);
+                                    break;
+                                case 4:
+                                    var dissup=$("<button name='support'>");
+                                    dissup.text("踩");
+                                    dissup.attr("value",json[i].newsId);
+                                    dissup.click(function(){
+                                        var tr = this.parentElement;
+                                        var newsId = tr.firstChild.value;
+                                        $.post("/updateSupport.do",{flag:0,newsId:newsId,userId:2},function(data){
+                                               if(data){
+                                                  tr.firstChild.innerHTML=data;
+                                               }
+                                        });
+                                    });
+                                    td.append(dissup);
+                                    break;
+                            }
+                            tr.append(td);
+                        }
+                        tab.append(tr);
+                    }
+                    $("#newsShow").append(tab);
+
+            });
+
+           $("#heat,#technology,#economics,#entertainment").click(function () {
+               var mark = this.value;
+               window.open("/mark.view?mark="+mark);
+           });
+
+           $("#message").click(function () {
+               window.open("/message.view");
+           });
+
+           $("#saveMessage").click(function () {
+                   window.open("/saveMessage.view");
+               }
+           );
+       });
+
+
+    </script>
+</head>
+
+<body>
+<!--<p id="test">Hello World!</p>-->
+<!--<button type="button" onclick="selectUser()">onclick test</button><br/>-->
+
+<div align="center" >
+    <h1 id="tencent" >腾讯新闻</h1><br/>
+    <input id="heat" type="button" value="热度">
+    <input id="technology" type="button" value="科技">
+    <input id="economics" type="button" value="文化">
+    <input id="entertainment" type="button" value="娱乐">
+    <input id="message" type="button" value="消息">
+    <input id="saveMessage" type="button" value="发消息">
+</div>
+
+<div style="margin: auto;width: 600px" id="newsShow"></div>
+
+<!--<button  onclick="createNews()">新建新闻</button>-->
+<!--<button id="s" onclick="support()">赞</button>-->
+<!--<button id="ds" onclick="dissuport()">踩</button>-->
+
+</body>
+</html>

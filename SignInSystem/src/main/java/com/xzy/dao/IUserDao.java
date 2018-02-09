@@ -15,18 +15,10 @@ public interface IUserDao {
   public void insertRegister(Register register);
   public int selectRegisterPhone(String userPhone);
   public int selectRegisterEmail(String useremail);
-<<<<<<< HEAD
   public Users selectUserByUserId(int userId);
-<<<<<<< HEAD
-=======
-
->>>>>>> GHH
-=======
-
-
   public Integer selectGroupId(int groupLeaderId);
   public Integer updateGroupIdAddUsers(@Param("groupId") int groupId, @Param("userId") int userId, @Param("userName") String userName);
   public int updateGroupIdDeleteUsers(int userId[]);
   public List<Users> selectUsers(int groupId);
->>>>>>> shihao
+
 }

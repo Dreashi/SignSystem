@@ -7,11 +7,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="SignInSystem" />
-        <module name="signinsystem" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="signinsystem" target="1.8" />
       <module name="SignInSystem" target="1.8" />
     </bytecodeTargetLevel>
   </component>
