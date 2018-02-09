@@ -1,7 +1,6 @@
 package com.xzy.model;
 
 import java.io.Serializable;
-import java.sql.Date;
 
 public class Users implements Serializable {
     private int userId;
@@ -9,22 +8,10 @@ public class Users implements Serializable {
     private String userPhone;
     private String userQQ;
     private String userEmail;
-    private Date userBirthday;
+    private String userBirthday;
     private int groupId;
     private String userImage;
     private String userSex;
-
-    public Users(Integer userId, String userName, String userPhone, String userQq, String userEmail, String userSex, Date userBirthday, String userImage, Integer groupId) {
-        this.userId = userId;
-        this.userName = userName;
-        this.userPhone = userPhone;
-        this.userQQ = userQQ;
-        this.userEmail = userEmail;
-        this.userSex = userSex;
-        this.userBirthday = userBirthday;
-        this.userImage = userImage;
-        this.groupId = groupId;
-    }
 
     public int getUserId() {
         return userId;
@@ -66,11 +53,11 @@ public class Users implements Serializable {
         this.userEmail = userEmail;
     }
 
-    public Date getUserBirthday() {
+    public String getUserBirthday() {
         return userBirthday;
     }
 
-    public void setUserBirthday(Date userBirthday) {
+    public void setUserBirthday(String userBirthday) {
         this.userBirthday = userBirthday;
     }
 
@@ -98,6 +85,22 @@ public class Users implements Serializable {
         this.userSex = userSex;
     }
 
+    public Users(int userId, String userName, String userPhone, String userQQ, String userEmail, String userBirthday, int groupId, String userImage, String userSex) {
+
+        this.userId = userId;
+        this.userName = userName;
+        this.userPhone = userPhone;
+        this.userQQ = userQQ;
+        this.userEmail = userEmail;
+        this.userBirthday = userBirthday;
+        this.groupId = groupId;
+        this.userImage = userImage;
+        this.userSex = userSex;
+    }
+
+    public Users() {
+    }
+
     @Override
     public String toString() {
         return "Users{" +
@@ -106,7 +109,7 @@ public class Users implements Serializable {
                 ", userPhone='" + userPhone + '\'' +
                 ", userQQ='" + userQQ + '\'' +
                 ", userEmail='" + userEmail + '\'' +
-                ", userBirthday=" + userBirthday +
+                ", userBirthday='" + userBirthday + '\'' +
                 ", groupId=" + groupId +
                 ", userImage='" + userImage + '\'' +
                 ", userSex='" + userSex + '\'' +

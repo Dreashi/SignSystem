@@ -9,7 +9,7 @@
         <result column="user_name" property="userName"/>
         <result column="user_phone" property="userPhone"/>
         <result column="user_image" property="userImage"/>
-        <result column="user_qq" property="userQq"/>
+        <result column="user_qq" property="userQQ"/>
         <result column="user_email" property="userEmail"/>
         <result column="user_sex" property="userSex"/>
         <result column="user_birthday" property="userBirthday"/>
@@ -26,7 +26,7 @@
     </select>
 
     <update id="updateUser" parameterType="group">
-        update Users set group_id=#{groupId} where user_id=#{groupLeaderId}
+        update Users set group_id=#{groupId} where user_id=#{grouLpeaderId}
     </update>
 
 </mapper>
