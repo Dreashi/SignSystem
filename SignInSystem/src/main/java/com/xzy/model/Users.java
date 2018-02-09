@@ -9,10 +9,36 @@ public class Users implements Serializable {
     private String userPhone;
     private String userQQ;
     private String userEmail;
-    private Date userBirthday;
-    private int groupId;
-    private String userImage;
     private String userSex;
+    private Date userBirthday;
+    private String userImage;
+    private int groupId;
+
+    public Users() {
+    }
+
+    public Users(int userId, String userName, String userPhone, String userQQ, String userEmail, String userSex, Date userBirthday, String userImage, int groupId) {
+        this.userId = userId;
+        this.userName = userName;
+        this.userPhone = userPhone;
+        this.userQQ = userQQ;
+        this.userEmail = userEmail;
+        this.userSex = userSex;
+        this.userBirthday = userBirthday;
+        this.userImage = userImage;
+        this.groupId = groupId;
+    }
+
+    public Users(int userId, String userName) {
+        this.userId = userId;
+        this.userName = userName;
+    }
+
+    public Users(int userId, String userName, String userImage) {
+        this.userId = userId;
+        this.userName = userName;
+        this.userImage = userImage;
+    }
 
     public Users(Integer userId, String userName, String userPhone, String userQq, String userEmail, String userSex, Date userBirthday, String userImage, Integer groupId) {
         this.userId = userId;

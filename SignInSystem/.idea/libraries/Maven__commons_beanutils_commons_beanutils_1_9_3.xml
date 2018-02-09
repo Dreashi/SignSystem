@@ -1,7 +1,11 @@
 <component name="libraryTable">
   <library name="Maven: commons-beanutils:commons-beanutils:1.9.3">
     <CLASSES>
+<<<<<<< HEAD:SignInSystem/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_3.xml
       <root url="jar://E:/Maven/repository/commons-beanutils/commons-beanutils/1.9.3/commons-beanutils-1.9.3.jar!/" />
+=======
+      <root url="jar://E:/maven/repository/commons-beanutils/commons-beanutils/1.8.3/commons-beanutils-1.8.3.jar!/" />
+>>>>>>> GGT:SignInSystem/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_8_3.xml
     </CLASSES>
     <JAVADOC>
       <root url="jar://E:/Maven/repository/commons-beanutils/commons-beanutils/1.9.3/commons-beanutils-1.9.3-javadoc.jar!/" />

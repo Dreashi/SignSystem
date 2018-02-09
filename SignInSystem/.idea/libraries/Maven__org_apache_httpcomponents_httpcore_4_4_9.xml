@@ -1,7 +1,7 @@
 <component name="libraryTable">
   <library name="Maven: org.apache.httpcomponents:httpcore:4.4.9">
     <CLASSES>
-      <root url="jar://E:/Maven/repository/org/apache/httpcomponents/httpcore/4.4.9/httpcore-4.4.9.jar!/" />
+      <root url="jar://E:/maven/repository/org/apache/httpcomponents/httpcore/4.4.9/httpcore-4.4.9.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://E:/Maven/repository/org/apache/httpcomponents/httpcore/4.4.9/httpcore-4.4.9-javadoc.jar!/" />

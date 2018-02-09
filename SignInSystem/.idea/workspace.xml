@@ -43,6 +43,7 @@
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <file leaf-file-name="MessageService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/service/ipml/MessageService.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -89,10 +90,31 @@
               <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
 >>>>>>> shihao
               <folding />
+=======
+      <file leaf-file-name="postMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/postMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-79">
+              <caret line="13" column="52" lean-forward="false" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
+              <folding>
+                <marker date="1518099161939" expanded="true" signature="916:1065" ph="insert into Posts... " />
+                <marker date="1518099161939" expanded="true" signature="1168:1209" ph="select * fro... Posts" />
+                <marker date="1518099161939" expanded="true" signature="1319:1424" ph="select * fro... Posts" />
+                <marker date="1518099161939" expanded="true" signature="1548:1613" ph="select * fro... Posts" />
+                <marker date="1518099161939" expanded="true" signature="1706:1751" ph="delete from xzy.Posts... " />
+                <marker date="1518099161939" expanded="true" signature="1849:1919" ph="update Posts... " />
+                <marker date="1518099161939" expanded="true" signature="2035:2090" ph="select post_... Posts" />
+                <marker date="1518099161939" expanded="true" signature="2185:2255" ph="update Posts... " />
+                <marker date="1518099161939" expanded="true" signature="2351:2421" ph="update Posts... " />
+                <marker date="1518099161939" expanded="true" signature="2519:2577" ph="select * fro... Posts" />
+                <marker date="1518099161939" expanded="true" signature="2655:2700" ph="select * fro... Posts" />
+              </folding>
+>>>>>>> GGT
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       <file leaf-file-name="NewsSupportService.java" pinned="false" current-in-tab="false">
@@ -115,10 +137,32 @@
               <caret line="28" column="20" lean-forward="false" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
 >>>>>>> shihao
               <folding />
+=======
+      <file leaf-file-name="commentMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/commentMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="50" column="49" lean-forward="false" selection-start-line="50" selection-start-column="49" selection-end-line="50" selection-end-column="49" />
+              <folding>
+                <marker date="1518099161834" expanded="true" signature="951:1098" ph="insert into Comments... " />
+                <marker date="1518099161834" expanded="true" signature="1188:1342" ph="insert into Comments... " />
+                <marker date="1518099161834" expanded="true" signature="1421:1506" ph="update Comments... " />
+                <marker date="1518099161834" expanded="true" signature="1586:1671" ph="update Comments... " />
+                <marker date="1518099161834" expanded="true" signature="1757:1838" ph="update Comments... " />
+                <marker date="1518099161834" expanded="true" signature="2201:2245" ph="delete from Comments... " />
+                <marker date="1518099161834" expanded="true" signature="2475:2613" ph="select * fro... Comments" />
+                <marker date="1518099161834" expanded="true" signature="2739:2804" ph="select * fro... Comments" />
+                <marker date="1518099161834" expanded="true" signature="2922:2974" ph="select * fro... Comments" />
+                <marker date="1518099161834" expanded="true" signature="3074:3141" ph="select comme... Comments" />
+                <marker date="1518099161834" expanded="true" signature="3250:3305" ph="select comme... Comments" />
+                <marker date="1518099161834" expanded="true" signature="3394:3549" ph="select * fro... Comments" />
+              </folding>
+>>>>>>> GGT
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       <file leaf-file-name="PasswordServiceImpl.java" pinned="false" current-in-tab="false">
@@ -141,10 +185,23 @@
               <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
 >>>>>>> shihao
               <folding />
+=======
+      <file leaf-file-name="postStatusMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/postStatusMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+              <folding>
+                <marker date="1518099161894" expanded="true" signature="289:343" ph="select post_... Poststatus" />
+                <marker date="1518099161894" expanded="true" signature="440:490" ph="insert into Poststatus... " />
+                <marker date="1518099161894" expanded="true" signature="588:656" ph="delete from Poststatus... " />
+              </folding>
+>>>>>>> GGT
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       <file leaf-file-name="QuestionsService.java" pinned="false" current-in-tab="false">
@@ -167,10 +224,24 @@
               <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
 >>>>>>> shihao
               <folding />
+=======
+      <file leaf-file-name="QuestionsDao.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/QuestionsDao.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1518092774432" expanded="true" signature="266:475" ph="SELECT * FRO... Questions" />
+                <marker date="1518092774432" expanded="true" signature="323:362" ph="SELECT MAX(q... Questions" />
+                <marker date="1518092774432" expanded="true" signature="365:412" ph="SELECT MIN(q... Questions" />
+                <marker date="1518092774432" expanded="true" signature="427:466" ph="SELECT MIN(q... Questions" />
+              </folding>
+>>>>>>> GGT
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
 <<<<<<< HEAD
       <file leaf-file-name="JsonpController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/controller/JsonpController.java">
@@ -178,9 +249,21 @@
 <<<<<<< HEAD
             <state relative-caret-position="608">
               <caret line="93" column="0" lean-forward="true" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+=======
+      <file leaf-file-name="SignInDao.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/SignInDao.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> GGT
               <folding>
-                <element signature="e#2353#2354#0" expanded="true" />
-                <element signature="e#2416#2417#0" expanded="true" />
+                <marker date="1518092774433" expanded="true" signature="297:360" ph="SELECT * FRO... Sign_In" />
+                <marker date="1518092774433" expanded="true" signature="487:556" ph="SELECT * FRO... Sign_In" />
+                <marker date="1518092774433" expanded="true" signature="691:890" ph="SELECT * FRO... Sign_In" />
+                <marker date="1518092774433" expanded="true" signature="775:889" ph="SELECT user_... Users" />
+                <marker date="1518092774433" expanded="true" signature="827:887" ph="SELECT group... Users" />
+                <marker date="1518092774433" expanded="true" signature="1016:1115" ph="UPDATE Sign_In " />
+                <marker date="1518092774433" expanded="true" signature="1225:1320" ph="UPDATE Sign_In... " />
               </folding>
 =======
             <state relative-caret-position="420">
@@ -201,6 +284,7 @@
       </file>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <file leaf-file-name="AdminitorDao.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/AdminitorDao.xml">
 =======
@@ -211,10 +295,28 @@
             <state relative-caret-position="30">
               <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
               <folding />
+=======
+      <file leaf-file-name="UserDao.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserDao.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="13" column="47" lean-forward="false" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+              <folding>
+                <marker date="1518101405420" expanded="true" signature="1002:1053" ph="select * fro... Users" />
+                <marker date="1518101405420" expanded="true" signature="1164:1217" ph="select * fro... Users" />
+                <marker date="1518101405420" expanded="true" signature="1316:1450" ph="insert into Users... " />
+                <marker date="1518101405420" expanded="true" signature="1733:1788" ph="select user_... Users" />
+                <marker date="1518101405420" expanded="true" signature="1895:1952" ph="select user_... Users" />
+                <marker date="1518101405420" expanded="true" signature="2060:2187" ph="insert into Users... " />
+                <marker date="1518101405420" expanded="true" signature="2301:2358" ph="select user_... Users" />
+                <marker date="1518101405420" expanded="true" signature="2472:2532" ph="select user_... Users" />
+              </folding>
+>>>>>>> GGT
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="SessionListener.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/controller/SessionListener.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -232,11 +334,19 @@
             <state relative-caret-position="30">
               <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
 >>>>>>> shihao
+=======
+      <file leaf-file-name="Users.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/model/Users.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="19" column="29" lean-forward="false" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+>>>>>>> GGT
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       <file leaf-file-name="ReptileService.java" pinned="false" current-in-tab="false">
@@ -277,10 +387,23 @@
                 <marker date="1517904998436" expanded="true" signature="1464:1522" ph="select * fro... groups" />
               </folding>
 >>>>>>> GHH
+=======
+      <file leaf-file-name="PostService.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/service/ipml/PostService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-57">
+              <caret line="65" column="42" lean-forward="false" selection-start-line="65" selection-start-column="42" selection-end-line="65" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#737#738#0" expanded="true" />
+                <element signature="e#787#788#0" expanded="true" />
+              </folding>
+>>>>>>> GGT
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="SignInController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/controller/SignInController.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -295,6 +418,13 @@
             <state relative-caret-position="30">
               <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
 >>>>>>> shihao
+=======
+      <file leaf-file-name="spring-mybatis.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mybatis.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1050">
+              <caret line="61" column="29" lean-forward="false" selection-start-line="61" selection-start-column="4" selection-end-line="61" selection-end-column="29" />
+>>>>>>> GGT
               <folding />
             </state>
           </provider>
@@ -335,6 +465,7 @@
       <list>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/main/java/com/xzy/model/MessageOperate.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xzy/model/NewsSupport.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xzy/model/Group.java" />
@@ -359,6 +490,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/xzy/controller/NewsController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/spring-mybatis.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/xzy/dao/INewsDaoTest.java" />
+=======
+>>>>>>> GGT
         <option value="$PROJECT_DIR$/src/test/java/com/xzy/service/impl/MessageOperateServiceTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/xzy/service/impl/MessageServiceTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/xzy/service/impl/NewsServiceTest.java" />
@@ -371,6 +504,12 @@
         <option value="$PROJECT_DIR$/src/main/resources/mapper/MessageOperateDao.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/NewsDao.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/NewsSupportDao.xml" />
+<<<<<<< HEAD
+=======
+        <option value="$PROJECT_DIR$/src/main/java/com/xzy/dao/IUserDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xzy/service/IUserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xzy/service/ipml/UserServiceImpl.java" />
+>>>>>>> GGT
         <option value="$PROJECT_DIR$/src/test/java/com/xzy/dao/IUserDaoTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/xzy/model/Administrators.java" />
@@ -380,6 +519,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/xzy/service/ipml/AdminitorService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xzy/model/Adminitor.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/xzy/service/impl/AdministratorServiceTest.java" />
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
         <option value="$PROJECT_DIR$/src/main/resources/mapper/Questions.xml" />
@@ -455,6 +595,33 @@
         <option value="$PROJECT_DIR$/src/main/java/com/xzy/service/IUserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xzy/service/ipml/UserServiceImpl.java" />
 >>>>>>> shihao
+=======
+        <option value="$PROJECT_DIR$/src/main/java/com/xzy/dao/PostDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xzy/model/PostStatus.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xzy/service/ICommentService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xzy/service/IPostService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xzy/dao/ICommentDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xzy/dao/ICommentStatusDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xzy/dao/IPostDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xzy/dao/IPostStatusDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xzy/controller/PostController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xzy/service/ipml/PostStatusService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xzy/service/ipml/CommentStatusService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xzy/controller/CommentController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xzy/model/Comment.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xzy/model/Post.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xzy/service/ipml/CommentService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
+        <option value="$PROJECT_DIR$/src/test/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/postMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/postStatusMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/commentStatusMapper.xml" />
+        <option value="$PROJECT_DIR$/src/test/Test1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xzy/model/Users.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/UserDao.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/commentMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xzy/service/ipml/PostService.java" />
+>>>>>>> GGT
       </list>
     </option>
   </component>
@@ -537,12 +704,13 @@
       <hideEmptyPackages />
       <abbreviatePackageNames />
       <autoscrollToSource />
-      <autoscrollFromSource />
+      <autoscrollFromSource ProjectPane="true" />
       <sortByType />
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
 <<<<<<< HEAD
       <pane id="Scope" />
       <pane id="PackagesPane" />
@@ -552,6 +720,12 @@
       <pane id="PackagesPane" />
       <pane id="Scope" />
 >>>>>>> GHH
+=======
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+>>>>>>> GGT
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -584,6 +758,25 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SignInSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SignInSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xzy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SignInSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SignInSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xzy" type="462c0819:PsiDirectoryNode" />
               <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -592,7 +785,19 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+<<<<<<< HEAD
+              <item name="ipml" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xzy" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+>>>>>>> GHH
+=======
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xzy" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
+>>>>>>> GGT
             </path>
             <path>
               <item name="SignInSystem" type="b2602c69:ProjectViewProjectNode" />
@@ -600,6 +805,29 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+<<<<<<< HEAD
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xzy" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+>>>>>>> GHH
+=======
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xzy" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="Users" type="1a9f42e2:ClassTreeNode" />
+>>>>>>> GGT
+            </path>
+            <path>
+              <item name="SignInSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SignInSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xzy" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -608,13 +836,10 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
-              <item name="ipml" type="462c0819:PsiDirectoryNode" />
-=======
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="xzy" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
->>>>>>> GHH
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="ipml" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SignInSystem" type="b2602c69:ProjectViewProjectNode" />
@@ -622,13 +847,11 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-=======
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="xzy" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
->>>>>>> GHH
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="ipml" type="462c0819:PsiDirectoryNode" />
+              <item name="PostService" type="1a9f42e2:ClassTreeNode" />
             </path>
             <path>
               <item name="SignInSystem" type="b2602c69:ProjectViewProjectNode" />
@@ -637,6 +860,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
+<<<<<<< HEAD
             <path>
               <item name="SignInSystem" type="b2602c69:ProjectViewProjectNode" />
               <item name="SignInSystem" type="462c0819:PsiDirectoryNode" />
@@ -660,7 +884,6 @@
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
-<<<<<<< HEAD
             <path>
               <item name="SignInSystem" type="b2602c69:ProjectViewProjectNode" />
               <item name="SignInSystem" type="462c0819:PsiDirectoryNode" />
@@ -679,35 +902,6 @@
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="SignInSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SignInSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SignInSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SignInSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SignInSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SignInSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SignInSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SignInSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
 =======
 >>>>>>> GHH
 =======
@@ -718,12 +912,15 @@
       </pane>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
       <pane id="Scratches" />
 >>>>>>> GHH
       <pane id="AndroidView" />
 =======
 >>>>>>> shihao
+=======
+>>>>>>> GGT
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -753,11 +950,19 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+<<<<<<< HEAD
       <recent name="C:\Users\shi\Desktop\mygit文件\sssm\SignSystem\SignInSystem\src" />
       <recent name="C:\Users\shi\Desktop\mygit文件\sssm\SignSystem\SignInSystem\src\main\webapp" />
       <recent name="C:\Users\shi\Desktop\mygit文件\sssm\SignSystem\SignInSystem\src\main\java\com\xzy\service" />
       <recent name="F:\SignInSystem\src\main\webapp\WEB-INF\js" />
       <recent name="F:\SignInSystem\src" />
+=======
+      <recent name="E:\post\SignSystem\SignInSystem\src\main\resources\mapper" />
+      <recent name="E:\post\SignSystem\SignInSystem\src\main\java\com\xzy\service" />
+      <recent name="E:\post\SignSystem\SignInSystem\src\main\java\com\xzy\service\ipml" />
+      <recent name="E:\post\SignSystem\SignInSystem\src\main\java\com\xzy\model" />
+      <recent name="E:\post\SignSystem\SignInSystem\src\main\java\com\xzy\dao" />
+>>>>>>> GGT
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.xzy.controller" />
@@ -766,6 +971,7 @@
       <recent name="com.shiro.realms" />
       <recent name="com.xzy.realms" />
     </key>
+<<<<<<< HEAD
 <<<<<<< HEAD
     <key name="CopyFile.RECENT_KEYS">
 <<<<<<< HEAD
@@ -784,11 +990,18 @@
 =======
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\shi\Desktop\mygit文件\sssm\SignSystem\SignInSystem\src\main\java\com\xzy\service\util" />
+=======
+    <key name="MoveFile.RECENT_KEYS">
+>>>>>>> GGT
       <recent name="D:\SSM\SignInSystem\src\main\webapp\WEB-INF\views" />
       <recent name="D:\SSM\SignInSystem\src\main\webapp" />
       <recent name="D:\SSM\SignInSystem\src\main\webapp\WEB-INF" />
       <recent name="D:\SSM\SignInSystem\src\test\java\com\xyz\dao" />
+<<<<<<< HEAD
 >>>>>>> shihao
+=======
+      <recent name="D:\SSM\SignInSystem\src\test" />
+>>>>>>> GGT
     </key>
   </component>
   <component name="RunDashboard">
@@ -805,6 +1018,7 @@
   </component>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   <component name="RunManager" selected="JUnit.AdministratorServiceTest.loadByUserId">
 =======
   <component name="RunManager" selected="Tomcat Server.index.jsp (1)">
@@ -812,6 +1026,9 @@
 =======
   <component name="RunManager" selected="Tomcat Server.index.html (1)">
 >>>>>>> shihao
+=======
+  <component name="RunManager" selected="JUnit.Test1.delete">
+>>>>>>> GGT
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -833,6 +1050,7 @@
       <module name="" />
       <envs />
     </configuration>
+<<<<<<< HEAD
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -840,6 +1058,41 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" />
       <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+=======
+    <configuration name="AdministratorServiceTest.loadByUserId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.xzy.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="signinsystem" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.xzy.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.xzy.service.impl.AdministratorServiceTest" />
+      <option name="METHOD_NAME" value="loadByUserId" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="Test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="signinsystem" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Test1" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -853,6 +1106,28 @@
       <envs />
       <patterns />
     </configuration>
+    <configuration name="Test1.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="signinsystem" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Test1" />
+      <option name="METHOD_NAME" value="delete" />
+      <option name="TEST_OBJECT" value="method" />
+>>>>>>> GGT
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+<<<<<<< HEAD
     <configuration name="test.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -866,6 +1141,16 @@
       <option name="PACKAGE_NAME" value="com.xzy" />
       <option name="MAIN_CLASS_NAME" value="com.xzy.test" />
       <option name="METHOD_NAME" value="test" />
+=======
+    <configuration name="Test1.loadAllPostByTime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="signinsystem" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Test1" />
+      <option name="METHOD_NAME" value="loadAllPostByTime" />
+>>>>>>> GGT
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1005,6 +1290,7 @@
         </option>
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="index.html (1)" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 8.5.24" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/index.html" />
       <deployment>
@@ -1251,6 +1537,22 @@
         <item index="3" class="java.lang.String" itemvalue="Tomcat Server.Denglu.html (1)" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.test.test" />
 >>>>>>> shihao
+=======
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.index.html" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.AdministratorServiceTest.loadByUserId" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.Test1" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.Test1.loadAllPostByTime" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.Test1.delete" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.Test1.delete" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.Test1.loadAllPostByTime" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.Test1" />
+        <item index="3" class="java.lang.String" itemvalue="Tomcat Server.index.html" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.AdministratorServiceTest.loadByUserId" />
+>>>>>>> GGT
       </list>
     </recent_temporary>
   </component>
@@ -1312,6 +1614,7 @@
 <<<<<<< HEAD
       <workItem from="1518055464388" duration="7521000" />
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
       <workItem from="1518056173386" duration="522000" />
       <workItem from="1518058734031" duration="2494000" />
@@ -1323,10 +1626,16 @@
 =======
       <workItem from="1518087710800" duration="9097000" />
 >>>>>>> shihao
+=======
+      <workItem from="1518093120848" duration="2620000" />
+      <workItem from="1518096384969" duration="910000" />
+      <workItem from="1518097555163" duration="5640000" />
+>>>>>>> GGT
     </task>
     <servers />
   </component>
   <component name="TestHistory">
+<<<<<<< HEAD
     <history-entry file="test_test - 2018.02.08 at 20h 56m 24s.xml">
       <configuration name="test.test" configurationId="JUnit" />
     </history-entry>
@@ -1368,6 +1677,41 @@
 =======
     <option name="totallyTimeSpent" value="283689000" />
 >>>>>>> shihao
+=======
+    <history-entry file="Test1_delete - 2018.02.08 at 22h 40m 43s.xml">
+      <configuration name="Test1.delete" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test1_delete - 2018.02.08 at 22h 52m 59s.xml">
+      <configuration name="Test1.delete" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test1_delete - 2018.02.08 at 23h 04m 27s.xml">
+      <configuration name="Test1.delete" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test1_delete - 2018.02.08 at 23h 07m 02s.xml">
+      <configuration name="Test1.delete" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test1_delete - 2018.02.08 at 23h 08m 44s.xml">
+      <configuration name="Test1.delete" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test1_loadAllPostByTime - 2018.02.08 at 22h 18m 15s.xml">
+      <configuration name="Test1.loadAllPostByTime" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test1_loadAllPostByTime - 2018.02.08 at 22h 25m 39s.xml">
+      <configuration name="Test1.loadAllPostByTime" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test1_loadAllPostByTime - 2018.02.08 at 22h 30m 20s.xml">
+      <configuration name="Test1.loadAllPostByTime" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test1_loadAllPostByTime - 2018.02.08 at 22h 50m 28s.xml">
+      <configuration name="Test1.loadAllPostByTime" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test1_loadAllPostByTime - 2018.02.08 at 23h 03m 55s.xml">
+      <configuration name="Test1.loadAllPostByTime" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="283762000" />
+>>>>>>> GGT
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1381,13 +1725,17 @@
   <component name="ToolWindowManager">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
 =======
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
 >>>>>>> shihao
+=======
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+>>>>>>> GGT
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.70079637" sideWeight="0.5064378" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.69948184" sideWeight="0.5064378" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.05010661" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1408,10 +1756,14 @@
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.021459227" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
 =======
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.022692889" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
 >>>>>>> shihao
+=======
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.020610686" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+>>>>>>> GGT
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5623932" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
@@ -1425,6 +1777,7 @@
 >>>>>>> GHH
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
 <<<<<<< HEAD
@@ -1452,12 +1805,24 @@
 >>>>>>> GHH
 =======
 >>>>>>> shihao
+=======
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328152" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18998273" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18091603" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+>>>>>>> GGT
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="combo" />
+<<<<<<< HEAD
 <<<<<<< HEAD
       <window_info id="Tail" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
@@ -1474,6 +1839,13 @@
 =======
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
 >>>>>>> shihao
+=======
+      <window_info id="Tail" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+>>>>>>> GGT
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1493,6 +1865,7 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
@@ -1745,6 +2118,79 @@
             <marker date="1518054634954" expanded="true" signature="323:362" ph="SELECT MAX(q... Questions" />
             <marker date="1518054634954" expanded="true" signature="365:412" ph="SELECT MIN(q... Questions" />
             <marker date="1518054634954" expanded="true" signature="427:466" ph="SELECT MIN(q... Questions" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/service/ipml/SignInServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/service/ipml/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1826">
+          <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+          <folding>
+            <element signature="e#2353#2354#0" expanded="false" />
+            <element signature="e#2416#2417#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/xzy/service/impl/AdministratorServiceTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/controller/ViewController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/model/CommentStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/service/ICommentStatusService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/service/IPostService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/service/IPostStatusService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/service/ipml/PostStatusService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="13" column="41" lean-forward="false" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="false" />
+>>>>>>> GGT
           </folding>
 =======
         <state relative-caret-position="-174">
@@ -1753,6 +2199,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1494">
@@ -1925,10 +2372,19 @@
             <marker date="1518095013579" expanded="true" signature="2643:2702" ph="SELECT group... Users" />
             <marker date="1518095013579" expanded="true" signature="2766:2854" ph="UPDATE Users... " />
             <marker date="1518095013579" expanded="true" signature="3242:3288" ph="SELECT * FRO... Users" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/service/ipml/CommentStatusService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="false" />
+>>>>>>> GGT
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -1951,10 +2407,33 @@
           <caret line="24" column="54" lean-forward="false" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="54" />
           <folding>
             <element signature="e#1258#1271#0" expanded="false" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/controller/SignInController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/controller/CommentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/controller/PostController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="20" column="49" lean-forward="true" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="false" />
+>>>>>>> GGT
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/webapp/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="151">
@@ -1975,10 +2454,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="292">
           <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/dao/ICommentStatusDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/dao/IPostStatusDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/model/Comment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2464">
+          <caret line="141" column="24" lean-forward="true" selection-start-line="141" selection-start-column="24" selection-end-line="141" selection-end-column="24" />
+>>>>>>> GGT
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="28">
@@ -2335,10 +2838,106 @@
         <state relative-caret-position="240">
           <caret line="17" column="37" lean-forward="true" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
 >>>>>>> shihao
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/service/ICommentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/service/ipml/CommentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="26" lean-forward="false" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/service/util/NFDFlightDataTimerTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="30" column="36" lean-forward="true" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5573">
+          <caret line="9" column="40" lean-forward="true" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/model/SignIn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/model/UserPassword.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/model/Register.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/model/Questions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/model/NewsSupport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/dao/ICommentDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+>>>>>>> GGT
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/js/jquery-3.2.1.min.js">
@@ -2348,10 +2947,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="19" column="62" lean-forward="false" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="62" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/model/Post.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-154">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+>>>>>>> GGT
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
 <<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -2379,10 +2985,17 @@
         <state relative-caret-position="221">
           <caret line="12" column="50" lean-forward="true" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
 >>>>>>> shihao
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/dao/IUserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+>>>>>>> GGT
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/model/Group.java">
@@ -2401,10 +3014,17 @@
         <state relative-caret-position="180">
           <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
 >>>>>>> shihao
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/model/PostStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+>>>>>>> GGT
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/model/Administrators.java">
@@ -2423,10 +3043,17 @@
         <state relative-caret-position="120">
           <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
 >>>>>>> shihao
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/dao/IPostDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+>>>>>>> GGT
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
 <<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/AdminitorDao.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -2450,10 +3077,20 @@
             <marker date="1518095793135" expanded="true" signature="995:1014" ph="select * fro... Users" />
             <marker date="1518095793135" expanded="true" signature="1089:1156" ph="update Users... " />
 >>>>>>> GHH
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/AdminitorDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+          <folding>
+            <marker date="1518092774420" expanded="true" signature="275:337" ph="select * fro... Adminitors" />
+            <marker date="1518092774420" expanded="true" signature="418:442" ph="select * fro... Adminitors" />
+>>>>>>> GGT
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
 <<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/dao/IAdministratorDao.java">
 =======
@@ -2498,10 +3135,21 @@
             <marker date="1517904998436" expanded="true" signature="1264:1284" ph="select * fro... Groups" />
             <marker date="1517904998436" expanded="true" signature="1346:1379" ph="select group... Groups" />
             <marker date="1517904998436" expanded="true" signature="1464:1522" ph="select * fro... groups" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/commentStatusMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="50" lean-forward="true" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
+          <folding>
+            <marker date="1518099161771" expanded="true" signature="275:357" ph="select comme... Commentstatus" />
+            <marker date="1518099161771" expanded="true" signature="463:519" ph="insert into Commentstatus... " />
+            <marker date="1518099161771" expanded="true" signature="627:704" ph="delete from Commentstatus... " />
+>>>>>>> GGT
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/dao/IAdminitorDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -2596,18 +3244,159 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/GroupDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-66">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1518092774422" expanded="true" signature="269:327" ph="select * fro... Groups" />
+            <marker date="1518092774422" expanded="true" signature="427:497" ph="select * fro... Groups" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/MessageDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1518092774424" expanded="true" signature="274:340" ph="select * fro... Messages" />
+            <marker date="1518092774424" expanded="true" signature="436:534" ph="select * fro... Messages" />
+            <marker date="1518092774424" expanded="true" signature="613:746" ph="insert into Messages... " />
+            <marker date="1518092774424" expanded="true" signature="826:912" ph="delete from Messages... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/MessageOperateDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1518092774425" expanded="true" signature="275:342" ph="insert into Message_Operate... " />
+            <marker date="1518092774425" expanded="true" signature="444:499" ph="select * fro... Message_Operate" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/NewsDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1518092774426" expanded="true" signature="599:651" ph="select * fro... News" />
+            <marker date="1518092774426" expanded="true" signature="726:751" ph="select count... News" />
+            <marker date="1518092774426" expanded="true" signature="855:908" ph="select count... News" />
+            <marker date="1518092774426" expanded="true" signature="1008:1114" ph="SELECT * FRO... News" />
+            <marker date="1518092774426" expanded="true" signature="1215:1386" ph="SELECT * FRO... News" />
+            <marker date="1518092774426" expanded="true" signature="1465:1565" ph="select * fro... News" />
+            <marker date="1518092774426" expanded="true" signature="1646:1727" ph="update News... " />
+            <marker date="1518092774426" expanded="true" signature="1812:1895" ph="update News... " />
+            <marker date="1518092774426" expanded="true" signature="1955:1971" ph="DELETE from News... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/NewsSupportDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1518092774428" expanded="true" signature="296:368" ph="select * fro... News_Support" />
+            <marker date="1518092774428" expanded="true" signature="468:518" ph="select * fro... News_Support" />
+            <marker date="1518092774428" expanded="true" signature="603:670" ph="insert into News_Support... " />
+            <marker date="1518092774428" expanded="true" signature="760:828" ph="insert into News_Support... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/PasswordDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1518092774430" expanded="true" signature="1002:1066" ph="insert into User_Password... " />
+            <marker date="1518092774430" expanded="true" signature="1168:1226" ph="select user_... User_Password" />
+            <marker date="1518092774430" expanded="true" signature="1331:1399" ph="UPDATE User_Password... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/postMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-79">
+          <caret line="13" column="52" lean-forward="false" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
+          <folding>
+            <marker date="1518099161939" expanded="true" signature="916:1065" ph="insert into Posts... " />
+            <marker date="1518099161939" expanded="true" signature="1168:1209" ph="select * fro... Posts" />
+            <marker date="1518099161939" expanded="true" signature="1319:1424" ph="select * fro... Posts" />
+            <marker date="1518099161939" expanded="true" signature="1548:1613" ph="select * fro... Posts" />
+            <marker date="1518099161939" expanded="true" signature="1706:1751" ph="delete from xzy.Posts... " />
+            <marker date="1518099161939" expanded="true" signature="1849:1919" ph="update Posts... " />
+            <marker date="1518099161939" expanded="true" signature="2035:2090" ph="select post_... Posts" />
+            <marker date="1518099161939" expanded="true" signature="2185:2255" ph="update Posts... " />
+            <marker date="1518099161939" expanded="true" signature="2351:2421" ph="update Posts... " />
+            <marker date="1518099161939" expanded="true" signature="2519:2577" ph="select * fro... Posts" />
+            <marker date="1518099161939" expanded="true" signature="2655:2700" ph="select * fro... Posts" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/QuestionsDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1518092774432" expanded="true" signature="266:475" ph="SELECT * FRO... Questions" />
+            <marker date="1518092774432" expanded="true" signature="323:362" ph="SELECT MAX(q... Questions" />
+            <marker date="1518092774432" expanded="true" signature="365:412" ph="SELECT MIN(q... Questions" />
+            <marker date="1518092774432" expanded="true" signature="427:466" ph="SELECT MIN(q... Questions" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/SignInDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1518092774433" expanded="true" signature="297:360" ph="SELECT * FRO... Sign_In" />
+            <marker date="1518092774433" expanded="true" signature="487:556" ph="SELECT * FRO... Sign_In" />
+            <marker date="1518092774433" expanded="true" signature="691:890" ph="SELECT * FRO... Sign_In" />
+            <marker date="1518092774433" expanded="true" signature="775:889" ph="SELECT user_... Users" />
+            <marker date="1518092774433" expanded="true" signature="827:887" ph="SELECT group... Users" />
+            <marker date="1518092774433" expanded="true" signature="1016:1115" ph="UPDATE Sign_In " />
+            <marker date="1518092774433" expanded="true" signature="1225:1320" ph="UPDATE Sign_In... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/model/Users.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="19" column="29" lean-forward="false" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+>>>>>>> GGT
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/controller/ShiroController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="26" column="17" lean-forward="false" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="61" column="29" lean-forward="false" selection-start-line="61" selection-start-column="4" selection-end-line="61" selection-end-column="29" />
+>>>>>>> GGT
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/controller/RegisterController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -2636,10 +3425,67 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="28" column="20" lean-forward="false" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="13" column="47" lean-forward="false" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+          <folding>
+            <marker date="1518101405420" expanded="true" signature="1002:1053" ph="select * fro... Users" />
+            <marker date="1518101405420" expanded="true" signature="1164:1217" ph="select * fro... Users" />
+            <marker date="1518101405420" expanded="true" signature="1316:1450" ph="insert into Users... " />
+            <marker date="1518101405420" expanded="true" signature="1733:1788" ph="select user_... Users" />
+            <marker date="1518101405420" expanded="true" signature="1895:1952" ph="select user_... Users" />
+            <marker date="1518101405420" expanded="true" signature="2060:2187" ph="insert into Users... " />
+            <marker date="1518101405420" expanded="true" signature="2301:2358" ph="select user_... Users" />
+            <marker date="1518101405420" expanded="true" signature="2472:2532" ph="select user_... Users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/postStatusMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+          <folding>
+            <marker date="1518099161894" expanded="true" signature="289:343" ph="select post_... Poststatus" />
+            <marker date="1518099161894" expanded="true" signature="440:490" ph="insert into Poststatus... " />
+            <marker date="1518099161894" expanded="true" signature="588:656" ph="delete from Poststatus... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/commentMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="50" column="49" lean-forward="false" selection-start-line="50" selection-start-column="49" selection-end-line="50" selection-end-column="49" />
+          <folding>
+            <marker date="1518099161834" expanded="true" signature="951:1098" ph="insert into Comments... " />
+            <marker date="1518099161834" expanded="true" signature="1188:1342" ph="insert into Comments... " />
+            <marker date="1518099161834" expanded="true" signature="1421:1506" ph="update Comments... " />
+            <marker date="1518099161834" expanded="true" signature="1586:1671" ph="update Comments... " />
+            <marker date="1518099161834" expanded="true" signature="1757:1838" ph="update Comments... " />
+            <marker date="1518099161834" expanded="true" signature="2201:2245" ph="delete from Comments... " />
+            <marker date="1518099161834" expanded="true" signature="2475:2613" ph="select * fro... Comments" />
+            <marker date="1518099161834" expanded="true" signature="2739:2804" ph="select * fro... Comments" />
+            <marker date="1518099161834" expanded="true" signature="2922:2974" ph="select * fro... Comments" />
+            <marker date="1518099161834" expanded="true" signature="3074:3141" ph="select comme... Comments" />
+            <marker date="1518099161834" expanded="true" signature="3250:3305" ph="select comme... Comments" />
+            <marker date="1518099161834" expanded="true" signature="3394:3549" ph="select * fro... Comments" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/Test1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="28" column="25" lean-forward="true" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+>>>>>>> GGT
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/controller/CheckPhoneController.java">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
@@ -2672,6 +3518,17 @@
         <state relative-caret-position="870">
           <caret line="65" column="17" lean-forward="false" selection-start-line="65" selection-start-column="17" selection-end-line="65" selection-end-column="17" />
           <folding />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xzy/service/ipml/PostService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-57">
+          <caret line="65" column="42" lean-forward="false" selection-start-line="65" selection-start-column="42" selection-end-line="65" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#737#738#0" expanded="true" />
+            <element signature="e#787#788#0" expanded="true" />
+          </folding>
+>>>>>>> GGT
         </state>
       </provider>
     </entry>
